@@ -1,0 +1,364 @@
+{
+  "match_name": "Iran_vs_NewZealand",
+  "url": "https://www.livescore.com/en/football/international/world-cup-2026/iran-vs-new-zealand/1417946/?tab=commentary",
+  "scraped_at": "2026-07-01 13:56:04",
+  "total_entries": 89,
+  "raw_entries": [
+    {
+      "minute": "",
+      "text": "Match ends, IR Iran 2, New Zealand 2."
+    },
+    {
+      "minute": "90+6'",
+      "text": "Second Half ends, IR Iran 2, New Zealand 2."
+    },
+    {
+      "minute": "90+5'",
+      "text": "Ali Alipour (IR Iran) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "90+5'",
+      "text": "Foul by Ryan Thomas (New Zealand)."
+    },
+    {
+      "minute": "90+5'",
+      "text": "Foul by Mehdi Ghayedi (IR Iran)."
+    },
+    {
+      "minute": "90+5'",
+      "text": "Tyler Bindon (New Zealand) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "90+4'",
+      "text": "Corner, IR Iran. Conceded by Callan Elliot."
+    },
+    {
+      "minute": "90+2'",
+      "text": "Substitution, New Zealand. Jesse Randall replaces Sarpreet Singh."
+    },
+    {
+      "minute": "90+2'",
+      "text": "Substitution, New Zealand. Tyler Bindon replaces Marko Stamenic."
+    },
+    {
+      "minute": "90+2'",
+      "text": "Attempt saved. Chris Wood (New Zealand) header from the centre of the box is saved in the top centre of the goal by Alireza Beiranvand (IR Iran). Assisted by Jesse Randall with a cross."
+    },
+    {
+      "minute": "90'",
+      "text": "Fourth official has announced 5 minutes of added time."
+    },
+    {
+      "minute": "89'",
+      "text": "Attempt missed. Ali Nemati (IR Iran) left footed shot from the centre of the box misses to the left following a corner."
+    },
+    {
+      "minute": "89'",
+      "text": "Foul by Ehsan Hajisafi (IR Iran)."
+    },
+    {
+      "minute": "89'",
+      "text": "Elijah Just (New Zealand) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "89'",
+      "text": "Ehsan Hajisafi (IR Iran) is shown the yellow card for a bad foul."
+    },
+    {
+      "minute": "87'",
+      "text": "Attempt saved. Saeid Ezatolahi (IR Iran) right footed shot from outside the box is saved in the top centre of the goal by Max Crocombe (New Zealand). Assisted by Amirhossein Hosseinzadeh."
+    },
+    {
+      "minute": "86'",
+      "text": "Ehsan Hajisafi (IR Iran) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "86'",
+      "text": "Foul by Marko Stamenic (New Zealand)."
+    },
+    {
+      "minute": "85'",
+      "text": "Attempt blocked. Ali Alipour (IR Iran) left footed shot from the centre of the box is blocked."
+    },
+    {
+      "minute": "85'",
+      "text": "Attempt missed. Saeid Ezatolahi (IR Iran) right footed shot from outside the box is high and wide to the right."
+    },
+    {
+      "minute": "84'",
+      "text": "Ramin Rezaeian (IR Iran) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "81'",
+      "text": "Foul by Saeid Ezatolahi (IR Iran)."
+    },
+    {
+      "minute": "81'",
+      "text": "Ryan Thomas (New Zealand) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "81'",
+      "text": "Attempt missed. Finn Surman (New Zealand) header from very close range is high and wide to the right following a set piece situation."
+    },
+    {
+      "minute": "80'",
+      "text": "Attempt missed. Mehdi Taremi (IR Iran) header from the centre of the box is high and wide to the right. Assisted by Ramin Rezaeian with a cross."
+    },
+    {
+      "minute": "80'",
+      "text": "Substitution, IR Iran. Amirhossein Hosseinzadeh replaces Mehdi Taremi."
+    },
+    {
+      "minute": "79'",
+      "text": "Delay over. They are ready to continue."
+    },
+    {
+      "minute": "78'",
+      "text": "Substitution, New Zealand. Callan Elliot replaces Tim Payne."
+    },
+    {
+      "minute": "78'",
+      "text": "Delay in match because of an injury Saeid Ezatolahi (IR Iran)."
+    },
+    {
+      "minute": "76'",
+      "text": "Attempt blocked. Ehsan Hajisafi (IR Iran) left footed shot from outside the box is blocked. Assisted by Mehdi Taremi."
+    },
+    {
+      "minute": "76'",
+      "text": "Tim Payne (New Zealand) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "73'",
+      "text": "Attempt blocked. Mohammad Mohebbi (IR Iran) right footed shot from the left side of the box is blocked. Assisted by Mehdi Ghayedi."
+    },
+    {
+      "minute": "68'",
+      "text": "Substitution, New Zealand. Ryan Thomas replaces Callum McCowatt."
+    },
+    {
+      "minute": "68'",
+      "text": "Substitution, New Zealand. Ben Old replaces Liberato Cacace."
+    },
+    {
+      "minute": "68'",
+      "text": "Delay in match for a drinks break."
+    },
+    {
+      "minute": "67'",
+      "text": "Corner, IR Iran. Conceded by Michael Boxall."
+    },
+    {
+      "minute": "67'",
+      "text": "Foul by Ali Nemati (IR Iran)."
+    },
+    {
+      "minute": "67'",
+      "text": "Max Crocombe (New Zealand) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "65'",
+      "text": "Substitution, IR Iran. Ehsan Hajisafi replaces Saman Ghoddos."
+    },
+    {
+      "minute": "64'",
+      "text": "Goal! IR Iran 2, New Zealand 2. Mohammad Mohebbi (IR Iran) header from the centre of the box to the bottom left corner. Assisted by Ramin Rezaeian with a cross."
+    },
+    {
+      "minute": "61'",
+      "text": "Foul by Shoja Khalilzadeh (IR Iran)."
+    },
+    {
+      "minute": "61'",
+      "text": "Callum McCowatt (New Zealand) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "61'",
+      "text": "Attempt saved. Sarpreet Singh (New Zealand) left footed shot from the left side of the box is saved in the centre of the goal by Alireza Beiranvand (IR Iran). Assisted by Chris Wood."
+    },
+    {
+      "minute": "59'",
+      "text": "Mehdi Ghayedi (IR Iran) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "59'",
+      "text": "Foul by Tim Payne (New Zealand)."
+    },
+    {
+      "minute": "57'",
+      "text": "Offside, IR Iran. Saman Ghoddos is caught offside."
+    },
+    {
+      "minute": "54'",
+      "text": "Foul by Ali Alipour (IR Iran)."
+    },
+    {
+      "minute": "54'",
+      "text": "Finn Surman (New Zealand) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "54'",
+      "text": "Goal! IR Iran 1, New Zealand 2. Elijah Just (New Zealand) right footed shot from the right side of the box to the centre of the goal. Assisted by Chris Wood following a fast break."
+    },
+    {
+      "minute": "53'",
+      "text": "Substitution, IR Iran. Ali Alipour replaces Shahriyar Moghanloo."
+    },
+    {
+      "minute": "51'",
+      "text": "Attempt missed. Shahriyar Moghanloo (IR Iran) left footed shot from outside the box is high and wide to the left. Assisted by Ramin Rezaeian."
+    },
+    {
+      "minute": "49'",
+      "text": "Attempt blocked. Mehdi Ghayedi (IR Iran) right footed shot from outside the box is blocked. Assisted by Ali Nemati with a headed pass."
+    },
+    {
+      "minute": "48'",
+      "text": "Corner, IR Iran. Conceded by Tim Payne."
+    },
+    {
+      "minute": "47'",
+      "text": "Attempt missed. Chris Wood (New Zealand) right footed shot from outside the box is high and wide to the right. Assisted by Max Crocombe."
+    },
+    {
+      "minute": "45'",
+      "text": "Substitution, IR Iran. Mehdi Ghayedi replaces Arya Yousefi."
+    },
+    {
+      "minute": "45'",
+      "text": "Second Half begins IR Iran 1, New Zealand 1."
+    },
+    {
+      "minute": "45+7'",
+      "text": "First Half ends, IR Iran 1, New Zealand 1."
+    },
+    {
+      "minute": "45+5'",
+      "text": "Offside, IR Iran. Ali Nemati is caught offside."
+    },
+    {
+      "minute": "45+4'",
+      "text": "Mehdi Taremi (IR Iran) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "45+4'",
+      "text": "Foul by Elijah Just (New Zealand)."
+    },
+    {
+      "minute": "45+3'",
+      "text": "Attempt missed. Shahriyar Moghanloo (IR Iran) header from the right side of the six yard box is close, but misses the top right corner. Assisted by Arya Yousefi."
+    },
+    {
+      "minute": "45+1'",
+      "text": "Attempt saved. Callum McCowatt (New Zealand) left footed shot from outside the box is saved in the bottom right corner by Alireza Beiranvand (IR Iran). Assisted by Chris Wood."
+    },
+    {
+      "minute": "45'",
+      "text": "Fourth official has announced 6 minutes of added time."
+    },
+    {
+      "minute": "44'",
+      "text": "Attempt saved. Chris Wood (New Zealand) right footed shot from outside the box is saved in the centre of the goal by Alireza Beiranvand (IR Iran)."
+    },
+    {
+      "minute": "43'",
+      "text": "Liberato Cacace (New Zealand) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "37'",
+      "text": "Shahriyar Moghanloo (IR Iran) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "35'",
+      "text": "Delay in match because of an injury Marko Stamenic (New Zealand)."
+    },
+    {
+      "minute": "35'",
+      "text": "Delay in match because of an injury Shahriyar Moghanloo (IR Iran)."
+    },
+    {
+      "minute": "32'",
+      "text": "Attempt blocked. Shahriyar Moghanloo (IR Iran) right footed shot from the centre of the box is blocked."
+    },
+    {
+      "minute": "32'",
+      "text": "Goal! IR Iran 1, New Zealand 1. Ramin Rezaeian (IR Iran) right footed shot from the centre of the box to the bottom left corner."
+    },
+    {
+      "minute": "30'",
+      "text": "Attempt missed. Saman Ghoddos (IR Iran) left footed shot from the right side of the box is too high. Assisted by Mohammad Mohebbi."
+    },
+    {
+      "minute": "29'",
+      "text": "Attempt missed. Saman Ghoddos (IR Iran) right footed shot from outside the box is close, but misses to the right."
+    },
+    {
+      "minute": "29'",
+      "text": "Attempt saved. Liberato Cacace (New Zealand) left footed shot from the left side of the box is saved in the bottom right corner by Alireza Beiranvand (IR Iran). Assisted by Sarpreet Singh."
+    },
+    {
+      "minute": "23'",
+      "text": "Mehdi Taremi (IR Iran) hits the right post with a right footed shot from outside the box. Assisted by Ali Nemati following a fast break."
+    },
+    {
+      "minute": "20'",
+      "text": "Foul by Sarpreet Singh (New Zealand)."
+    },
+    {
+      "minute": "19'",
+      "text": "Attempt saved. Sarpreet Singh (New Zealand) left footed shot from outside the box is saved in the centre of the goal by Alireza Beiranvand (IR Iran). Assisted by Finn Surman."
+    },
+    {
+      "minute": "14'",
+      "text": "Attempt blocked. Marko Stamenic (New Zealand) right footed shot from the right side of the box is blocked."
+    },
+    {
+      "minute": "14'",
+      "text": "Corner, New Zealand. Conceded by Arya Yousefi."
+    },
+    {
+      "minute": "14'",
+      "text": "Attempt missed. Callum McCowatt (New Zealand) right footed shot from the right side of the box misses to the left following a corner."
+    },
+    {
+      "minute": "14'",
+      "text": "Attempt blocked. Chris Wood (New Zealand) right footed shot from the centre of the box is blocked."
+    },
+    {
+      "minute": "12'",
+      "text": "Attempt missed. Sarpreet Singh (New Zealand) left footed shot from the centre of the box misses to the right. Assisted by Elijah Just."
+    },
+    {
+      "minute": "11'",
+      "text": "Michael Boxall (New Zealand) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "11'",
+      "text": "Foul by Shahriyar Moghanloo (IR Iran)."
+    },
+    {
+      "minute": "7'",
+      "text": "Goal! IR Iran 0, New Zealand 1. Elijah Just (New Zealand) right footed shot from the centre of the box to the high centre of the goal. Assisted by Chris Wood."
+    },
+    {
+      "minute": "6'",
+      "text": "Attempt saved. Arya Yousefi (IR Iran) right footed shot from the left side of the box is saved in the centre of the goal by Max Crocombe (New Zealand). Assisted by Saman Ghoddos."
+    },
+    {
+      "minute": "3'",
+      "text": "Foul by Joe Bell (New Zealand)."
+    },
+    {
+      "minute": "3'",
+      "text": "Arya Yousefi (IR Iran) wins a free kick on the left wing."
+    },
+    {
+      "minute": "",
+      "text": "First Half begins."
+    },
+    {
+      "minute": "",
+      "text": "Lineups are announced and players are warming up."
+    }
+  ]
+}

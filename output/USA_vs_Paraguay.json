@@ -1,0 +1,428 @@
+{
+  "match_name": "USA_vs_Paraguay",
+  "url": "https://www.livescore.com/en/football/international/world-cup-2026/usa-vs-paraguay/1417927/?tab=commentary",
+  "scraped_at": "2026-07-01 14:54:21",
+  "total_entries": 105,
+  "raw_entries": [
+    {
+      "minute": "",
+      "text": "Match ends, USA 4, Paraguay 1."
+    },
+    {
+      "minute": "90+9'",
+      "text": "Second Half ends, USA 4, Paraguay 1."
+    },
+    {
+      "minute": "90+8'",
+      "text": "Goal! USA 4, Paraguay 1. Giovanni Reyna (USA) right footed shot from the centre of the box to the bottom left corner. Assisted by Alex Freeman."
+    },
+    {
+      "minute": "90+7'",
+      "text": "Attempt blocked. Timothy Weah (USA) right footed shot from outside the box is blocked. Assisted by Tyler Adams."
+    },
+    {
+      "minute": "90+4'",
+      "text": "Delay over. They are ready to continue."
+    },
+    {
+      "minute": "90+4'",
+      "text": "Foul by Alejandro Romero (Paraguay)."
+    },
+    {
+      "minute": "90+4'",
+      "text": "Sebastian Berhalter (USA) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "90+3'",
+      "text": "Foul by Júnior Alonso (Paraguay)."
+    },
+    {
+      "minute": "90+3'",
+      "text": "Tyler Adams (USA) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "90+3'",
+      "text": "Júnior Alonso (Paraguay) is shown the yellow card for a bad foul."
+    },
+    {
+      "minute": "90+3'",
+      "text": "Delay in match because of an injury Andrés Cubas (Paraguay)."
+    },
+    {
+      "minute": "90+1'",
+      "text": "Foul by Andrés Cubas (Paraguay)."
+    },
+    {
+      "minute": "90+1'",
+      "text": "Giovanni Reyna (USA) wins a free kick on the left wing."
+    },
+    {
+      "minute": "90+1'",
+      "text": "Fourth official has announced 7 minutes of added time."
+    },
+    {
+      "minute": "90'",
+      "text": "Attempt missed. Sebastian Berhalter (USA) right footed shot from more than 35 yards misses to the right."
+    },
+    {
+      "minute": "89'",
+      "text": "Attempt missed. Ricardo Pepi (USA) left footed shot from the centre of the box is too high. Assisted by Weston McKennie."
+    },
+    {
+      "minute": "89'",
+      "text": "Júnior Alonso (Paraguay) wins a free kick on the left wing."
+    },
+    {
+      "minute": "89'",
+      "text": "Foul by Timothy Weah (USA)."
+    },
+    {
+      "minute": "88'",
+      "text": "Foul by Álex Arce (Paraguay)."
+    },
+    {
+      "minute": "88'",
+      "text": "Giovanni Reyna (USA) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "88'",
+      "text": "Álex Arce (Paraguay) is shown the yellow card for a bad foul."
+    },
+    {
+      "minute": "86'",
+      "text": "Ramón Sosa (Paraguay) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "86'",
+      "text": "Foul by Ricardo Pepi (USA)."
+    },
+    {
+      "minute": "86'",
+      "text": "Foul by Omar Alderete (Paraguay)."
+    },
+    {
+      "minute": "84'",
+      "text": "Alejandro Romero (Paraguay) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "84'",
+      "text": "Foul by Giovanni Reyna (USA)."
+    },
+    {
+      "minute": "83'",
+      "text": "Julio Enciso (Paraguay) wins a free kick on the left wing."
+    },
+    {
+      "minute": "83'",
+      "text": "Offside, Paraguay. Gustavo Gómez is caught offside."
+    },
+    {
+      "minute": "82'",
+      "text": "Substitution, USA. Giovanni Reyna replaces Malik Tillman."
+    },
+    {
+      "minute": "80'",
+      "text": "Substitution, Paraguay. Alejandro Romero replaces Diego Gómez."
+    },
+    {
+      "minute": "79'",
+      "text": "Foul by Diego Gómez (Paraguay)."
+    },
+    {
+      "minute": "79'",
+      "text": "Malik Tillman (USA) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "79'",
+      "text": "Diego Gómez (Paraguay) is shown the yellow card for a bad foul."
+    },
+    {
+      "minute": "79'",
+      "text": "Substitution, Paraguay. Ramón Sosa replaces Miguel Almirón."
+    },
+    {
+      "minute": "79'",
+      "text": "Substitution, Paraguay. Gustavo Velázquez replaces Juan José Cáceres."
+    },
+    {
+      "minute": "77'",
+      "text": "Malik Tillman (USA) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "77'",
+      "text": "Attempt missed. Timothy Weah (USA) right footed shot from the right side of the box is high and wide to the left. Assisted by Malik Tillman."
+    },
+    {
+      "minute": "75'",
+      "text": "Attempt saved. Malik Tillman (USA) right footed shot from the centre of the box is saved in the bottom right corner by Orlando Gill (Paraguay). Assisted by Ricardo Pepi."
+    },
+    {
+      "minute": "73'",
+      "text": "Juan José Cáceres (Paraguay) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "73'",
+      "text": "Foul by Antonee Robinson (USA)."
+    },
+    {
+      "minute": "73'",
+      "text": "Goal! USA 3, Paraguay 1. Mauricio (Paraguay) left footed shot from the centre of the box to the bottom right corner. Assisted by Julio Enciso following a set piece situation."
+    },
+    {
+      "minute": "72'",
+      "text": "Substitution, USA. Timothy Weah replaces Sergiño Dest."
+    },
+    {
+      "minute": "72'",
+      "text": "Substitution, USA. Ricardo Pepi replaces Folarin Balogun."
+    },
+    {
+      "minute": "71'",
+      "text": "Attempt blocked. Miguel Almirón (Paraguay) left footed shot from outside the box is blocked. Assisted by Omar Alderete with a headed pass."
+    },
+    {
+      "minute": "71'",
+      "text": "Foul by Juan José Cáceres (Paraguay)."
+    },
+    {
+      "minute": "71'",
+      "text": "Delay in match because of an injury Folarin Balogun (USA)."
+    },
+    {
+      "minute": "68'",
+      "text": "Delay in match for a drinks break."
+    },
+    {
+      "minute": "65'",
+      "text": "Attempt blocked. Julio Enciso (Paraguay) right footed shot from the left side of the box is blocked. Assisted by Júnior Alonso."
+    },
+    {
+      "minute": "65'",
+      "text": "Attempt missed. Diego Gómez (Paraguay) right footed shot from outside the box is high and wide to the right. Assisted by Álex Arce."
+    },
+    {
+      "minute": "62'",
+      "text": "Substitution, Paraguay. Álex Arce replaces Antonio Sanabria."
+    },
+    {
+      "minute": "61'",
+      "text": "Attempt missed. Malik Tillman (USA) right footed shot from the centre of the box misses to the right."
+    },
+    {
+      "minute": "60'",
+      "text": "Julio Enciso (Paraguay) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "60'",
+      "text": "Foul by Alex Freeman (USA)."
+    },
+    {
+      "minute": "59'",
+      "text": "Corner, USA. Conceded by Júnior Alonso."
+    },
+    {
+      "minute": "59'",
+      "text": "Mauricio (Paraguay) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "59'",
+      "text": "Foul by Tyler Adams (USA)."
+    },
+    {
+      "minute": "59'",
+      "text": "Tyler Adams (USA) is shown the yellow card for a bad foul."
+    },
+    {
+      "minute": "58'",
+      "text": "Foul by Chris Richards (USA)."
+    },
+    {
+      "minute": "57'",
+      "text": "Attempt blocked. Malik Tillman (USA) right footed shot from the centre of the box is blocked. Assisted by Weston McKennie."
+    },
+    {
+      "minute": "56'",
+      "text": "Tyler Adams (USA) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "53'",
+      "text": "Miguel Almirón (Paraguay) is shown the yellow card."
+    },
+    {
+      "minute": "52'",
+      "text": "VAR Decision: Card Changed."
+    },
+    {
+      "minute": "51'",
+      "text": "Delay in match (USA). VAR checking."
+    },
+    {
+      "minute": "50'",
+      "text": "Attempt blocked. Diego Gómez (Paraguay) right footed shot from outside the box is blocked. Assisted by Miguel Almirón."
+    },
+    {
+      "minute": "50'",
+      "text": "Miguel Almirón (Paraguay) has gone down, but the referee deems it simulation."
+    },
+    {
+      "minute": "49'",
+      "text": "Attempt blocked. Diego Gómez (Paraguay) right footed shot from the right side of the box is blocked."
+    },
+    {
+      "minute": "49'",
+      "text": "Corner, Paraguay. Conceded by Tim Ream."
+    },
+    {
+      "minute": "48'",
+      "text": "Attempt blocked. Miguel Almirón (Paraguay) left footed shot from outside the box is blocked."
+    },
+    {
+      "minute": "48'",
+      "text": "Foul by Gustavo Gómez (Paraguay)."
+    },
+    {
+      "minute": "48'",
+      "text": "Folarin Balogun (USA) wins a free kick on the left wing."
+    },
+    {
+      "minute": "47'",
+      "text": "Attempt blocked. Folarin Balogun (USA) right footed shot from the left side of the box is blocked. Assisted by Antonee Robinson."
+    },
+    {
+      "minute": "45'",
+      "text": "Substitution, Paraguay. Mauricio replaces Damián Bobadilla."
+    },
+    {
+      "minute": "45'",
+      "text": "Second Half begins USA 3, Paraguay 0."
+    },
+    {
+      "minute": "45'",
+      "text": "Substitution, USA. Sebastian Berhalter replaces Christian Pulisic."
+    },
+    {
+      "minute": "45+6'",
+      "text": "First Half ends, USA 3, Paraguay 0."
+    },
+    {
+      "minute": "45+5'",
+      "text": "Goal! USA 3, Paraguay 0. Folarin Balogun (USA) left footed shot from the centre of the box to the top left corner. Assisted by Malik Tillman."
+    },
+    {
+      "minute": "45+2'",
+      "text": "Miguel Almirón (Paraguay) wins a free kick on the left wing."
+    },
+    {
+      "minute": "45+2'",
+      "text": "Foul by Malik Tillman (USA)."
+    },
+    {
+      "minute": "45'",
+      "text": "Antonio Sanabria (Paraguay) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "45'",
+      "text": "Fourth official has announced 5 minutes of added time."
+    },
+    {
+      "minute": "43'",
+      "text": "Attempt saved. Malik Tillman (USA) right footed shot from the right side of the six yard box is saved in the centre of the goal by Orlando Gill (Paraguay)."
+    },
+    {
+      "minute": "42'",
+      "text": "Foul by Christian Pulisic (USA)."
+    },
+    {
+      "minute": "40'",
+      "text": "Folarin Balogun (USA) wins a free kick on the right wing."
+    },
+    {
+      "minute": "38'",
+      "text": "Foul by Antonio Sanabria (Paraguay)."
+    },
+    {
+      "minute": "38'",
+      "text": "Chris Richards (USA) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "37'",
+      "text": "Attempt blocked. Malik Tillman (USA) left footed shot from outside the box is blocked."
+    },
+    {
+      "minute": "37'",
+      "text": "Corner, USA. Conceded by Andrés Cubas."
+    },
+    {
+      "minute": "37'",
+      "text": "Attempt missed. Chris Richards (USA) header from the centre of the box is close, but misses to the right. Assisted by Malik Tillman with a cross following a corner."
+    },
+    {
+      "minute": "35'",
+      "text": "Attempt missed. Folarin Balogun (USA) header from the centre of the box misses to the right. Assisted by Christian Pulisic with a cross."
+    },
+    {
+      "minute": "31'",
+      "text": "Goal! USA 2, Paraguay 0. Folarin Balogun (USA) right footed shot from the centre of the box to the bottom right corner. Assisted by Christian Pulisic."
+    },
+    {
+      "minute": "28'",
+      "text": "Offside, USA. Folarin Balogun is caught offside."
+    },
+    {
+      "minute": "20'",
+      "text": "Folarin Balogun (USA) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "17'",
+      "text": "Omar Alderete (Paraguay) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "17'",
+      "text": "Delay in match because of an injury Omar Alderete (Paraguay)."
+    },
+    {
+      "minute": "17'",
+      "text": "Delay in match because of an injury Chris Richards (USA)."
+    },
+    {
+      "minute": "16'",
+      "text": "Corner, USA. Conceded by Damián Bobadilla."
+    },
+    {
+      "minute": "14'",
+      "text": "Attempt missed. Julio Enciso (Paraguay) right footed shot from outside the box misses to the left. Assisted by Miguel Almirón with a headed pass."
+    },
+    {
+      "minute": "13'",
+      "text": "Delay in match (USA)."
+    },
+    {
+      "minute": "10'",
+      "text": "Juan José Cáceres (Paraguay) is shown the yellow card for a bad foul."
+    },
+    {
+      "minute": "9'",
+      "text": "Christian Pulisic (USA) wins a free kick on the left wing."
+    },
+    {
+      "minute": "7'",
+      "text": "Own Goal by Damián Bobadilla, Paraguay. USA 1, Paraguay 0."
+    },
+    {
+      "minute": "3'",
+      "text": "Attempt saved. Folarin Balogun (USA) right footed shot from the right side of the box is saved in the centre of the goal by Orlando Gill (Paraguay). Assisted by Weston McKennie with a headed pass."
+    },
+    {
+      "minute": "2'",
+      "text": "Attempt missed. Diego Gómez (Paraguay) left footed shot from a difficult angle on the left is just a bit too high. Assisted by Antonio Sanabria."
+    },
+    {
+      "minute": "",
+      "text": "First Half begins."
+    },
+    {
+      "minute": "",
+      "text": "Lineups are announced and players are warming up."
+    }
+  ]
+}

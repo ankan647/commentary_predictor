@@ -1,0 +1,368 @@
+{
+  "match_name": "Switzerland_vs_Bosnia",
+  "url": "https://www.livescore.com/en/football/international/world-cup-2026/switzerland-vs-bosnia-and-herzegovina/1417917/?tab=commentary",
+  "scraped_at": "2026-07-01 14:02:54",
+  "total_entries": 90,
+  "raw_entries": [
+    {
+      "minute": "",
+      "text": "Match ends, Switzerland 4, Bosnia and Herzegovina 1."
+    },
+    {
+      "minute": "90+8'",
+      "text": "Second Half ends, Switzerland 4, Bosnia and Herzegovina 1."
+    },
+    {
+      "minute": "90+7'",
+      "text": "Goal! Switzerland 4, Bosnia and Herzegovina 1. Granit Xhaka (Switzerland) converts the penalty with a left footed shot to the bottom right corner."
+    },
+    {
+      "minute": "90+6'",
+      "text": "Penalty conceded by Amar Memic (Bosnia and Herzegovina) after a foul in the penalty area."
+    },
+    {
+      "minute": "90+6'",
+      "text": "Penalty Switzerland. Djibril Sow draws a foul in the penalty area."
+    },
+    {
+      "minute": "90+5'",
+      "text": "Foul by Sead Kolasinac (Bosnia and Herzegovina)."
+    },
+    {
+      "minute": "90+5'",
+      "text": "Cedric Itten (Switzerland) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "90+3'",
+      "text": "Goal! Switzerland 3, Bosnia and Herzegovina 1. Ermin Mahmic (Bosnia and Herzegovina) right footed shot from the centre of the box to the high centre of the goal following a corner."
+    },
+    {
+      "minute": "90+2'",
+      "text": "Corner, Bosnia and Herzegovina. Conceded by Luca Jaquez."
+    },
+    {
+      "minute": "90+1'",
+      "text": "Fourth official has announced 6 minutes of added time."
+    },
+    {
+      "minute": "90+1'",
+      "text": "Substitution, Bosnia and Herzegovina. Ermin Mahmic replaces Kerim Alajbegovic."
+    },
+    {
+      "minute": "90'",
+      "text": "Goal! Switzerland 3, Bosnia and Herzegovina 0. Johan Manzambi (Switzerland) right footed shot from the centre of the box to the centre of the goal. Assisted by Rubén Vargas."
+    },
+    {
+      "minute": "89'",
+      "text": "Substitution, Switzerland. Cedric Itten replaces Breel Embolo."
+    },
+    {
+      "minute": "86'",
+      "text": "Substitution, Bosnia and Herzegovina. Jovo Lukic replaces Ermedin Demirovic."
+    },
+    {
+      "minute": "86'",
+      "text": "Substitution, Bosnia and Herzegovina. Amir Hadziahmetovic replaces Ivan Sunjic."
+    },
+    {
+      "minute": "86'",
+      "text": "Substitution, Switzerland. Luca Jaquez replaces Silvan Widmer."
+    },
+    {
+      "minute": "84'",
+      "text": "Goal! Switzerland 2, Bosnia and Herzegovina 0. Rubén Vargas (Switzerland) right footed shot from the centre of the box to the bottom right corner. Assisted by Breel Embolo."
+    },
+    {
+      "minute": "82'",
+      "text": "Corner, Switzerland. Conceded by Nikola Katic."
+    },
+    {
+      "minute": "81'",
+      "text": "Attempt saved. Rubén Vargas (Switzerland) right footed shot from outside the box is saved in the top right corner by Nikola Vasilj (Bosnia and Herzegovina)."
+    },
+    {
+      "minute": "80'",
+      "text": "Foul by Tarik Muharemovic (Bosnia and Herzegovina)."
+    },
+    {
+      "minute": "80'",
+      "text": "Breel Embolo (Switzerland) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "80'",
+      "text": "Tarik Muharemovic (Bosnia and Herzegovina) is shown the red card."
+    },
+    {
+      "minute": "76'",
+      "text": "Amar Dedic (Bosnia and Herzegovina) wins a free kick on the right wing."
+    },
+    {
+      "minute": "76'",
+      "text": "Foul by Ricardo Rodríguez (Switzerland)."
+    },
+    {
+      "minute": "74'",
+      "text": "Goal! Switzerland 1, Bosnia and Herzegovina 0. Johan Manzambi (Switzerland) right footed shot from the centre of the box to the top right corner."
+    },
+    {
+      "minute": "73'",
+      "text": "Foul by Amar Dedic (Bosnia and Herzegovina)."
+    },
+    {
+      "minute": "73'",
+      "text": "Manuel Akanji (Switzerland) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "72'",
+      "text": "Delay over. They are ready to continue."
+    },
+    {
+      "minute": "71'",
+      "text": "Substitution, Switzerland. Djibril Sow replaces Michel Aebischer."
+    },
+    {
+      "minute": "71'",
+      "text": "Substitution, Switzerland. Johan Manzambi replaces Dan Ndoye."
+    },
+    {
+      "minute": "71'",
+      "text": "Substitution, Switzerland. Rubén Vargas replaces Fabian Rieder."
+    },
+    {
+      "minute": "69'",
+      "text": "Delay in match for a drinks break."
+    },
+    {
+      "minute": "68'",
+      "text": "Attempt saved. Amar Dedic (Bosnia and Herzegovina) right footed shot from outside the box is saved in the centre of the goal by Gregor Kobel (Switzerland). Assisted by Ivan Basic."
+    },
+    {
+      "minute": "65'",
+      "text": "Sead Kolasinac (Bosnia and Herzegovina) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "65'",
+      "text": "Foul by Nico Elvedi (Switzerland)."
+    },
+    {
+      "minute": "65'",
+      "text": "Nico Elvedi (Switzerland) is shown the yellow card for a bad foul."
+    },
+    {
+      "minute": "64'",
+      "text": "Substitution, Bosnia and Herzegovina. Esmir Bajraktarevic replaces Edin Dzeko."
+    },
+    {
+      "minute": "63'",
+      "text": "Substitution, Bosnia and Herzegovina. Ivan Basic replaces Benjamin Tahirovic."
+    },
+    {
+      "minute": "62'",
+      "text": "Breel Embolo (Switzerland) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "62'",
+      "text": "Corner, Switzerland. Conceded by Amar Dedic."
+    },
+    {
+      "minute": "62'",
+      "text": "Attempt blocked. Breel Embolo (Switzerland) header from the left side of the six yard box is blocked."
+    },
+    {
+      "minute": "62'",
+      "text": "Edin Dzeko (Bosnia and Herzegovina) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "62'",
+      "text": "Foul by Breel Embolo (Switzerland)."
+    },
+    {
+      "minute": "61'",
+      "text": "Foul by Edin Dzeko (Bosnia and Herzegovina)."
+    },
+    {
+      "minute": "61'",
+      "text": "Edin Dzeko (Bosnia and Herzegovina) is shown the yellow card for a bad foul."
+    },
+    {
+      "minute": "59'",
+      "text": "Dan Ndoye (Switzerland) wins a free kick on the left wing."
+    },
+    {
+      "minute": "59'",
+      "text": "Amar Dedic (Bosnia and Herzegovina) is shown the yellow card for a bad foul."
+    },
+    {
+      "minute": "56'",
+      "text": "Offside, Switzerland. Dan Ndoye is caught offside."
+    },
+    {
+      "minute": "56'",
+      "text": "VAR Decision: Other Decision Cancelled."
+    },
+    {
+      "minute": "55'",
+      "text": "Attempt blocked. Dan Ndoye (Switzerland) right footed shot from the left side of the box is blocked. Assisted by Michel Aebischer."
+    },
+    {
+      "minute": "53'",
+      "text": "Attempt missed. Michel Aebischer (Switzerland) header from the centre of the box misses to the right. Assisted by Remo Freuler."
+    },
+    {
+      "minute": "52'",
+      "text": "Foul by Kerim Alajbegovic (Bosnia and Herzegovina)."
+    },
+    {
+      "minute": "52'",
+      "text": "Nico Elvedi (Switzerland) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "51'",
+      "text": "Foul by Ivan Sunjic (Bosnia and Herzegovina)."
+    },
+    {
+      "minute": "51'",
+      "text": "Fabian Rieder (Switzerland) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "51'",
+      "text": "Attempt saved. Dan Ndoye (Switzerland) right footed shot from the left side of the box is saved in the bottom left corner by Nikola Vasilj (Bosnia and Herzegovina). Assisted by Manuel Akanji."
+    },
+    {
+      "minute": "48'",
+      "text": "Granit Xhaka (Switzerland) wins a free kick on the right wing."
+    },
+    {
+      "minute": "47'",
+      "text": "Foul by Granit Xhaka (Switzerland)."
+    },
+    {
+      "minute": "45'",
+      "text": "Second Half begins Switzerland 0, Bosnia and Herzegovina 0."
+    },
+    {
+      "minute": "45+3'",
+      "text": "First Half ends, Switzerland 0, Bosnia and Herzegovina 0."
+    },
+    {
+      "minute": "45+2'",
+      "text": "Offside, Bosnia and Herzegovina. Ermedin Demirovic is caught offside."
+    },
+    {
+      "minute": "45'",
+      "text": "Foul by Benjamin Tahirovic (Bosnia and Herzegovina)."
+    },
+    {
+      "minute": "45'",
+      "text": "Michel Aebischer (Switzerland) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "45'",
+      "text": "Fourth official has announced 3 minutes of added time."
+    },
+    {
+      "minute": "44'",
+      "text": "Corner, Bosnia and Herzegovina. Conceded by Silvan Widmer."
+    },
+    {
+      "minute": "41'",
+      "text": "Attempt blocked. Edin Dzeko (Bosnia and Herzegovina) left footed shot from the centre of the box is blocked. Assisted by Kerim Alajbegovic."
+    },
+    {
+      "minute": "39'",
+      "text": "Delay in match (Switzerland)."
+    },
+    {
+      "minute": "38'",
+      "text": "Attempt saved. Amar Memic (Bosnia and Herzegovina) right footed shot from outside the box is saved in the bottom left corner by Gregor Kobel (Switzerland). Assisted by Kerim Alajbegovic."
+    },
+    {
+      "minute": "30'",
+      "text": "Fabian Rieder (Switzerland) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "30'",
+      "text": "Amar Memic (Bosnia and Herzegovina) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "30'",
+      "text": "Foul by Silvan Widmer (Switzerland)."
+    },
+    {
+      "minute": "23'",
+      "text": "Attempt missed. Remo Freuler (Switzerland) right footed shot from outside the box is close, but misses to the left. Assisted by Dan Ndoye."
+    },
+    {
+      "minute": "20'",
+      "text": "Attempt saved. Dan Ndoye (Switzerland) right footed shot from outside the box is saved in the centre of the goal by Nikola Vasilj (Bosnia and Herzegovina). Assisted by Breel Embolo."
+    },
+    {
+      "minute": "17'",
+      "text": "Foul by Amar Memic (Bosnia and Herzegovina)."
+    },
+    {
+      "minute": "17'",
+      "text": "Granit Xhaka (Switzerland) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "16'",
+      "text": "Amar Dedic (Bosnia and Herzegovina) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "16'",
+      "text": "Foul by Dan Ndoye (Switzerland)."
+    },
+    {
+      "minute": "11'",
+      "text": "Offside, Switzerland. Breel Embolo is caught offside."
+    },
+    {
+      "minute": "10'",
+      "text": "Attempt missed. Dan Ndoye (Switzerland) left footed shot from the left side of the box is close, but misses to the left. Assisted by Granit Xhaka."
+    },
+    {
+      "minute": "9'",
+      "text": "Handball by Amar Dedic (Bosnia and Herzegovina)."
+    },
+    {
+      "minute": "8'",
+      "text": "Attempt blocked. Granit Xhaka (Switzerland) left footed shot from outside the box is blocked. Assisted by Nico Elvedi."
+    },
+    {
+      "minute": "7'",
+      "text": "Corner, Switzerland. Conceded by Edin Dzeko."
+    },
+    {
+      "minute": "6'",
+      "text": "Corner, Switzerland. Conceded by Tarik Muharemovic."
+    },
+    {
+      "minute": "2'",
+      "text": "Attempt missed. Edin Dzeko (Bosnia and Herzegovina) left footed shot from the centre of the box misses to the left following a corner."
+    },
+    {
+      "minute": "2'",
+      "text": "Dan Ndoye (Switzerland) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "2'",
+      "text": "Foul by Nikola Katic (Bosnia and Herzegovina)."
+    },
+    {
+      "minute": "1'",
+      "text": "Foul by Michel Aebischer (Switzerland)."
+    },
+    {
+      "minute": "1'",
+      "text": "Kerim Alajbegovic (Bosnia and Herzegovina) wins a free kick on the left wing."
+    },
+    {
+      "minute": "",
+      "text": "First Half begins."
+    },
+    {
+      "minute": "",
+      "text": "Lineups are announced and players are warming up."
+    }
+  ]
+}

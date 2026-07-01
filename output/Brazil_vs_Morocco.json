@@ -1,0 +1,392 @@
+{
+  "match_name": "Brazil_vs_Morocco",
+  "url": "https://www.livescore.com/en/football/international/world-cup-2026/brazil-vs-morocco/1417921/?tab=commentary",
+  "scraped_at": "2026-07-01 13:46:41",
+  "total_entries": 96,
+  "raw_entries": [
+    {
+      "minute": "",
+      "text": "Match ends, Brazil 1, Morocco 1."
+    },
+    {
+      "minute": "90+11'",
+      "text": "Second Half ends, Brazil 1, Morocco 1."
+    },
+    {
+      "minute": "90+9'",
+      "text": "Attempt missed. Neil El Aynaoui (Morocco) right footed shot from outside the box is close, but misses to the right."
+    },
+    {
+      "minute": "90+9'",
+      "text": "Attempt saved. Ayoube Amaimouni-Echghouyab (Morocco) right footed shot from the right side of the six yard box is saved in the bottom right corner by Alisson Becker (Brazil)."
+    },
+    {
+      "minute": "90+9'",
+      "text": "Corner, Morocco. Conceded by Alisson Becker."
+    },
+    {
+      "minute": "90+7'",
+      "text": "Samir El Mourabet (Morocco) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "90+7'",
+      "text": "Foul by Fabinho (Brazil)."
+    },
+    {
+      "minute": "90+5'",
+      "text": "Corner, Morocco. Conceded by Gabriel Magalhães."
+    },
+    {
+      "minute": "90+3'",
+      "text": "Corner, Brazil. Conceded by Soufiane Rahimi."
+    },
+    {
+      "minute": "90+3'",
+      "text": "Attempt saved. Danilo Santos (Brazil) left footed shot from the right side of the box is saved in the centre of the goal by Yassine Bounou (Morocco). Assisted by Luiz Henrique."
+    },
+    {
+      "minute": "90+2'",
+      "text": "Corner, Brazil. Conceded by Achraf Hakimi."
+    },
+    {
+      "minute": "90+1'",
+      "text": "Foul by Achraf Hakimi (Morocco)."
+    },
+    {
+      "minute": "90+1'",
+      "text": "Vinícius Júnior (Brazil) wins a free kick on the left wing."
+    },
+    {
+      "minute": "90+1'",
+      "text": "Attempt missed. Danilo Santos (Brazil) header from the centre of the box misses to the left. Assisted by Raphinha."
+    },
+    {
+      "minute": "90'",
+      "text": "Ayyoub Bouaddi (Morocco) wins a free kick on the right wing."
+    },
+    {
+      "minute": "90'",
+      "text": "Foul by Vinícius Júnior (Brazil)."
+    },
+    {
+      "minute": "90'",
+      "text": "Foul by Neil El Aynaoui (Morocco)."
+    },
+    {
+      "minute": "90'",
+      "text": "Matheus Cunha (Brazil) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "90'",
+      "text": "Fourth official has announced 10 minutes of added time."
+    },
+    {
+      "minute": "89'",
+      "text": "Substitution, Morocco. Soufiane Rahimi replaces Ismael Saibari."
+    },
+    {
+      "minute": "85'",
+      "text": "Delay over. They are ready to continue."
+    },
+    {
+      "minute": "84'",
+      "text": "Delay in match because of an injury Yassine Bounou (Morocco)."
+    },
+    {
+      "minute": "82'",
+      "text": "VAR Decision: Other Decision Cancelled."
+    },
+    {
+      "minute": "80'",
+      "text": "Substitution, Morocco. Anass Salah-Eddine replaces Noussair Mazraoui."
+    },
+    {
+      "minute": "80'",
+      "text": "Substitution, Morocco. Ayoube Amaimouni-Echghouyab replaces Bilal El Khannouss."
+    },
+    {
+      "minute": "80'",
+      "text": "Substitution, Brazil. Danilo Santos replaces Bruno Guimarães."
+    },
+    {
+      "minute": "78'",
+      "text": "Attempt saved. Raphinha (Brazil) left footed shot from the centre of the box is saved in the centre of the goal by Yassine Bounou (Morocco). Assisted by Vinícius Júnior."
+    },
+    {
+      "minute": "74'",
+      "text": "Achraf Hakimi (Morocco) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "72'",
+      "text": "Offside, Morocco. Ismael Saibari is caught offside."
+    },
+    {
+      "minute": "68'",
+      "text": "Ismael Saibari (Morocco) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "68'",
+      "text": "Foul by Gabriel Magalhães (Brazil)."
+    },
+    {
+      "minute": "68'",
+      "text": "Delay in match for a drinks break."
+    },
+    {
+      "minute": "66'",
+      "text": "Foul by Noussair Mazraoui (Morocco)."
+    },
+    {
+      "minute": "66'",
+      "text": "Luiz Henrique (Brazil) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "65'",
+      "text": "Substitution, Morocco. Samir El Mourabet replaces Azzedine Ounahi."
+    },
+    {
+      "minute": "65'",
+      "text": "Substitution, Morocco. Chemsdine Talbi replaces Brahim Díaz."
+    },
+    {
+      "minute": "63'",
+      "text": "Foul by Ismael Saibari (Morocco)."
+    },
+    {
+      "minute": "63'",
+      "text": "Bruno Guimarães (Brazil) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "62'",
+      "text": "Substitution, Brazil. Luiz Henrique replaces Igor Thiago."
+    },
+    {
+      "minute": "61'",
+      "text": "Ayyoub Bouaddi (Morocco) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "61'",
+      "text": "Substitution, Brazil. Matheus Cunha replaces Lucas Paquetá."
+    },
+    {
+      "minute": "58'",
+      "text": "Raphinha (Brazil) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "57'",
+      "text": "Neil El Aynaoui (Morocco) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "57'",
+      "text": "Foul by Igor Thiago (Brazil)."
+    },
+    {
+      "minute": "56'",
+      "text": "Foul by Bilal El Khannouss (Morocco)."
+    },
+    {
+      "minute": "56'",
+      "text": "Lucas Paquetá (Brazil) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "52'",
+      "text": "Attempt saved. Igor Thiago (Brazil) left footed shot from the left side of the box is saved in the top centre of the goal by Yassine Bounou (Morocco). Assisted by Lucas Paquetá."
+    },
+    {
+      "minute": "49'",
+      "text": "Foul by Bruno Guimarães (Brazil)."
+    },
+    {
+      "minute": "48'",
+      "text": "Attempt blocked. Marquinhos (Brazil) right footed shot from the right side of the six yard box is blocked. Assisted by Raphinha with a cross."
+    },
+    {
+      "minute": "48'",
+      "text": "Corner, Brazil. Conceded by Azzedine Ounahi."
+    },
+    {
+      "minute": "47'",
+      "text": "Corner, Brazil. Conceded by Noussair Mazraoui."
+    },
+    {
+      "minute": "46'",
+      "text": "Attempt missed. Bruno Guimarães (Brazil) right footed shot from outside the box is high and wide to the right."
+    },
+    {
+      "minute": "45'",
+      "text": "Second Half begins Brazil 1, Morocco 1."
+    },
+    {
+      "minute": "45'",
+      "text": "Substitution, Brazil. Danilo replaces Roger Ibañez."
+    },
+    {
+      "minute": "45'",
+      "text": "Substitution, Brazil. Fabinho replaces Casemiro."
+    },
+    {
+      "minute": "45+5'",
+      "text": "First Half ends, Brazil 1, Morocco 1."
+    },
+    {
+      "minute": "45+4'",
+      "text": "Foul by Lucas Paquetá (Brazil)."
+    },
+    {
+      "minute": "45+3'",
+      "text": "Attempt missed. Marquinhos (Brazil) header from the right side of the six yard box misses to the left. Assisted by Raphinha with a cross following a corner."
+    },
+    {
+      "minute": "45+2'",
+      "text": "Attempt saved. Lucas Paquetá (Brazil) left footed shot from the centre of the box is saved in the bottom right corner by Yassine Bounou (Morocco). Assisted by Douglas Santos with a cross."
+    },
+    {
+      "minute": "45+2'",
+      "text": "Corner, Brazil. Conceded by Yassine Bounou."
+    },
+    {
+      "minute": "45'",
+      "text": "Raphinha (Brazil) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "45'",
+      "text": "Fourth official has announced 4 minutes of added time."
+    },
+    {
+      "minute": "43'",
+      "text": "Brahim Díaz (Morocco) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "43'",
+      "text": "Foul by Roger Ibañez (Brazil)."
+    },
+    {
+      "minute": "43'",
+      "text": "Roger Ibañez (Brazil) is shown the yellow card for a bad foul."
+    },
+    {
+      "minute": "39'",
+      "text": "Lucas Paquetá (Brazil) wins a free kick on the left wing."
+    },
+    {
+      "minute": "37'",
+      "text": "Neil El Aynaoui (Morocco) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "37'",
+      "text": "Foul by Casemiro (Brazil)."
+    },
+    {
+      "minute": "37'",
+      "text": "Casemiro (Brazil) is shown the yellow card for a bad foul."
+    },
+    {
+      "minute": "34'",
+      "text": "Achraf Hakimi (Morocco) wins a free kick on the right wing."
+    },
+    {
+      "minute": "32'",
+      "text": "Goal! Brazil 1, Morocco 1. Vinícius Júnior (Brazil) right footed shot from the left side of the box to the top right corner. Assisted by Bruno Guimarães."
+    },
+    {
+      "minute": "31'",
+      "text": "Attempt missed. Achraf Hakimi (Morocco) right footed shot from outside the box is high and wide to the right."
+    },
+    {
+      "minute": "30'",
+      "text": "Attempt blocked. Ismael Saibari (Morocco) right footed shot from the centre of the box is blocked. Assisted by Brahim Díaz."
+    },
+    {
+      "minute": "30'",
+      "text": "Attempt saved. Brahim Díaz (Morocco) right footed shot from the centre of the box is saved in the bottom right corner by Alisson Becker (Brazil)."
+    },
+    {
+      "minute": "29'",
+      "text": "Brahim Díaz (Morocco) wins a free kick on the right wing."
+    },
+    {
+      "minute": "29'",
+      "text": "Attempt missed. Neil El Aynaoui (Morocco) header from the centre of the box misses to the left. Assisted by Achraf Hakimi with a cross following a set piece situation."
+    },
+    {
+      "minute": "27'",
+      "text": "Attempt missed. Achraf Hakimi (Morocco) right footed shot from outside the box misses to the left. Assisted by Bilal El Khannouss following a fast break."
+    },
+    {
+      "minute": "21'",
+      "text": "Goal! Brazil 0, Morocco 1. Ismael Saibari (Morocco) right footed shot from outside the box to the centre of the goal. Assisted by Brahim Díaz with a through ball following a fast break."
+    },
+    {
+      "minute": "20'",
+      "text": "Attempt blocked. Lucas Paquetá (Brazil) right footed shot from outside the box is blocked. Assisted by Vinícius Júnior."
+    },
+    {
+      "minute": "14'",
+      "text": "Attempt missed. Igor Thiago (Brazil) header from very close range misses to the right."
+    },
+    {
+      "minute": "13'",
+      "text": "Roger Ibañez (Brazil) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "12'",
+      "text": "Bruno Guimarães (Brazil) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "12'",
+      "text": "Foul by Ayyoub Bouaddi (Morocco)."
+    },
+    {
+      "minute": "11'",
+      "text": "Attempt blocked. Ismael Saibari (Morocco) left footed shot from outside the box is blocked. Assisted by Neil El Aynaoui."
+    },
+    {
+      "minute": "10'",
+      "text": "Casemiro (Brazil) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "9'",
+      "text": "Attempt blocked. Raphinha (Brazil) left footed shot from outside the box is blocked. Assisted by Casemiro."
+    },
+    {
+      "minute": "9'",
+      "text": "Attempt blocked. Brahim Díaz (Morocco) right footed shot from outside the box is blocked. Assisted by Bilal El Khannouss."
+    },
+    {
+      "minute": "9'",
+      "text": "Gabriel Magalhães (Brazil) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "7'",
+      "text": "Attempt blocked. Bilal El Khannouss (Morocco) right footed shot from outside the box is blocked. Assisted by Achraf Hakimi."
+    },
+    {
+      "minute": "7'",
+      "text": "Attempt missed. Achraf Hakimi (Morocco) right footed shot from the right side of the box misses to the left. Assisted by Azzedine Ounahi."
+    },
+    {
+      "minute": "6'",
+      "text": "Attempt blocked. Brahim Díaz (Morocco) right footed shot from the right side of the box is blocked. Assisted by Achraf Hakimi."
+    },
+    {
+      "minute": "6'",
+      "text": "Attempt blocked. Neil El Aynaoui (Morocco) right footed shot from the centre of the box is blocked. Assisted by Azzedine Ounahi."
+    },
+    {
+      "minute": "3'",
+      "text": "Bilal El Khannouss (Morocco) wins a free kick on the left wing."
+    },
+    {
+      "minute": "2'",
+      "text": "Foul by Douglas Santos (Brazil)."
+    },
+    {
+      "minute": "",
+      "text": "First Half begins."
+    },
+    {
+      "minute": "",
+      "text": "Lineups are announced and players are warming up."
+    }
+  ]
+}

@@ -1,0 +1,300 @@
+{
+  "match_name": "Mexico_vs_SouthKorea",
+  "url": "https://www.livescore.com/en/football/international/world-cup-2026/mexico-vs-south-korea/1417912/?tab=commentary",
+  "scraped_at": "2026-07-01 14:49:17",
+  "total_entries": 73,
+  "raw_entries": [
+    {
+      "minute": "",
+      "text": "Match ends, Mexico 1, Korea Republic 0."
+    },
+    {
+      "minute": "90+7'",
+      "text": "Second Half ends, Mexico 1, Korea Republic 0."
+    },
+    {
+      "minute": "90+6'",
+      "text": "Corner, Mexico. Conceded by Lee Gi-Hyuk."
+    },
+    {
+      "minute": "90+4'",
+      "text": "Attempt blocked. Cho Gue-Sung (Korea Republic) header from the centre of the box is blocked. Assisted by Lee Kang-In with a cross."
+    },
+    {
+      "minute": "90+4'",
+      "text": "Corner, Korea Republic. Conceded by Johan Vásquez."
+    },
+    {
+      "minute": "90+4'",
+      "text": "Attempt missed. Oh Hyeon-Gyu (Korea Republic) header from the centre of the box is close, but misses to the right. Assisted by Lee Kang-In with a cross following a corner."
+    },
+    {
+      "minute": "90+2'",
+      "text": "Corner, Korea Republic. Conceded by Israel Reyes."
+    },
+    {
+      "minute": "90+2'",
+      "text": "Attempt missed. Lee Han-Beom (Korea Republic) header from the centre of the box misses to the right. Assisted by Lee Kang-In with a cross following a corner."
+    },
+    {
+      "minute": "90'",
+      "text": "Fourth official has announced 6 minutes of added time."
+    },
+    {
+      "minute": "89'",
+      "text": "Delay over. They are ready to continue."
+    },
+    {
+      "minute": "87'",
+      "text": "Attempt saved. Cho Gue-Sung (Korea Republic) header from very close range is saved in the centre of the goal by Raúl Rangel (Mexico). Assisted by Eom Ji-Sung with a cross."
+    },
+    {
+      "minute": "87'",
+      "text": "Attempt saved. Yang Hyun-Jun (Korea Republic) left footed shot from very close range is saved in the bottom right corner by Raúl Rangel (Mexico)."
+    },
+    {
+      "minute": "87'",
+      "text": "Delay in match because of an injury Raúl Rangel (Mexico)."
+    },
+    {
+      "minute": "85'",
+      "text": "Attempt saved. Obed Vargas (Mexico) right footed shot from outside the box is saved in the bottom right corner by Kim Seung-Gyu (Korea Republic). Assisted by Orbelín Pineda."
+    },
+    {
+      "minute": "84'",
+      "text": "Substitution, Mexico. César Huerta replaces Julián Quiñones."
+    },
+    {
+      "minute": "82'",
+      "text": "Foul by Israel Reyes (Mexico)."
+    },
+    {
+      "minute": "82'",
+      "text": "Hwang Hee-Chan (Korea Republic) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "80'",
+      "text": "Substitution, Mexico. Israel Reyes replaces Roberto Alvarado."
+    },
+    {
+      "minute": "80'",
+      "text": "Substitution, Mexico. Santiago Giménez replaces Raúl Jiménez."
+    },
+    {
+      "minute": "78'",
+      "text": "Attempt missed. Lee Kang-In (Korea Republic) left footed shot from outside the box is too high. Assisted by Hwang Hee-Chan."
+    },
+    {
+      "minute": "77'",
+      "text": "Substitution, Korea Republic. Cho Gue-Sung replaces Paik Seung-Ho."
+    },
+    {
+      "minute": "76'",
+      "text": "Offside, Korea Republic. Yang Hyun-Jun is caught offside."
+    },
+    {
+      "minute": "75'",
+      "text": "Attempt saved. Raúl Jiménez (Mexico) right footed shot from the right side of the six yard box is saved in the centre of the goal by Kim Seung-Gyu (Korea Republic). Assisted by Julián Quiñones with a cross."
+    },
+    {
+      "minute": "75'",
+      "text": "Foul by Raúl Jiménez (Mexico)."
+    },
+    {
+      "minute": "75'",
+      "text": "Eom Ji-Sung (Korea Republic) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "73'",
+      "text": "Jesús Gallardo (Mexico) wins a free kick on the left wing."
+    },
+    {
+      "minute": "73'",
+      "text": "Foul by Yang Hyun-Jun (Korea Republic)."
+    },
+    {
+      "minute": "71'",
+      "text": "Substitution, Mexico. Orbelín Pineda replaces Brian Gutiérrez."
+    },
+    {
+      "minute": "71'",
+      "text": "Substitution, Mexico. Obed Vargas replaces Luis Romo."
+    },
+    {
+      "minute": "71'",
+      "text": "Substitution, Korea Republic. Eom Ji-Sung replaces Kim Moon-Hwan."
+    },
+    {
+      "minute": "71'",
+      "text": "Substitution, Korea Republic. Yang Hyun-Jun replaces Seol Young-Woo."
+    },
+    {
+      "minute": "68'",
+      "text": "Delay in match for a drinks break."
+    },
+    {
+      "minute": "64'",
+      "text": "Raúl Jiménez (Mexico) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "64'",
+      "text": "Foul by Lee Han-Beom (Korea Republic)."
+    },
+    {
+      "minute": "62'",
+      "text": "Lee Han-Beom (Korea Republic) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "61'",
+      "text": "Offside, Korea Republic. Seol Young-Woo is caught offside."
+    },
+    {
+      "minute": "58'",
+      "text": "Attempt blocked. Hwang In-Beom (Korea Republic) left footed shot from outside the box is blocked."
+    },
+    {
+      "minute": "58'",
+      "text": "Brian Gutiérrez (Mexico) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "58'",
+      "text": "Foul by Paik Seung-Ho (Korea Republic)."
+    },
+    {
+      "minute": "58'",
+      "text": "Paik Seung-Ho (Korea Republic) is shown the yellow card for a bad foul."
+    },
+    {
+      "minute": "57'",
+      "text": "Foul by Julián Quiñones (Mexico)."
+    },
+    {
+      "minute": "57'",
+      "text": "Son Heung-Min (Korea Republic) wins a free kick on the right wing."
+    },
+    {
+      "minute": "57'",
+      "text": "Substitution, Korea Republic. Hwang Hee-Chan replaces Lee Jae-Sung."
+    },
+    {
+      "minute": "57'",
+      "text": "Substitution, Korea Republic. Oh Hyeon-Gyu replaces Son Heung-Min."
+    },
+    {
+      "minute": "56'",
+      "text": "Offside, Mexico. Julián Quiñones is caught offside."
+    },
+    {
+      "minute": "53'",
+      "text": "Handball by Brian Gutiérrez (Mexico)."
+    },
+    {
+      "minute": "50'",
+      "text": "Attempt blocked. Raúl Jiménez (Mexico) header from the centre of the box is blocked. Assisted by Julián Quiñones with a cross."
+    },
+    {
+      "minute": "50'",
+      "text": "Goal! Mexico 1, Korea Republic 0. Luis Romo (Mexico) right footed shot from the centre of the box to the centre of the goal."
+    },
+    {
+      "minute": "49'",
+      "text": "Attempt missed. Jesús Gallardo (Mexico) left footed shot from the left side of the box is close, but misses to the left. Assisted by Brian Gutiérrez."
+    },
+    {
+      "minute": "45'",
+      "text": "Second Half begins Mexico 0, Korea Republic 0."
+    },
+    {
+      "minute": "45+5'",
+      "text": "First Half ends, Mexico 0, Korea Republic 0."
+    },
+    {
+      "minute": "45+2'",
+      "text": "Foul by Érik Lira (Mexico)."
+    },
+    {
+      "minute": "45+2'",
+      "text": "Lee Kang-In (Korea Republic) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "45'",
+      "text": "Foul by Jorge Sánchez (Mexico)."
+    },
+    {
+      "minute": "45'",
+      "text": "Lee Jae-Sung (Korea Republic) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "45'",
+      "text": "Fourth official has announced 4 minutes of added time."
+    },
+    {
+      "minute": "44'",
+      "text": "Attempt blocked. Lee Kang-In (Korea Republic) right footed shot from outside the box is blocked. Assisted by Son Heung-Min."
+    },
+    {
+      "minute": "41'",
+      "text": "Attempt missed. Seol Young-Woo (Korea Republic) left footed shot from a difficult angle on the left is high and wide to the left."
+    },
+    {
+      "minute": "38'",
+      "text": "Foul by Jesús Gallardo (Mexico)."
+    },
+    {
+      "minute": "31'",
+      "text": "Offside, Mexico. Roberto Alvarado is caught offside."
+    },
+    {
+      "minute": "29'",
+      "text": "Offside, Korea Republic. Lee Jae-Sung is caught offside."
+    },
+    {
+      "minute": "20'",
+      "text": "Attempt saved. Julián Quiñones (Mexico) header from the centre of the box is saved in the centre of the goal by Kim Seung-Gyu (Korea Republic). Assisted by Roberto Alvarado with a cross."
+    },
+    {
+      "minute": "18'",
+      "text": "Julián Quiñones (Mexico) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "17'",
+      "text": "Offside, Mexico. Jorge Sánchez is caught offside."
+    },
+    {
+      "minute": "16'",
+      "text": "Offside, Korea Republic. Son Heung-Min is caught offside."
+    },
+    {
+      "minute": "7'",
+      "text": "Attempt missed. Roberto Alvarado (Mexico) left footed shot from outside the box is close, but misses to the right."
+    },
+    {
+      "minute": "7'",
+      "text": "Attempt missed. Brian Gutiérrez (Mexico) right footed shot from outside the box misses to the right. Assisted by Luis Romo."
+    },
+    {
+      "minute": "4'",
+      "text": "Luis Romo (Mexico) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "4'",
+      "text": "Foul by Lee Kang-In (Korea Republic)."
+    },
+    {
+      "minute": "4'",
+      "text": "Lee Kang-In (Korea Republic) is shown the yellow card for a bad foul."
+    },
+    {
+      "minute": "3'",
+      "text": "Foul by Hwang In-Beom (Korea Republic)."
+    },
+    {
+      "minute": "",
+      "text": "First Half begins."
+    },
+    {
+      "minute": "",
+      "text": "Lineups are announced and players are warming up."
+    }
+  ]
+}

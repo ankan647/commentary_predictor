@@ -1,0 +1,316 @@
+{
+  "match_name": "Scotland_vs_Morocco",
+  "url": "https://www.livescore.com/en/football/international/world-cup-2026/scotland-vs-morocco/1417924/?tab=commentary",
+  "scraped_at": "2026-07-01 14:07:23",
+  "total_entries": 77,
+  "raw_entries": [
+    {
+      "minute": "",
+      "text": "Match ends, Scotland 0, Morocco 1."
+    },
+    {
+      "minute": "90+7'",
+      "text": "Foul by Anthony Ralston (Scotland)."
+    },
+    {
+      "minute": "90+7'",
+      "text": "Achraf Hakimi (Morocco) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "90+7'",
+      "text": "Second Half ends, Scotland 0, Morocco 1."
+    },
+    {
+      "minute": "90+6'",
+      "text": "Corner, Scotland. Conceded by Chadi Riad."
+    },
+    {
+      "minute": "90+5'",
+      "text": "Attempt missed. Ayoube Amaimouni-Echghouyab (Morocco) left footed shot from the right side of the box is close, but misses to the left. Assisted by Chemsdine Talbi following a fast break."
+    },
+    {
+      "minute": "90+3'",
+      "text": "Attempt missed. Chemsdine Talbi (Morocco) left footed shot from the left side of the box is just a bit too high. Assisted by Samir El Mourabet following a fast break."
+    },
+    {
+      "minute": "90+1'",
+      "text": "Attempt blocked. Chemsdine Talbi (Morocco) right footed shot from outside the box is blocked. Assisted by Samir El Mourabet."
+    },
+    {
+      "minute": "90'",
+      "text": "Substitution, Morocco. Samir El Mourabet replaces Azzedine Ounahi."
+    },
+    {
+      "minute": "90'",
+      "text": "Fourth official has announced 6 minutes of added time."
+    },
+    {
+      "minute": "89'",
+      "text": "Substitution, Scotland. Anthony Ralston replaces Nathan Patterson."
+    },
+    {
+      "minute": "89'",
+      "text": "Delay over. They are ready to continue."
+    },
+    {
+      "minute": "89'",
+      "text": "Substitution, Scotland. Ross Stewart replaces John McGinn."
+    },
+    {
+      "minute": "88'",
+      "text": "Attempt blocked. Scott McTominay (Scotland) left footed shot from the centre of the box is blocked."
+    },
+    {
+      "minute": "88'",
+      "text": "Delay in match because of an injury Yassine Bounou (Morocco)."
+    },
+    {
+      "minute": "86'",
+      "text": "Attempt missed. Lyndon Dykes (Scotland) header from the centre of the box misses to the left. Assisted by John McGinn with a cross following a corner."
+    },
+    {
+      "minute": "86'",
+      "text": "Lewis Ferguson (Scotland) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "86'",
+      "text": "Foul by Soufiane Rahimi (Morocco)."
+    },
+    {
+      "minute": "85'",
+      "text": "Attempt blocked. Scott McTominay (Scotland) right footed shot from the right side of the box is blocked. Assisted by Kenny McLean."
+    },
+    {
+      "minute": "84'",
+      "text": "Substitution, Morocco. Soufiane Rahimi replaces Ismael Saibari."
+    },
+    {
+      "minute": "84'",
+      "text": "Substitution, Morocco. Chemsdine Talbi replaces Bilal El Khannouss."
+    },
+    {
+      "minute": "84'",
+      "text": "Substitution, Morocco. Ayoube Amaimouni-Echghouyab replaces Brahim Díaz."
+    },
+    {
+      "minute": "84'",
+      "text": "Foul by Ayoube Amaimouni-Echghouyab (Morocco)."
+    },
+    {
+      "minute": "77'",
+      "text": "John McGinn (Scotland) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "77'",
+      "text": "Foul by Brahim Díaz (Morocco)."
+    },
+    {
+      "minute": "74'",
+      "text": "Foul by Ben Gannon-Doak (Scotland)."
+    },
+    {
+      "minute": "74'",
+      "text": "Yassine Bounou (Morocco) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "72'",
+      "text": "Foul by Scott McTominay (Scotland)."
+    },
+    {
+      "minute": "72'",
+      "text": "Brahim Díaz (Morocco) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "71'",
+      "text": "Substitution, Scotland. Lyndon Dykes replaces Ché Adams."
+    },
+    {
+      "minute": "71'",
+      "text": "Substitution, Scotland. Kenny McLean replaces Ryan Christie."
+    },
+    {
+      "minute": "68'",
+      "text": "Delay in match for a drinks break."
+    },
+    {
+      "minute": "65'",
+      "text": "Foul by Andy Robertson (Scotland)."
+    },
+    {
+      "minute": "65'",
+      "text": "Achraf Hakimi (Morocco) wins a free kick on the right wing."
+    },
+    {
+      "minute": "65'",
+      "text": "Andy Robertson (Scotland) is shown the yellow card for a bad foul."
+    },
+    {
+      "minute": "64'",
+      "text": "Attempt missed. Ryan Christie (Scotland) right footed shot from outside the box is high and wide to the left. Assisted by Scott McTominay."
+    },
+    {
+      "minute": "62'",
+      "text": "Noussair Mazraoui (Morocco) wins a free kick on the left wing."
+    },
+    {
+      "minute": "62'",
+      "text": "Attempt missed. Achraf Hakimi (Morocco) right footed shot from outside the box misses to the right. Assisted by Neil El Aynaoui."
+    },
+    {
+      "minute": "60'",
+      "text": "Substitution, Scotland. Ben Gannon-Doak replaces Kieran Tierney because of an injury."
+    },
+    {
+      "minute": "59'",
+      "text": "Delay in match because of an injury Kieran Tierney (Scotland)."
+    },
+    {
+      "minute": "58'",
+      "text": "Attempt blocked. Brahim Díaz (Morocco) right footed shot from the right side of the box is blocked. Assisted by Azzedine Ounahi."
+    },
+    {
+      "minute": "55'",
+      "text": "Foul by Lewis Ferguson (Scotland)."
+    },
+    {
+      "minute": "55'",
+      "text": "Azzedine Ounahi (Morocco) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "52'",
+      "text": "Attempt saved. Bilal El Khannouss (Morocco) header from a difficult angle on the right is saved in the top right corner by Angus Gunn (Scotland). Assisted by Achraf Hakimi with a cross."
+    },
+    {
+      "minute": "51'",
+      "text": "Corner, Morocco. Conceded by Grant Hanley."
+    },
+    {
+      "minute": "50'",
+      "text": "Attempt blocked. Ismael Saibari (Morocco) left footed shot from the centre of the box is blocked. Assisted by Bilal El Khannouss."
+    },
+    {
+      "minute": "50'",
+      "text": "Corner, Morocco. Conceded by Jack Hendry."
+    },
+    {
+      "minute": "45'",
+      "text": "Second Half begins Scotland 0, Morocco 1."
+    },
+    {
+      "minute": "45+6'",
+      "text": "First Half ends, Scotland 0, Morocco 1."
+    },
+    {
+      "minute": "45+2'",
+      "text": "Attempt blocked. Kieran Tierney (Scotland) left footed shot from the left side of the box is blocked. Assisted by Ché Adams."
+    },
+    {
+      "minute": "45+1'",
+      "text": "Attempt missed. John McGinn (Scotland) right footed shot from the right side of the six yard box is high and wide to the right. Assisted by Andy Robertson with a cross."
+    },
+    {
+      "minute": "45'",
+      "text": "Fourth official has announced 5 minutes of added time."
+    },
+    {
+      "minute": "44'",
+      "text": "Foul by John McGinn (Scotland)."
+    },
+    {
+      "minute": "44'",
+      "text": "Noussair Mazraoui (Morocco) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "43'",
+      "text": "John McGinn (Scotland) wins a free kick on the right wing."
+    },
+    {
+      "minute": "43'",
+      "text": "Foul by Noussair Mazraoui (Morocco)."
+    },
+    {
+      "minute": "42'",
+      "text": "Handball by Ayyoub Bouaddi (Morocco)."
+    },
+    {
+      "minute": "39'",
+      "text": "Offside, Scotland. Grant Hanley is caught offside."
+    },
+    {
+      "minute": "38'",
+      "text": "Attempt missed. Achraf Hakimi (Morocco) right footed shot from the centre of the box misses to the right. Assisted by Brahim Díaz with a cross."
+    },
+    {
+      "minute": "38'",
+      "text": "Kieran Tierney (Scotland) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "38'",
+      "text": "Foul by Neil El Aynaoui (Morocco)."
+    },
+    {
+      "minute": "36'",
+      "text": "Attempt missed. Bilal El Khannouss (Morocco) right footed shot from the left side of the box is too high. Assisted by Ismael Saibari."
+    },
+    {
+      "minute": "36'",
+      "text": "Delay in match because of an injury Neil El Aynaoui (Morocco)."
+    },
+    {
+      "minute": "30'",
+      "text": "Attempt missed. Neil El Aynaoui (Morocco) right footed shot from the right side of the box is too high. Assisted by Brahim Díaz."
+    },
+    {
+      "minute": "24'",
+      "text": "Foul by Kieran Tierney (Scotland)."
+    },
+    {
+      "minute": "23'",
+      "text": "Ché Adams (Scotland) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "23'",
+      "text": "Foul by Issa Diop (Morocco)."
+    },
+    {
+      "minute": "23'",
+      "text": "Issa Diop (Morocco) is shown the yellow card for a bad foul."
+    },
+    {
+      "minute": "20'",
+      "text": "Corner, Morocco. Conceded by Kieran Tierney."
+    },
+    {
+      "minute": "20'",
+      "text": "Attempt blocked. Ayyoub Bouaddi (Morocco) right footed shot from outside the box is blocked."
+    },
+    {
+      "minute": "18'",
+      "text": "Handball by John McGinn (Scotland)."
+    },
+    {
+      "minute": "16'",
+      "text": "Bilal El Khannouss (Morocco) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "11'",
+      "text": "Corner, Morocco. Conceded by Ché Adams."
+    },
+    {
+      "minute": "3'",
+      "text": "Brahim Díaz (Morocco) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "2'",
+      "text": "Goal! Scotland 0, Morocco 1. Ismael Saibari (Morocco) right footed shot from the right side of the box to the high centre of the goal. Assisted by Brahim Díaz with a through ball."
+    },
+    {
+      "minute": "",
+      "text": "First Half begins."
+    },
+    {
+      "minute": "",
+      "text": "Lineups are announced and players are warming up."
+    }
+  ]
+}

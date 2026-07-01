@@ -1,0 +1,372 @@
+{
+  "match_name": "Mexico_vs_Czechia",
+  "url": "https://www.livescore.com/en/football/international/world-cup-2026/czechia-vs-mexico/1417913/?tab=commentary",
+  "scraped_at": "2026-07-01 14:33:03",
+  "total_entries": 91,
+  "raw_entries": [
+    {
+      "minute": "",
+      "text": "Match ends, Czechia 0, Mexico 3."
+    },
+    {
+      "minute": "90+7'",
+      "text": "Second Half ends, Czechia 0, Mexico 3."
+    },
+    {
+      "minute": "90+4'",
+      "text": "Attempt saved. Santiago Giménez (Mexico) left footed shot from the centre of the box is saved in the centre of the goal by Matej Kovár (Czechia). Assisted by Roberto Alvarado."
+    },
+    {
+      "minute": "90+4'",
+      "text": "Goal! Czechia 0, Mexico 3. Álvaro Fidalgo (Mexico) right footed shot from the centre of the box to the top left corner. Assisted by Roberto Alvarado."
+    },
+    {
+      "minute": "90+3'",
+      "text": "Attempt missed. David Doudera (Czechia) right footed shot from a difficult angle on the left is high and wide to the left. Assisted by Alexandr Sojka with a cross."
+    },
+    {
+      "minute": "90+2'",
+      "text": "Attempt missed. Pavel Sulc (Czechia) right footed shot from outside the box is close, but misses to the left."
+    },
+    {
+      "minute": "90+2'",
+      "text": "Foul by Obed Vargas (Mexico)."
+    },
+    {
+      "minute": "90+2'",
+      "text": "Michal Sadílek (Czechia) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "90+1'",
+      "text": "Fourth official has announced 6 minutes of added time."
+    },
+    {
+      "minute": "87'",
+      "text": "Substitution, Czechia. Tomás Chory replaces Lukás Cerv."
+    },
+    {
+      "minute": "87'",
+      "text": "Substitution, Czechia. Alexandr Sojka replaces Tomás Soucek because of an injury."
+    },
+    {
+      "minute": "86'",
+      "text": "Delay over. They are ready to continue."
+    },
+    {
+      "minute": "84'",
+      "text": "Delay in match because of an injury Tomás Soucek (Czechia)."
+    },
+    {
+      "minute": "82'",
+      "text": "Foul by Jorge Sánchez (Mexico)."
+    },
+    {
+      "minute": "82'",
+      "text": "Vladimír Coufal (Czechia) wins a free kick on the left wing."
+    },
+    {
+      "minute": "81'",
+      "text": "Attempt missed. David Doudera (Czechia) right footed shot from outside the box misses to the left."
+    },
+    {
+      "minute": "81'",
+      "text": "Edson Álvarez (Mexico) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "81'",
+      "text": "Foul by Patrik Schick (Czechia)."
+    },
+    {
+      "minute": "79'",
+      "text": "Corner, Mexico. Conceded by Michal Sadílek."
+    },
+    {
+      "minute": "78'",
+      "text": "Substitution, Mexico. Guillermo Ochoa replaces Raúl Rangel."
+    },
+    {
+      "minute": "78'",
+      "text": "Substitution, Mexico. Jesús Gallardo replaces Mateo Chávez."
+    },
+    {
+      "minute": "77'",
+      "text": "Attempt missed. Julián Quiñones (Mexico) header from the centre of the box is too high. Assisted by Jorge Sánchez with a cross."
+    },
+    {
+      "minute": "76'",
+      "text": "Jorge Sánchez (Mexico) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "76'",
+      "text": "Foul by Tomás Soucek (Czechia)."
+    },
+    {
+      "minute": "75'",
+      "text": "Corner, Czechia. Conceded by Mateo Chávez."
+    },
+    {
+      "minute": "74'",
+      "text": "Santiago Giménez (Mexico) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "74'",
+      "text": "Foul by Robin Hranác (Czechia)."
+    },
+    {
+      "minute": "72'",
+      "text": "Substitution, Mexico. Álvaro Fidalgo replaces Gilberto Mora."
+    },
+    {
+      "minute": "68'",
+      "text": "Attempt missed. David Doudera (Czechia) right footed shot from outside the box is too high following a corner."
+    },
+    {
+      "minute": "68'",
+      "text": "Delay in match for a drinks break."
+    },
+    {
+      "minute": "67'",
+      "text": "Corner, Czechia. Conceded by Edson Álvarez."
+    },
+    {
+      "minute": "67'",
+      "text": "Corner, Czechia. Conceded by Obed Vargas."
+    },
+    {
+      "minute": "66'",
+      "text": "Corner, Czechia. Conceded by Raúl Rangel."
+    },
+    {
+      "minute": "64'",
+      "text": "Adam Hlozek (Czechia) wins a free kick on the left wing."
+    },
+    {
+      "minute": "64'",
+      "text": "Foul by Edson Álvarez (Mexico)."
+    },
+    {
+      "minute": "64'",
+      "text": "Edson Álvarez (Mexico) is shown the yellow card for a bad foul."
+    },
+    {
+      "minute": "64'",
+      "text": "Substitution, Czechia. Patrik Schick replaces Adam Hlozek."
+    },
+    {
+      "minute": "64'",
+      "text": "Substitution, Czechia. Tomás Soucek replaces Tomás Holes."
+    },
+    {
+      "minute": "63'",
+      "text": "Substitution, Mexico. Santiago Giménez replaces Guillermo Martínez."
+    },
+    {
+      "minute": "63'",
+      "text": "Substitution, Mexico. Obed Vargas replaces Luis Romo."
+    },
+    {
+      "minute": "61'",
+      "text": "Attempt blocked. Michal Sadílek (Czechia) left footed shot from outside the box is blocked. Assisted by Vladimír Coufal."
+    },
+    {
+      "minute": "61'",
+      "text": "Goal! Czechia 0, Mexico 2. Julián Quiñones (Mexico) right footed shot from very close range to the centre of the goal. Assisted by Jorge Sánchez following a fast break."
+    },
+    {
+      "minute": "58'",
+      "text": "Tomás Holes (Czechia) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "58'",
+      "text": "Foul by Julián Quiñones (Mexico)."
+    },
+    {
+      "minute": "57'",
+      "text": "Foul by Lukás Provod (Czechia)."
+    },
+    {
+      "minute": "57'",
+      "text": "Gilberto Mora (Mexico) wins a free kick on the left wing."
+    },
+    {
+      "minute": "56'",
+      "text": "Substitution, Czechia. Lukás Provod replaces Denis Visinsky."
+    },
+    {
+      "minute": "55'",
+      "text": "Goal! Czechia 0, Mexico 1. Mateo Chávez (Mexico) left footed shot from the centre of the box to the bottom left corner. Assisted by Luis Romo."
+    },
+    {
+      "minute": "54'",
+      "text": "Corner, Czechia. Conceded by Jorge Sánchez."
+    },
+    {
+      "minute": "54'",
+      "text": "Attempt blocked. Lukás Cerv (Czechia) right footed shot from outside the box is blocked."
+    },
+    {
+      "minute": "53'",
+      "text": "David Doudera (Czechia) wins a free kick on the left wing."
+    },
+    {
+      "minute": "52'",
+      "text": "Adam Hlozek (Czechia) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "51'",
+      "text": "Offside, Czechia. Pavel Sulc is caught offside."
+    },
+    {
+      "minute": "50'",
+      "text": "Attempt blocked. Julián Quiñones (Mexico) right footed shot from the centre of the box is blocked. Assisted by Gilberto Mora."
+    },
+    {
+      "minute": "46'",
+      "text": "Attempt saved. Lukás Cerv (Czechia) left footed shot from the centre of the box is saved in the top centre of the goal by Raúl Rangel (Mexico)."
+    },
+    {
+      "minute": "46'",
+      "text": "Delay in match because of an injury Tomás Holes (Czechia)."
+    },
+    {
+      "minute": "45'",
+      "text": "Second Half begins Czechia 0, Mexico 0."
+    },
+    {
+      "minute": "45+4'",
+      "text": "First Half ends, Czechia 0, Mexico 0."
+    },
+    {
+      "minute": "45+3'",
+      "text": "Attempt missed. Julián Quiñones (Mexico) right footed shot from long range on the left is just a bit too high. Assisted by Mateo Chávez."
+    },
+    {
+      "minute": "45+3'",
+      "text": "Foul by Tomás Holes (Czechia)."
+    },
+    {
+      "minute": "45+3'",
+      "text": "Julián Quiñones (Mexico) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "45'",
+      "text": "Delay in match because of an injury Michal Sadílek (Czechia)."
+    },
+    {
+      "minute": "45'",
+      "text": "Fourth official has announced 4 minutes of added time."
+    },
+    {
+      "minute": "44'",
+      "text": "Attempt missed. David Doudera (Czechia) right footed shot from outside the box is high and wide to the right following a set piece situation."
+    },
+    {
+      "minute": "43'",
+      "text": "Tomás Holes (Czechia) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "43'",
+      "text": "Foul by Guillermo Martínez (Mexico)."
+    },
+    {
+      "minute": "42'",
+      "text": "Adam Hlozek (Czechia) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "42'",
+      "text": "Foul by César Montes (Mexico)."
+    },
+    {
+      "minute": "39'",
+      "text": "Attempt blocked. Gilberto Mora (Mexico) left footed shot from outside the box is blocked. Assisted by Jorge Sánchez."
+    },
+    {
+      "minute": "39'",
+      "text": "Attempt saved. Jorge Sánchez (Mexico) right footed shot from the right side of the box is saved in the top right corner by Matej Kovár (Czechia). Assisted by Roberto Alvarado."
+    },
+    {
+      "minute": "39'",
+      "text": "Attempt missed. Roberto Alvarado (Mexico) left footed shot from the right side of the box is high and wide to the left. Assisted by Gilberto Mora."
+    },
+    {
+      "minute": "37'",
+      "text": "Attempt missed. Israel Reyes (Mexico) right footed shot from the centre of the box misses to the left following a set piece situation."
+    },
+    {
+      "minute": "36'",
+      "text": "Luis Romo (Mexico) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "36'",
+      "text": "Foul by Lukás Cerv (Czechia)."
+    },
+    {
+      "minute": "27'",
+      "text": "Attempt blocked. Denis Visinsky (Czechia) right footed shot from the centre of the box is blocked. Assisted by Adam Hlozek."
+    },
+    {
+      "minute": "26'",
+      "text": "Lukás Cerv (Czechia) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "21'",
+      "text": "Guillermo Martínez (Mexico) wins a free kick on the left wing."
+    },
+    {
+      "minute": "17'",
+      "text": "César Montes (Mexico) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "17'",
+      "text": "Foul by Adam Hlozek (Czechia)."
+    },
+    {
+      "minute": "16'",
+      "text": "Handball by Luis Romo (Mexico)."
+    },
+    {
+      "minute": "15'",
+      "text": "Attempt missed. Denis Visinsky (Czechia) right footed shot from outside the box misses to the right. Assisted by Adam Hlozek with a headed pass."
+    },
+    {
+      "minute": "12'",
+      "text": "Attempt missed. Michal Sadílek (Czechia) left footed shot from the centre of the box is high and wide to the left."
+    },
+    {
+      "minute": "10'",
+      "text": "Denis Visinsky (Czechia) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "8'",
+      "text": "Attempt missed. Denis Visinsky (Czechia) right footed shot from the centre of the box is close, but misses to the left."
+    },
+    {
+      "minute": "7'",
+      "text": "Attempt blocked. Vladimír Coufal (Czechia) header from the centre of the box is blocked. Assisted by David Doudera with a cross."
+    },
+    {
+      "minute": "5'",
+      "text": "Foul by Vladimír Coufal (Czechia)."
+    },
+    {
+      "minute": "5'",
+      "text": "Mateo Chávez (Mexico) wins a free kick on the left wing."
+    },
+    {
+      "minute": "4'",
+      "text": "Vladimír Coufal (Czechia) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "4'",
+      "text": "Foul by Mateo Chávez (Mexico)."
+    },
+    {
+      "minute": "",
+      "text": "First Half begins."
+    },
+    {
+      "minute": "",
+      "text": "Lineups are announced and players are warming up."
+    }
+  ]
+}

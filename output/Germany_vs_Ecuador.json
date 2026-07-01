@@ -1,0 +1,352 @@
+{
+  "match_name": "Germany_vs_Ecuador",
+  "url": "https://www.livescore.com/en/football/international/world-cup-2026/ecuador-vs-germany/1417937/?tab=commentary",
+  "scraped_at": "2026-07-01 14:11:52",
+  "total_entries": 86,
+  "raw_entries": [
+    {
+      "minute": "",
+      "text": "Match ends, Ecuador 2, Germany 1."
+    },
+    {
+      "minute": "90+8'",
+      "text": "Second Half ends, Ecuador 2, Germany 1."
+    },
+    {
+      "minute": "90+6'",
+      "text": "Gonzalo Plata (Ecuador) wins a free kick on the left wing."
+    },
+    {
+      "minute": "90+6'",
+      "text": "Foul by Pascal Groß (Germany)."
+    },
+    {
+      "minute": "90+5'",
+      "text": "Attempt missed. Pascal Groß (Germany) left footed shot from outside the box is too high."
+    },
+    {
+      "minute": "90+3'",
+      "text": "Attempt missed. Deniz Undav (Germany) left footed shot from a difficult angle on the left is close, but misses to the left. Assisted by Pascal Groß."
+    },
+    {
+      "minute": "90'",
+      "text": "Fourth official has announced 7 minutes of added time."
+    },
+    {
+      "minute": "89'",
+      "text": "Foul by Gonzalo Plata (Ecuador)."
+    },
+    {
+      "minute": "89'",
+      "text": "Jamal Musiala (Germany) wins a free kick on the left wing."
+    },
+    {
+      "minute": "89'",
+      "text": "Gonzalo Plata (Ecuador) is shown the yellow card for a bad foul."
+    },
+    {
+      "minute": "88'",
+      "text": "Corner, Germany. Conceded by Pervis Estupiñán."
+    },
+    {
+      "minute": "87'",
+      "text": "Foul by Pervis Estupiñán (Ecuador)."
+    },
+    {
+      "minute": "87'",
+      "text": "Maximilian Beier (Germany) wins a free kick on the right wing."
+    },
+    {
+      "minute": "86'",
+      "text": "Foul by Kevin Rodríguez (Ecuador)."
+    },
+    {
+      "minute": "86'",
+      "text": "Malick Thiaw (Germany) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "85'",
+      "text": "Substitution, Ecuador. Félix Torres replaces John Yeboah."
+    },
+    {
+      "minute": "85'",
+      "text": "Substitution, Ecuador. Jordy Caicedo replaces Nilson Angulo because of an injury."
+    },
+    {
+      "minute": "85'",
+      "text": "Handball by Kevin Rodríguez (Ecuador)."
+    },
+    {
+      "minute": "84'",
+      "text": "Pedro Vite (Ecuador) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "84'",
+      "text": "Foul by Maximilian Beier (Germany)."
+    },
+    {
+      "minute": "77'",
+      "text": "Attempt blocked. Kevin Rodríguez (Ecuador) left footed shot from very close range is blocked. Assisted by John Yeboah with a headed pass."
+    },
+    {
+      "minute": "77'",
+      "text": "Corner, Ecuador. Conceded by Angelo Stiller."
+    },
+    {
+      "minute": "77'",
+      "text": "Goal! Ecuador 2, Germany 1. Gonzalo Plata (Ecuador) left footed shot from very close range to the top right corner. Assisted by Kevin Rodríguez with a headed pass following a corner."
+    },
+    {
+      "minute": "76'",
+      "text": "Attempt saved. Leroy Sané (Germany) left footed shot from the centre of the box is saved in the centre of the goal by Hernán Galíndez (Ecuador). Assisted by Deniz Undav."
+    },
+    {
+      "minute": "75'",
+      "text": "Jamal Musiala (Germany) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "73'",
+      "text": "Attempt missed. Gonzalo Plata (Ecuador) left footed shot from very close range is high and wide to the right. Assisted by Moisés Caicedo."
+    },
+    {
+      "minute": "73'",
+      "text": "Substitution, Germany. Pascal Groß replaces Florian Wirtz."
+    },
+    {
+      "minute": "71'",
+      "text": "Delay over. They are ready to continue."
+    },
+    {
+      "minute": "71'",
+      "text": "Substitution, Ecuador. Pervis Estupiñán replaces Piero Hincapié because of an injury."
+    },
+    {
+      "minute": "69'",
+      "text": "Delay in match for a drinks break."
+    },
+    {
+      "minute": "65'",
+      "text": "Nilson Angulo (Ecuador) wins a free kick on the left wing."
+    },
+    {
+      "minute": "65'",
+      "text": "Foul by Malick Thiaw (Germany)."
+    },
+    {
+      "minute": "64'",
+      "text": "Substitution, Ecuador. Kevin Rodríguez replaces Enner Valencia."
+    },
+    {
+      "minute": "64'",
+      "text": "Substitution, Ecuador. Ángelo Preciado replaces Alan Franco."
+    },
+    {
+      "minute": "64'",
+      "text": "Substitution, Germany. Maximilian Beier replaces Felix Nmecha."
+    },
+    {
+      "minute": "63'",
+      "text": "Attempt blocked. Florian Wirtz (Germany) right footed shot from outside the box is blocked. Assisted by Deniz Undav."
+    },
+    {
+      "minute": "62'",
+      "text": "Attempt saved. Enner Valencia (Ecuador) right footed shot from outside the box is saved in the bottom left corner by Manuel Neuer (Germany). Assisted by John Yeboah."
+    },
+    {
+      "minute": "60'",
+      "text": "Substitution, Germany. Deniz Undav replaces Kai Havertz."
+    },
+    {
+      "minute": "60'",
+      "text": "Substitution, Germany. Malick Thiaw replaces Joshua Kimmich."
+    },
+    {
+      "minute": "59'",
+      "text": "Willian Pacho (Ecuador) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "59'",
+      "text": "Foul by Leroy Sané (Germany)."
+    },
+    {
+      "minute": "58'",
+      "text": "Foul by Moisés Caicedo (Ecuador)."
+    },
+    {
+      "minute": "58'",
+      "text": "Jamal Musiala (Germany) wins a free kick on the right wing."
+    },
+    {
+      "minute": "56'",
+      "text": "Nilson Angulo (Ecuador) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "56'",
+      "text": "Foul by Jonathan Tah (Germany)."
+    },
+    {
+      "minute": "54'",
+      "text": "Corner, Ecuador. Conceded by Antonio Rüdiger."
+    },
+    {
+      "minute": "54'",
+      "text": "Attempt missed. Moisés Caicedo (Ecuador) header from a difficult angle on the left is close, but misses to the left. Assisted by John Yeboah with a cross following a corner."
+    },
+    {
+      "minute": "50'",
+      "text": "Alan Franco (Ecuador) is shown the yellow card."
+    },
+    {
+      "minute": "49'",
+      "text": "Joel Ordóñez (Ecuador) wins a free kick on the right wing."
+    },
+    {
+      "minute": "49'",
+      "text": "Foul by David Raum (Germany)."
+    },
+    {
+      "minute": "47'",
+      "text": "VAR Decision: No Penalty Germany."
+    },
+    {
+      "minute": "45'",
+      "text": "Substitution, Germany. Angelo Stiller replaces Aleksandar Pavlovic."
+    },
+    {
+      "minute": "45'",
+      "text": "Second Half begins Ecuador 1, Germany 1."
+    },
+    {
+      "minute": "45+5'",
+      "text": "First Half ends, Ecuador 1, Germany 1."
+    },
+    {
+      "minute": "45+4'",
+      "text": "Attempt blocked. Florian Wirtz (Germany) right footed shot from the centre of the box is blocked. Assisted by David Raum with a cross."
+    },
+    {
+      "minute": "45'",
+      "text": "Fourth official has announced 4 minutes of added time."
+    },
+    {
+      "minute": "44'",
+      "text": "Enner Valencia (Ecuador) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "44'",
+      "text": "Foul by Aleksandar Pavlovic (Germany)."
+    },
+    {
+      "minute": "44'",
+      "text": "Aleksandar Pavlovic (Germany) is shown the yellow card for a bad foul."
+    },
+    {
+      "minute": "43'",
+      "text": "Foul by Piero Hincapié (Ecuador)."
+    },
+    {
+      "minute": "43'",
+      "text": "Leroy Sané (Germany) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "43'",
+      "text": "Piero Hincapié (Ecuador) is shown the yellow card for a bad foul."
+    },
+    {
+      "minute": "38'",
+      "text": "Attempt blocked. Felix Nmecha (Germany) right footed shot from outside the box is blocked. Assisted by Leroy Sané."
+    },
+    {
+      "minute": "38'",
+      "text": "Delay in match (Germany)."
+    },
+    {
+      "minute": "35'",
+      "text": "Attempt blocked. Jamal Musiala (Germany) left footed shot from the left side of the box is blocked. Assisted by Florian Wirtz."
+    },
+    {
+      "minute": "35'",
+      "text": "Corner, Germany. Conceded by Joel Ordóñez."
+    },
+    {
+      "minute": "32'",
+      "text": "Attempt blocked. Enner Valencia (Ecuador) right footed shot from the right side of the box is blocked. Assisted by Nilson Angulo."
+    },
+    {
+      "minute": "25'",
+      "text": "Attempt saved. Kai Havertz (Germany) header from the centre of the box is saved in the top left corner by Hernán Galíndez (Ecuador). Assisted by David Raum with a cross."
+    },
+    {
+      "minute": "21'",
+      "text": "Corner, Ecuador. Conceded by Joshua Kimmich."
+    },
+    {
+      "minute": "20'",
+      "text": "Foul by Alan Franco (Ecuador)."
+    },
+    {
+      "minute": "19'",
+      "text": "Joshua Kimmich (Germany) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "16'",
+      "text": "Foul by Nilson Angulo (Ecuador)."
+    },
+    {
+      "minute": "16'",
+      "text": "Aleksandar Pavlovic (Germany) wins a free kick on the right wing."
+    },
+    {
+      "minute": "16'",
+      "text": "Aleksandar Pavlovic (Germany) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "14'",
+      "text": "Attempt missed. Felix Nmecha (Germany) right footed shot from outside the box misses to the left. Assisted by Jamal Musiala."
+    },
+    {
+      "minute": "10'",
+      "text": "Felix Nmecha (Germany) wins a free kick on the left wing."
+    },
+    {
+      "minute": "9'",
+      "text": "Goal! Ecuador 1, Germany 1. Nilson Angulo (Ecuador) right footed shot from outside the box to the bottom right corner. Assisted by Pedro Vite."
+    },
+    {
+      "minute": "8'",
+      "text": "Enner Valencia (Ecuador) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "8'",
+      "text": "Foul by Jamal Musiala (Germany)."
+    },
+    {
+      "minute": "7'",
+      "text": "Attempt blocked. Florian Wirtz (Germany) right footed shot from outside the box is blocked."
+    },
+    {
+      "minute": "6'",
+      "text": "John Yeboah (Ecuador) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "5'",
+      "text": "Foul by Joel Ordóñez (Ecuador)."
+    },
+    {
+      "minute": "5'",
+      "text": "Jamal Musiala (Germany) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "2'",
+      "text": "Goal! Ecuador 0, Germany 1. Leroy Sané (Germany) left footed shot from the centre of the box to the bottom left corner. Assisted by Florian Wirtz."
+    },
+    {
+      "minute": "",
+      "text": "First Half begins."
+    },
+    {
+      "minute": "",
+      "text": "Lineups are announced and players are warming up."
+    }
+  ]
+}

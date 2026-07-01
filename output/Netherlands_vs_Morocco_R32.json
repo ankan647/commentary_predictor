@@ -1,0 +1,464 @@
+{
+  "match_name": "Netherlands_vs_Morocco_R32",
+  "url": "https://www.livescore.com/en/football/international/world-cup-2026/netherlands-vs-morocco/1691869/?tab=commentary",
+  "scraped_at": "2026-07-01 14:43:49",
+  "total_entries": 114,
+  "raw_entries": [
+    {
+      "minute": "",
+      "text": "Match ends, Netherlands 1(2), Morocco 1(3)."
+    },
+    {
+      "minute": "120+10'",
+      "text": "Goal! Netherlands 1(2), Morocco 1(3). Ismael Saibari (Morocco) converts the penalty with a right footed shot to the bottom left corner."
+    },
+    {
+      "minute": "120+10'",
+      "text": "Penalty Shootout ends, Netherlands 1(2), Morocco 1(3)."
+    },
+    {
+      "minute": "120+9'",
+      "text": "Penalty saved. Crysencio Summerville (Netherlands) right footed shot saved in the top left corner by Yassine Bounou (Morocco)."
+    },
+    {
+      "minute": "120+7'",
+      "text": "PEN\nPenalty missed. Quinten Timber (Netherlands) right footed shot is close, but misses to the left."
+    },
+    {
+      "minute": "120+7'",
+      "text": "Penalty missed! Still Netherlands 1(2), Morocco 1(2). Achraf Hakimi (Morocco) hits the left post with a right footed shot."
+    },
+    {
+      "minute": "120+6'",
+      "text": "Goal! Netherlands 1(2), Morocco 1(2). Chemsdine Talbi (Morocco) converts the penalty with a right footed shot to the top right corner."
+    },
+    {
+      "minute": "120+5'",
+      "text": "Goal! Netherlands 1(2), Morocco 1(1). Wout Weghorst (Netherlands) converts the penalty with a right footed shot to the top left corner."
+    },
+    {
+      "minute": "120+4'",
+      "text": "Goal! Netherlands 1(1), Morocco 1(1). Soufiane Rahimi (Morocco) converts the penalty with a right footed shot to the bottom left corner."
+    },
+    {
+      "minute": "120+3'",
+      "text": "Penalty missed! Still Netherlands 1(1), Morocco 1. Justin Kluivert (Netherlands) hits the left post with a right footed shot."
+    },
+    {
+      "minute": "120+2'",
+      "text": "Penalty missed! Still Netherlands 1(1), Morocco 1. Neil El Aynaoui (Morocco) hits the bar with a right footed shot."
+    },
+    {
+      "minute": "120+1'",
+      "text": "Goal! Netherlands 1(1), Morocco 1. Teun Koopmeiners (Netherlands) converts the penalty with a left footed shot to the bottom right corner."
+    },
+    {
+      "minute": "120'",
+      "text": "Penalty Shootout begins Netherlands 1, Morocco 1."
+    },
+    {
+      "minute": "120+2'",
+      "text": "Second Half Extra Time ends, Netherlands 1, Morocco 1."
+    },
+    {
+      "minute": "120'",
+      "text": "Fourth official has announced 1 minutes of added time."
+    },
+    {
+      "minute": "118'",
+      "text": "Foul by Denzel Dumfries (Netherlands)."
+    },
+    {
+      "minute": "118'",
+      "text": "Chemsdine Talbi (Morocco) wins a free kick on the left wing."
+    },
+    {
+      "minute": "116'",
+      "text": "Delay in match because of an injury Crysencio Summerville (Netherlands)."
+    },
+    {
+      "minute": "116'",
+      "text": "Delay over. They are ready to continue."
+    },
+    {
+      "minute": "114'",
+      "text": "Soufiane Rahimi (Morocco) wins a free kick on the left wing."
+    },
+    {
+      "minute": "113'",
+      "text": "Substitution, Netherlands. Justin Kluivert replaces Cody Gakpo."
+    },
+    {
+      "minute": "112'",
+      "text": "Cody Gakpo (Netherlands) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "112'",
+      "text": "Foul by Neil El Aynaoui (Morocco)."
+    },
+    {
+      "minute": "110'",
+      "text": "Wout Weghorst (Netherlands) wins a free kick on the right wing."
+    },
+    {
+      "minute": "110'",
+      "text": "Foul by Anass Salah-Eddine (Morocco)."
+    },
+    {
+      "minute": "110'",
+      "text": "Substitution, Netherlands. Marten de Roon replaces Frenkie de Jong."
+    },
+    {
+      "minute": "107'",
+      "text": "Foul by Cody Gakpo (Netherlands)."
+    },
+    {
+      "minute": "107'",
+      "text": "Gessime Yassine (Morocco) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "105'",
+      "text": "Second Half Extra Time begins Netherlands 1, Morocco 1."
+    },
+    {
+      "minute": "105+1'",
+      "text": "First Half Extra Time ends, Netherlands 1, Morocco 1."
+    },
+    {
+      "minute": "105'",
+      "text": "Quinten Timber (Netherlands) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "105'",
+      "text": "Fourth official has announced 0 minutes of added time."
+    },
+    {
+      "minute": "102'",
+      "text": "Handball by Wout Weghorst (Netherlands)."
+    },
+    {
+      "minute": "97'",
+      "text": "Attempt saved. Soufiane Rahimi (Morocco) right footed shot from the centre of the box is saved in the bottom left corner by Bart Verbruggen (Netherlands). Assisted by Ismael Saibari with a through ball."
+    },
+    {
+      "minute": "97'",
+      "text": "Corner, Morocco. Conceded by Bart Verbruggen."
+    },
+    {
+      "minute": "97'",
+      "text": "Frenkie de Jong (Netherlands) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "95'",
+      "text": "Foul by Frenkie de Jong (Netherlands)."
+    },
+    {
+      "minute": "95'",
+      "text": "Soufiane Rahimi (Morocco) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "93'",
+      "text": "Handball by Denzel Dumfries (Netherlands)."
+    },
+    {
+      "minute": "90'",
+      "text": "First Half Extra Time begins Netherlands 1, Morocco 1."
+    },
+    {
+      "minute": "90+7'",
+      "text": "Second Half ends, Netherlands 1, Morocco 1."
+    },
+    {
+      "minute": "90+6'",
+      "text": "Foul by Ismael Saibari (Morocco)."
+    },
+    {
+      "minute": "90+5'",
+      "text": "Anass Salah-Eddine (Morocco) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "90+3'",
+      "text": "Quinten Timber (Netherlands) wins a free kick on the right wing."
+    },
+    {
+      "minute": "90+1'",
+      "text": "Goal! Netherlands 1, Morocco 1. Issa Diop (Morocco) header from the centre of the box to the top right corner. Assisted by Chemsdine Talbi with a cross."
+    },
+    {
+      "minute": "90'",
+      "text": "Fourth official has announced 6 minutes of added time."
+    },
+    {
+      "minute": "88'",
+      "text": "Corner, Netherlands. Conceded by Issa Diop."
+    },
+    {
+      "minute": "87'",
+      "text": "Substitution, Morocco. Chemsdine Talbi replaces Bilal El Khannouss."
+    },
+    {
+      "minute": "86'",
+      "text": "Substitution, Morocco. Soufiane Rahimi replaces Azzedine Ounahi."
+    },
+    {
+      "minute": "86'",
+      "text": "Substitution, Netherlands. Jorrel Hato replaces Micky van de Ven."
+    },
+    {
+      "minute": "86'",
+      "text": "Substitution, Netherlands. Quinten Timber replaces Ryan Gravenberch."
+    },
+    {
+      "minute": "85'",
+      "text": "Virgil van Dijk (Netherlands) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "84'",
+      "text": "Handball by Crysencio Summerville (Netherlands)."
+    },
+    {
+      "minute": "80'",
+      "text": "Delay in match because of an injury Ryan Gravenberch (Netherlands)."
+    },
+    {
+      "minute": "79'",
+      "text": "Substitution, Morocco. Gessime Yassine replaces Brahim Díaz."
+    },
+    {
+      "minute": "79'",
+      "text": "Substitution, Morocco. Samir El Mourabet replaces Ayyoub Bouaddi."
+    },
+    {
+      "minute": "78'",
+      "text": "Attempt blocked. Anass Salah-Eddine (Morocco) left footed shot from outside the box is blocked."
+    },
+    {
+      "minute": "77'",
+      "text": "Foul by Teun Koopmeiners (Netherlands)."
+    },
+    {
+      "minute": "77'",
+      "text": "Achraf Hakimi (Morocco) wins a free kick on the right wing."
+    },
+    {
+      "minute": "77'",
+      "text": "Corner, Morocco. Conceded by Jan Paul van Hecke."
+    },
+    {
+      "minute": "75'",
+      "text": "Azzedine Ounahi (Morocco) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "75'",
+      "text": "Substitution, Morocco. Anass Salah-Eddine replaces Chadi Riad because of an injury."
+    },
+    {
+      "minute": "72'",
+      "text": "Goal! Netherlands 1, Morocco 0. Cody Gakpo (Netherlands) right footed shot from the centre of the box to the centre of the goal. Assisted by Crysencio Summerville."
+    },
+    {
+      "minute": "71'",
+      "text": "Substitution, Netherlands. Teun Koopmeiners replaces Nathan Aké."
+    },
+    {
+      "minute": "71'",
+      "text": "Substitution, Netherlands. Wout Weghorst replaces Brian Brobbey."
+    },
+    {
+      "minute": "67'",
+      "text": "Delay in match for a drinks break."
+    },
+    {
+      "minute": "65'",
+      "text": "Ryan Gravenberch (Netherlands) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "62'",
+      "text": "Corner, Morocco. Conceded by Denzel Dumfries."
+    },
+    {
+      "minute": "62'",
+      "text": "Corner, Morocco. Conceded by Frenkie de Jong."
+    },
+    {
+      "minute": "61'",
+      "text": "Corner, Morocco. Conceded by Virgil van Dijk."
+    },
+    {
+      "minute": "59'",
+      "text": "Attempt blocked. Ryan Gravenberch (Netherlands) left footed shot from outside the box is blocked."
+    },
+    {
+      "minute": "59'",
+      "text": "Foul by Jan Paul van Hecke (Netherlands)."
+    },
+    {
+      "minute": "59'",
+      "text": "Ismael Saibari (Morocco) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "58'",
+      "text": "Attempt saved. Bilal El Khannouss (Morocco) right footed shot from outside the box is saved in the bottom right corner by Bart Verbruggen (Netherlands)."
+    },
+    {
+      "minute": "56'",
+      "text": "Attempt blocked. Achraf Hakimi (Morocco) right footed shot from the centre of the box is blocked. Assisted by Azzedine Ounahi with a through ball."
+    },
+    {
+      "minute": "56'",
+      "text": "Offside, Netherlands. Brian Brobbey is caught offside."
+    },
+    {
+      "minute": "53'",
+      "text": "Foul by Micky van de Ven (Netherlands)."
+    },
+    {
+      "minute": "53'",
+      "text": "Ayyoub Bouaddi (Morocco) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "52'",
+      "text": "Achraf Hakimi (Morocco) hits the bar with a right footed shot from a difficult angle on the right. Assisted by Azzedine Ounahi with a through ball."
+    },
+    {
+      "minute": "48'",
+      "text": "Attempt saved. Micky van de Ven (Netherlands) header from the centre of the box is saved in the centre of the goal by Yassine Bounou (Morocco). Assisted by Jan Paul van Hecke with a headed pass."
+    },
+    {
+      "minute": "48'",
+      "text": "Attempt missed. Ayyoub Bouaddi (Morocco) left footed shot from outside the box is high and wide to the left. Assisted by Achraf Hakimi."
+    },
+    {
+      "minute": "47'",
+      "text": "Brian Brobbey (Netherlands) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "47'",
+      "text": "Foul by Issa Diop (Morocco)."
+    },
+    {
+      "minute": "47'",
+      "text": "Issa Diop (Morocco) is shown the yellow card for a bad foul."
+    },
+    {
+      "minute": "45'",
+      "text": "Second Half begins Netherlands 0, Morocco 0."
+    },
+    {
+      "minute": "45+7'",
+      "text": "First Half ends, Netherlands 0, Morocco 0."
+    },
+    {
+      "minute": "45+3'",
+      "text": "Attempt missed. Azzedine Ounahi (Morocco) right footed shot from the right side of the box is just a bit too high. Assisted by Neil El Aynaoui following a fast break."
+    },
+    {
+      "minute": "45'",
+      "text": "Foul by Brian Brobbey (Netherlands)."
+    },
+    {
+      "minute": "45'",
+      "text": "Yassine Bounou (Morocco) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "44'",
+      "text": "Attempt missed. Micky van de Ven (Netherlands) left footed shot from outside the box is just a bit too high. Assisted by Crysencio Summerville."
+    },
+    {
+      "minute": "44'",
+      "text": "Corner, Netherlands. Conceded by Yassine Bounou."
+    },
+    {
+      "minute": "38'",
+      "text": "Delay in match because of an injury Jan Paul van Hecke (Netherlands)."
+    },
+    {
+      "minute": "37'",
+      "text": "Attempt blocked. Denzel Dumfries (Netherlands) header from the centre of the box is blocked. Assisted by Crysencio Summerville with a cross."
+    },
+    {
+      "minute": "37'",
+      "text": "Corner, Netherlands. Conceded by Noussair Mazraoui."
+    },
+    {
+      "minute": "33'",
+      "text": "Offside, Netherlands. Denzel Dumfries is caught offside."
+    },
+    {
+      "minute": "31'",
+      "text": "Crysencio Summerville (Netherlands) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "29'",
+      "text": "Frenkie de Jong (Netherlands) wins a free kick on the left wing."
+    },
+    {
+      "minute": "27'",
+      "text": "Jan Paul van Hecke (Netherlands) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "27'",
+      "text": "Foul by Azzedine Ounahi (Morocco)."
+    },
+    {
+      "minute": "21'",
+      "text": "Attempt saved. Achraf Hakimi (Morocco) right footed shot from the right side of the box is saved in the top right corner by Bart Verbruggen (Netherlands). Assisted by Ismael Saibari."
+    },
+    {
+      "minute": "20'",
+      "text": "Attempt saved. Neil El Aynaoui (Morocco) header from the right side of the six yard box is saved in the top centre of the goal by Bart Verbruggen (Netherlands). Assisted by Achraf Hakimi with a cross."
+    },
+    {
+      "minute": "20'",
+      "text": "Attempt missed. Ayyoub Bouaddi (Morocco) right footed shot from outside the box is too high. Assisted by Azzedine Ounahi following a corner."
+    },
+    {
+      "minute": "19'",
+      "text": "Corner, Morocco. Conceded by Micky van de Ven."
+    },
+    {
+      "minute": "16'",
+      "text": "Offside, Netherlands. Crysencio Summerville is caught offside."
+    },
+    {
+      "minute": "14'",
+      "text": "Chadi Riad (Morocco) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "11'",
+      "text": "Brian Brobbey (Netherlands) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "10'",
+      "text": "Denzel Dumfries (Netherlands) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "7'",
+      "text": "Attempt blocked. Ryan Gravenberch (Netherlands) left footed shot from the right side of the box is blocked."
+    },
+    {
+      "minute": "7'",
+      "text": "Bilal El Khannouss (Morocco) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "7'",
+      "text": "Foul by Ryan Gravenberch (Netherlands)."
+    },
+    {
+      "minute": "4'",
+      "text": "Neil El Aynaoui (Morocco) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "3'",
+      "text": "Corner, Netherlands. Conceded by Chadi Riad."
+    },
+    {
+      "minute": "",
+      "text": "First Half begins."
+    },
+    {
+      "minute": "",
+      "text": "Lineups are announced and players are warming up."
+    }
+  ]
+}

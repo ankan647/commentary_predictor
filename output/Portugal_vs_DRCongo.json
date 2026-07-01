@@ -1,0 +1,332 @@
+{
+  "match_name": "Portugal_vs_DRCongo",
+  "url": "https://www.livescore.com/en/football/international/world-cup-2026/portugal-vs-dr-congo/1417969/?tab=commentary",
+  "scraped_at": "2026-07-01 13:58:18",
+  "total_entries": 81,
+  "raw_entries": [
+    {
+      "minute": "",
+      "text": "Match ends, Portugal 1, Congo DR 1."
+    },
+    {
+      "minute": "90+5'",
+      "text": "Second Half ends, Portugal 1, Congo DR 1."
+    },
+    {
+      "minute": "90+4'",
+      "text": "Corner, Portugal. Conceded by Joris Kayembe."
+    },
+    {
+      "minute": "90+2'",
+      "text": "Attempt missed. Cristiano Ronaldo (Portugal) with an attempt from the centre of the box misses to the left. Assisted by Bruno Fernandes with a cross."
+    },
+    {
+      "minute": "90+2'",
+      "text": "Yoane Wissa (Congo DR) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "90+2'",
+      "text": "Foul by Tomás Araújo (Portugal)."
+    },
+    {
+      "minute": "90+2'",
+      "text": "Tomás Araújo (Portugal) is shown the yellow card for a bad foul."
+    },
+    {
+      "minute": "90'",
+      "text": "Attempt missed. Bruno Fernandes (Portugal) left footed shot from outside the box is close, but misses to the right. Assisted by Tomás Araújo."
+    },
+    {
+      "minute": "90'",
+      "text": "Fourth official has announced 5 minutes of added time."
+    },
+    {
+      "minute": "88'",
+      "text": "Foul by Nélson Semedo (Portugal)."
+    },
+    {
+      "minute": "88'",
+      "text": "Nélson Semedo (Portugal) is shown the yellow card for a bad foul."
+    },
+    {
+      "minute": "85'",
+      "text": "Substitution, Congo DR. Gédéon Kalulu replaces Aaron Wan-Bissaka."
+    },
+    {
+      "minute": "85'",
+      "text": "Substitution, Congo DR. Simon Banza replaces Cédric Bakambu."
+    },
+    {
+      "minute": "83'",
+      "text": "Joris Kayembe (Congo DR) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "83'",
+      "text": "Foul by Francisco Conceição (Portugal)."
+    },
+    {
+      "minute": "83'",
+      "text": "Substitution, Portugal. Gonçalo Ramos replaces Vitinha."
+    },
+    {
+      "minute": "80'",
+      "text": "Offside, Portugal. Francisco Conceição is caught offside."
+    },
+    {
+      "minute": "78'",
+      "text": "Attempt blocked. Francisco Conceição (Portugal) left footed shot from the right side of the box is blocked. Assisted by Rafael Leão with a cross."
+    },
+    {
+      "minute": "78'",
+      "text": "Cédric Bakambu (Congo DR) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "78'",
+      "text": "Foul by Renato Veiga (Portugal)."
+    },
+    {
+      "minute": "77'",
+      "text": "Corner, Portugal. Conceded by Samuel Moutoussamy."
+    },
+    {
+      "minute": "77'",
+      "text": "Attempt missed. Cédric Bakambu (Congo DR) right footed shot from outside the box is too high. Assisted by Noah Sadiki following a fast break."
+    },
+    {
+      "minute": "74'",
+      "text": "Attempt missed. Cristiano Ronaldo (Portugal) right footed shot from the centre of the box is close, but misses to the right. Assisted by Francisco Conceição."
+    },
+    {
+      "minute": "74'",
+      "text": "Substitution, Congo DR. Charles Pickel replaces Edo Kayembe."
+    },
+    {
+      "minute": "74'",
+      "text": "Substitution, Congo DR. Joris Kayembe replaces Arthur Masuaku."
+    },
+    {
+      "minute": "72'",
+      "text": "Substitution, Portugal. Nélson Semedo replaces Nuno Mendes."
+    },
+    {
+      "minute": "71'",
+      "text": "Delay over. They are ready to continue."
+    },
+    {
+      "minute": "71'",
+      "text": "Substitution, Portugal. Rafael Leão replaces Pedro Neto."
+    },
+    {
+      "minute": "69'",
+      "text": "Delay in match for a drinks break."
+    },
+    {
+      "minute": "67'",
+      "text": "Foul by Edo Kayembe (Congo DR)."
+    },
+    {
+      "minute": "67'",
+      "text": "Nuno Mendes (Portugal) wins a free kick on the left wing."
+    },
+    {
+      "minute": "66'",
+      "text": "Foul by Samuel Moutoussamy (Congo DR)."
+    },
+    {
+      "minute": "64'",
+      "text": "Edo Kayembe (Congo DR) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "64'",
+      "text": "Foul by Bruno Fernandes (Portugal)."
+    },
+    {
+      "minute": "63'",
+      "text": "Attempt missed. Steve Kapuadi (Congo DR) header from the centre of the box is close, but misses to the right. Assisted by Cédric Bakambu with a headed pass."
+    },
+    {
+      "minute": "60'",
+      "text": "Corner, Portugal. Conceded by Steve Kapuadi."
+    },
+    {
+      "minute": "58'",
+      "text": "Foul by Aaron Wan-Bissaka (Congo DR)."
+    },
+    {
+      "minute": "58'",
+      "text": "Nuno Mendes (Portugal) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "57'",
+      "text": "Foul by Cédric Bakambu (Congo DR)."
+    },
+    {
+      "minute": "57'",
+      "text": "Bruno Fernandes (Portugal) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "57'",
+      "text": "Substitution, Congo DR. Noah Sadiki replaces Ngal'ayel Mukau."
+    },
+    {
+      "minute": "55'",
+      "text": "Offside, Portugal. João Cancelo is caught offside."
+    },
+    {
+      "minute": "55'",
+      "text": "Corner, Congo DR. Conceded by Renato Veiga."
+    },
+    {
+      "minute": "52'",
+      "text": "Corner, Portugal. Conceded by Lionel Mpasi."
+    },
+    {
+      "minute": "50'",
+      "text": "Offside, Congo DR. Cédric Bakambu is caught offside."
+    },
+    {
+      "minute": "49'",
+      "text": "Yoane Wissa (Congo DR) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "49'",
+      "text": "Foul by Vitinha (Portugal)."
+    },
+    {
+      "minute": "46'",
+      "text": "Bruno Fernandes (Portugal) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "45'",
+      "text": "Second Half begins Portugal 1, Congo DR 1."
+    },
+    {
+      "minute": "45'",
+      "text": "Substitution, Portugal. Francisco Conceição replaces Bernardo Silva."
+    },
+    {
+      "minute": "45+6'",
+      "text": "First Half ends, Portugal 1, Congo DR 1."
+    },
+    {
+      "minute": "45+5'",
+      "text": "Goal! Portugal 1, Congo DR 1. Yoane Wissa (Congo DR) header from very close range to the top left corner. Assisted by Arthur Masuaku with a cross following a corner."
+    },
+    {
+      "minute": "45+4'",
+      "text": "Corner, Congo DR. Conceded by Bruno Fernandes."
+    },
+    {
+      "minute": "45+3'",
+      "text": "Attempt blocked. Samuel Moutoussamy (Congo DR) left footed shot from outside the box is blocked. Assisted by Arthur Masuaku."
+    },
+    {
+      "minute": "45+3'",
+      "text": "Corner, Congo DR. Conceded by Vitinha."
+    },
+    {
+      "minute": "45+1'",
+      "text": "Attempt blocked. Samuel Moutoussamy (Congo DR) left footed shot from outside the box is blocked. Assisted by Chancel Mbemba."
+    },
+    {
+      "minute": "45+1'",
+      "text": "Foul by Yoane Wissa (Congo DR)."
+    },
+    {
+      "minute": "45+1'",
+      "text": "João Cancelo (Portugal) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "45'",
+      "text": "Fourth official has announced 4 minutes of added time."
+    },
+    {
+      "minute": "43'",
+      "text": "Handball by Yoane Wissa (Congo DR)."
+    },
+    {
+      "minute": "41'",
+      "text": "Arthur Masuaku (Congo DR) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "41'",
+      "text": "Foul by João Cancelo (Portugal)."
+    },
+    {
+      "minute": "39'",
+      "text": "Attempt blocked. Bruno Fernandes (Portugal) right footed shot from outside the box is blocked. Assisted by João Neves."
+    },
+    {
+      "minute": "37'",
+      "text": "João Neves (Portugal) wins a free kick on the right wing."
+    },
+    {
+      "minute": "33'",
+      "text": "Attempt saved. Edo Kayembe (Congo DR) left footed shot from outside the box is saved in the top right corner by Diogo Costa (Portugal). Assisted by Steve Kapuadi."
+    },
+    {
+      "minute": "32'",
+      "text": "Foul by Chancel Mbemba (Congo DR)."
+    },
+    {
+      "minute": "32'",
+      "text": "Pedro Neto (Portugal) wins a free kick on the left wing."
+    },
+    {
+      "minute": "32'",
+      "text": "Chancel Mbemba (Congo DR) is shown the yellow card for a bad foul."
+    },
+    {
+      "minute": "31'",
+      "text": "Renato Veiga (Portugal) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "28'",
+      "text": "Corner, Portugal. Conceded by Chancel Mbemba."
+    },
+    {
+      "minute": "14'",
+      "text": "Attempt blocked. Cédric Bakambu (Congo DR) right footed shot from outside the box is blocked. Assisted by Edo Kayembe."
+    },
+    {
+      "minute": "14'",
+      "text": "Corner, Congo DR. Conceded by Tomás Araújo."
+    },
+    {
+      "minute": "13'",
+      "text": "Edo Kayembe (Congo DR) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "13'",
+      "text": "Foul by Bernardo Silva (Portugal)."
+    },
+    {
+      "minute": "13'",
+      "text": "Bernardo Silva (Portugal) is shown the yellow card for a bad foul."
+    },
+    {
+      "minute": "11'",
+      "text": "Attempt missed. Yoane Wissa (Congo DR) left footed shot from outside the box is close, but misses to the left."
+    },
+    {
+      "minute": "10'",
+      "text": "Offside, Portugal. Nuno Mendes is caught offside."
+    },
+    {
+      "minute": "6'",
+      "text": "Goal! Portugal 1, Congo DR 0. João Neves (Portugal) header from the centre of the box to the bottom right corner. Assisted by Pedro Neto with a cross."
+    },
+    {
+      "minute": "3'",
+      "text": "Samuel Moutoussamy (Congo DR) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "",
+      "text": "First Half begins."
+    },
+    {
+      "minute": "",
+      "text": "Lineups are announced and players are warming up."
+    }
+  ]
+}

@@ -1,0 +1,372 @@
+{
+  "match_name": "Argentina_vs_Austria",
+  "url": "https://www.livescore.com/en/football/international/world-cup-2026/argentina-vs-austria/1417966/?tab=commentary",
+  "scraped_at": "2026-07-01 14:59:16",
+  "total_entries": 91,
+  "raw_entries": [
+    {
+      "minute": "",
+      "text": "Match ends, Argentina 2, Austria 0."
+    },
+    {
+      "minute": "90+8'",
+      "text": "Attempt missed. Lionel Messi (Argentina) left footed shot from outside the box is close, but misses to the left from a direct free kick."
+    },
+    {
+      "minute": "90+8'",
+      "text": "Second Half ends, Argentina 2, Austria 0."
+    },
+    {
+      "minute": "90+7'",
+      "text": "Foul by Patrick Wimmer (Austria)."
+    },
+    {
+      "minute": "90+7'",
+      "text": "Lionel Messi (Argentina) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "90+5'",
+      "text": "Attempt blocked. Lionel Messi (Argentina) left footed shot from the centre of the box is blocked."
+    },
+    {
+      "minute": "90+5'",
+      "text": "Goal! Argentina 2, Austria 0. Lionel Messi (Argentina) left footed shot from the left side of the six yard box to the centre of the goal following a fast break."
+    },
+    {
+      "minute": "90+4'",
+      "text": "Attempt saved. Julián Alvarez (Argentina) left footed shot from the centre of the box is saved in the centre of the goal by Alexander Schlager (Austria). Assisted by Lionel Messi with a through ball."
+    },
+    {
+      "minute": "90+3'",
+      "text": "Handball by Nicolás Otamendi (Argentina)."
+    },
+    {
+      "minute": "90+3'",
+      "text": "Attempt missed. Patrick Wimmer (Austria) header from the centre of the box is close, but misses to the left. Assisted by Kevin Danso with a headed pass following a set piece situation."
+    },
+    {
+      "minute": "90+2'",
+      "text": "Carney Chukwuemeka (Austria) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "90+2'",
+      "text": "Foul by Leandro Paredes (Argentina)."
+    },
+    {
+      "minute": "90+2'",
+      "text": "Leandro Paredes (Argentina) is shown the yellow card for a bad foul."
+    },
+    {
+      "minute": "90+1'",
+      "text": "Nico González (Argentina) wins a free kick on the left wing."
+    },
+    {
+      "minute": "90'",
+      "text": "Fourth official has announced 5 minutes of added time."
+    },
+    {
+      "minute": "89'",
+      "text": "Patrick Wimmer (Austria) wins a free kick on the left wing."
+    },
+    {
+      "minute": "89'",
+      "text": "Foul by Nicolás Otamendi (Argentina)."
+    },
+    {
+      "minute": "88'",
+      "text": "Nicolás Tagliafico (Argentina) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "86'",
+      "text": "Attempt blocked. Nico González (Argentina) right footed shot from the centre of the box is blocked. Assisted by Lisandro Martínez with a through ball."
+    },
+    {
+      "minute": "86'",
+      "text": "Attempt blocked. Enzo Fernández (Argentina) right footed shot from the centre of the box is blocked."
+    },
+    {
+      "minute": "85'",
+      "text": "Substitution, Austria. Carney Chukwuemeka replaces Michael Gregoritsch."
+    },
+    {
+      "minute": "82'",
+      "text": "Substitution, Argentina. Leandro Paredes replaces Rodrigo De Paul."
+    },
+    {
+      "minute": "82'",
+      "text": "Substitution, Argentina. Nicolás Tagliafico replaces Facundo Medina."
+    },
+    {
+      "minute": "81'",
+      "text": "Corner, Austria. Conceded by Facundo Medina."
+    },
+    {
+      "minute": "80'",
+      "text": "Delay over. They are ready to continue."
+    },
+    {
+      "minute": "79'",
+      "text": "Delay in match because of an injury Emiliano Martínez (Argentina)."
+    },
+    {
+      "minute": "78'",
+      "text": "Substitution, Austria. Patrick Wimmer replaces Romano Schmid."
+    },
+    {
+      "minute": "76'",
+      "text": "Foul by Konrad Laimer (Austria)."
+    },
+    {
+      "minute": "76'",
+      "text": "Nico González (Argentina) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "76'",
+      "text": "Facundo Medina (Argentina) is shown the yellow card."
+    },
+    {
+      "minute": "76'",
+      "text": "Konrad Laimer (Austria) is shown the yellow card."
+    },
+    {
+      "minute": "75'",
+      "text": "Foul by Xaver Schlager (Austria)."
+    },
+    {
+      "minute": "75'",
+      "text": "Enzo Fernández (Argentina) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "73'",
+      "text": "Corner, Argentina. Conceded by Romano Schmid."
+    },
+    {
+      "minute": "73'",
+      "text": "Attempt missed. Nico González (Argentina) header from the centre of the box is close, but misses to the right. Assisted by Lionel Messi with a cross following a corner."
+    },
+    {
+      "minute": "69'",
+      "text": "Delay in match for a drinks break."
+    },
+    {
+      "minute": "68'",
+      "text": "Substitution, Austria. Alexander Prass replaces Stefan Posch."
+    },
+    {
+      "minute": "68'",
+      "text": "Substitution, Austria. Marko Arnautovic replaces Paul Wanner."
+    },
+    {
+      "minute": "67'",
+      "text": "Attempt missed. Michael Gregoritsch (Austria) header from the centre of the box is too high. Assisted by Marcel Sabitzer with a cross."
+    },
+    {
+      "minute": "67'",
+      "text": "Substitution, Austria. Marco Friedl replaces David Alaba."
+    },
+    {
+      "minute": "65'",
+      "text": "Substitution, Argentina. Nico González replaces Lautaro Martínez."
+    },
+    {
+      "minute": "65'",
+      "text": "Attempt missed. Lionel Messi (Argentina) left footed shot from the left side of the box misses to the right. Assisted by Enzo Fernández."
+    },
+    {
+      "minute": "64'",
+      "text": "Substitution, Argentina. Julián Alvarez replaces Thiago Almada."
+    },
+    {
+      "minute": "62'",
+      "text": "Delay in match because of an injury Kevin Danso (Austria)."
+    },
+    {
+      "minute": "61'",
+      "text": "Attempt blocked. Enzo Fernández (Argentina) right footed shot from outside the box is blocked. Assisted by Thiago Almada."
+    },
+    {
+      "minute": "57'",
+      "text": "Foul by Paul Wanner (Austria)."
+    },
+    {
+      "minute": "57'",
+      "text": "Lautaro Martínez (Argentina) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "57'",
+      "text": "Substitution, Argentina. Nicolás Otamendi replaces Cristian Romero because of an injury."
+    },
+    {
+      "minute": "55'",
+      "text": "Attempt saved. Marcel Sabitzer (Austria) right footed shot from outside the box is saved in the top centre of the goal by Emiliano Martínez (Argentina)."
+    },
+    {
+      "minute": "54'",
+      "text": "Konrad Laimer (Austria) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "54'",
+      "text": "Foul by Cristian Romero (Argentina)."
+    },
+    {
+      "minute": "53'",
+      "text": "Romano Schmid (Austria) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "53'",
+      "text": "Foul by Enzo Fernández (Argentina)."
+    },
+    {
+      "minute": "50'",
+      "text": "Offside, Argentina. Lionel Messi is caught offside."
+    },
+    {
+      "minute": "48'",
+      "text": "Lionel Messi (Argentina) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "46'",
+      "text": "Attempt missed. Marcel Sabitzer (Austria) right footed shot from outside the box misses to the left. Assisted by Nicolas Seiwald."
+    },
+    {
+      "minute": "45'",
+      "text": "Second Half begins Argentina 1, Austria 0."
+    },
+    {
+      "minute": "45+7'",
+      "text": "First Half ends, Argentina 1, Austria 0."
+    },
+    {
+      "minute": "45+2'",
+      "text": "Konrad Laimer (Austria) wins a free kick on the left wing."
+    },
+    {
+      "minute": "45+2'",
+      "text": "Foul by Lautaro Martínez (Argentina)."
+    },
+    {
+      "minute": "45+1'",
+      "text": "Fourth official has announced 7 minutes of added time."
+    },
+    {
+      "minute": "45'",
+      "text": "Romano Schmid (Austria) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "44'",
+      "text": "Foul by Alexis Mac Allister (Argentina)."
+    },
+    {
+      "minute": "43'",
+      "text": "Foul by Kevin Danso (Austria)."
+    },
+    {
+      "minute": "40'",
+      "text": "Stefan Posch (Austria) is shown the yellow card."
+    },
+    {
+      "minute": "38'",
+      "text": "Goal! Argentina 1, Austria 0. Lionel Messi (Argentina) left footed shot from the centre of the box to the bottom left corner. Assisted by Facundo Medina following a fast break."
+    },
+    {
+      "minute": "35'",
+      "text": "Marcel Sabitzer (Austria) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "35'",
+      "text": "Foul by Nahuel Molina (Argentina)."
+    },
+    {
+      "minute": "32'",
+      "text": "Foul by Facundo Medina (Argentina)."
+    },
+    {
+      "minute": "29'",
+      "text": "Corner, Austria. Conceded by Nahuel Molina."
+    },
+    {
+      "minute": "23'",
+      "text": "Attempt missed. Paul Wanner (Austria) header from the centre of the box misses to the left. Assisted by Stefan Posch with a cross."
+    },
+    {
+      "minute": "23'",
+      "text": "Attempt missed. Marcel Sabitzer (Austria) left footed shot from the centre of the box is close, but misses to the right. Assisted by Paul Wanner."
+    },
+    {
+      "minute": "23'",
+      "text": "Corner, Austria. Conceded by Cristian Romero."
+    },
+    {
+      "minute": "21'",
+      "text": "Konrad Laimer (Austria) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "21'",
+      "text": "Delay in match (Austria)."
+    },
+    {
+      "minute": "21'",
+      "text": "Delay in match because of an injury Rodrigo De Paul (Argentina)."
+    },
+    {
+      "minute": "18'",
+      "text": "Alexis Mac Allister (Argentina) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "16'",
+      "text": "Handball by Romano Schmid (Austria)."
+    },
+    {
+      "minute": "14'",
+      "text": "Paul Wanner (Austria) wins a free kick on the left wing."
+    },
+    {
+      "minute": "11'",
+      "text": "Michael Gregoritsch (Austria) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "11'",
+      "text": "Foul by Lisandro Martínez (Argentina)."
+    },
+    {
+      "minute": "10'",
+      "text": "Foul by Romano Schmid (Austria)."
+    },
+    {
+      "minute": "10'",
+      "text": "Facundo Medina (Argentina) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "9'",
+      "text": "PEN\nPenalty missed. Lionel Messi (Argentina) left footed shot is close, but misses to the right."
+    },
+    {
+      "minute": "7'",
+      "text": "VAR Decision: Penalty Argentina."
+    },
+    {
+      "minute": "4'",
+      "text": "Penalty conceded by Stefan Posch (Austria) after a foul in the penalty area."
+    },
+    {
+      "minute": "4'",
+      "text": "Penalty Argentina. Lautaro Martínez draws a foul in the penalty area."
+    },
+    {
+      "minute": "4'",
+      "text": "Delay in match because of an injury Lautaro Martínez (Argentina)."
+    },
+    {
+      "minute": "2'",
+      "text": "Offside, Argentina. Thiago Almada is caught offside."
+    },
+    {
+      "minute": "",
+      "text": "First Half begins."
+    },
+    {
+      "minute": "",
+      "text": "Lineups are announced and players are warming up."
+    }
+  ]
+}

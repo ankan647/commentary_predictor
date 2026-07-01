@@ -1,0 +1,368 @@
+{
+  "match_name": "France_vs_Norway",
+  "url": "https://www.livescore.com/en/football/international/world-cup-2026/norway-vs-france/1417961/?tab=commentary",
+  "scraped_at": "2026-07-01 14:14:05",
+  "total_entries": 90,
+  "raw_entries": [
+    {
+      "minute": "",
+      "text": "Match ends, Norway 1, France 4."
+    },
+    {
+      "minute": "90+6'",
+      "text": "Second Half ends, Norway 1, France 4."
+    },
+    {
+      "minute": "90+5'",
+      "text": "Thelo Aasgaard (Norway) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "90+5'",
+      "text": "Foul by Rayan Cherki (France)."
+    },
+    {
+      "minute": "90+4'",
+      "text": "Goal! Norway 1, France 4. Désiré Doué (France) header from the centre of the box to the bottom right corner. Assisted by Bradley Barcola with a cross."
+    },
+    {
+      "minute": "90+2'",
+      "text": "Attempt missed. Théo Hernández (France) left footed shot from outside the box is too high. Assisted by Bradley Barcola."
+    },
+    {
+      "minute": "90+1'",
+      "text": "Handball by Fredrik Aursnes (Norway)."
+    },
+    {
+      "minute": "90'",
+      "text": "Fourth official has announced 5 minutes of added time."
+    },
+    {
+      "minute": "88'",
+      "text": "Offside, Norway. Jørgen Strand Larsen is caught offside."
+    },
+    {
+      "minute": "87'",
+      "text": "Substitution, France. Malo Gusto replaces Jules Koundé."
+    },
+    {
+      "minute": "87'",
+      "text": "Substitution, France. Jean-Philippe Mateta replaces Kylian Mbappé."
+    },
+    {
+      "minute": "87'",
+      "text": "Attempt missed. Fredrik Aursnes (Norway) right footed shot from outside the box is high and wide to the right."
+    },
+    {
+      "minute": "83'",
+      "text": "Corner, Norway. Conceded by Jules Koundé."
+    },
+    {
+      "minute": "83'",
+      "text": "Substitution, Norway. Antonio Nusa replaces Oscar Bobb."
+    },
+    {
+      "minute": "83'",
+      "text": "Substitution, Norway. Jens Petter Hauge replaces Andreas Schjelderup."
+    },
+    {
+      "minute": "82'",
+      "text": "Oscar Bobb (Norway) wins a free kick on the right wing."
+    },
+    {
+      "minute": "82'",
+      "text": "Foul by Bradley Barcola (France)."
+    },
+    {
+      "minute": "81'",
+      "text": "Corner, France. Conceded by Egil Selvik."
+    },
+    {
+      "minute": "79'",
+      "text": "Attempt blocked. Patrick Berg (Norway) right footed shot from outside the box is blocked. Assisted by Jørgen Strand Larsen."
+    },
+    {
+      "minute": "76'",
+      "text": "Substitution, France. Ibrahima Konaté replaces Dayot Upamecano."
+    },
+    {
+      "minute": "74'",
+      "text": "Foul by Aurélien Tchouaméni (France)."
+    },
+    {
+      "minute": "74'",
+      "text": "Aurélien Tchouaméni (France) is shown the yellow card for a bad foul."
+    },
+    {
+      "minute": "72'",
+      "text": "Attempt saved. Oscar Bobb (Norway) left footed shot from the centre of the box is saved in the bottom left corner by Mike Maignan (France). Assisted by Thelo Aasgaard."
+    },
+    {
+      "minute": "71'",
+      "text": "Delay over. They are ready to continue."
+    },
+    {
+      "minute": "68'",
+      "text": "Delay in match for a drinks break."
+    },
+    {
+      "minute": "67'",
+      "text": "Foul by Morten Thorsby (Norway)."
+    },
+    {
+      "minute": "67'",
+      "text": "Manu Koné (France) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "66'",
+      "text": "Substitution, Norway. Sondre Langås replaces Henrik Falchener."
+    },
+    {
+      "minute": "65'",
+      "text": "Corner, France. Conceded by Thelo Aasgaard."
+    },
+    {
+      "minute": "65'",
+      "text": "Substitution, France. Rayan Cherki replaces Michael Olise."
+    },
+    {
+      "minute": "65'",
+      "text": "Substitution, France. Bradley Barcola replaces Ousmane Dembélé."
+    },
+    {
+      "minute": "64'",
+      "text": "Attempt blocked. Kylian Mbappé (France) right footed shot from the centre of the box is blocked."
+    },
+    {
+      "minute": "63'",
+      "text": "Jørgen Strand Larsen (Norway) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "63'",
+      "text": "Foul by Maxence Lacroix (France)."
+    },
+    {
+      "minute": "63'",
+      "text": "Attempt blocked. Oscar Bobb (Norway) left footed shot from the right side of the box is blocked. Assisted by Jørgen Strand Larsen."
+    },
+    {
+      "minute": "62'",
+      "text": "Foul by Oscar Bobb (Norway)."
+    },
+    {
+      "minute": "62'",
+      "text": "Théo Hernández (France) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "61'",
+      "text": "Foul by Leo Østigård (Norway)."
+    },
+    {
+      "minute": "61'",
+      "text": "Désiré Doué (France) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "61'",
+      "text": "Offside, France. Maxence Lacroix is caught offside."
+    },
+    {
+      "minute": "56'",
+      "text": "Attempt missed. Kylian Mbappé (France) right footed shot from outside the box is just a bit too high. Assisted by Désiré Doué."
+    },
+    {
+      "minute": "56'",
+      "text": "Delay in match because of an injury Egil Selvik (Norway)."
+    },
+    {
+      "minute": "55'",
+      "text": "Attempt missed. Leo Østigård (Norway) header from the left side of the six yard box misses to the right. Assisted by Patrick Berg with a cross following a corner."
+    },
+    {
+      "minute": "54'",
+      "text": "Corner, Norway. Conceded by Dayot Upamecano."
+    },
+    {
+      "minute": "50'",
+      "text": "Penalty saved. Jørgen Strand Larsen (Norway) right footed shot saved in the bottom right corner by Mike Maignan (France)."
+    },
+    {
+      "minute": "48'",
+      "text": "Penalty Norway. Oscar Bobb draws a foul in the penalty area."
+    },
+    {
+      "minute": "48'",
+      "text": "Penalty conceded by Théo Hernández (France) after a foul in the penalty area."
+    },
+    {
+      "minute": "45'",
+      "text": "Substitution, Norway. Morten Thorsby replaces Kristian Thorstvedt."
+    },
+    {
+      "minute": "45'",
+      "text": "Substitution, Norway. Marcus Pedersen replaces Fredrik Bjørkan."
+    },
+    {
+      "minute": "45'",
+      "text": "Second Half begins Norway 1, France 3."
+    },
+    {
+      "minute": "45+6'",
+      "text": "First Half ends, Norway 1, France 3."
+    },
+    {
+      "minute": "45+2'",
+      "text": "Foul by Andreas Schjelderup (Norway)."
+    },
+    {
+      "minute": "45+2'",
+      "text": "Michael Olise (France) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "45+1'",
+      "text": "Attempt missed. Michael Olise (France) right footed shot from the centre of the box is too high. Assisted by Désiré Doué."
+    },
+    {
+      "minute": "40'",
+      "text": "Handball by Jules Koundé (France)."
+    },
+    {
+      "minute": "36'",
+      "text": "Andreas Schjelderup (Norway) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "36'",
+      "text": "Foul by Dayot Upamecano (France)."
+    },
+    {
+      "minute": "35'",
+      "text": "Attempt missed. Aurélien Tchouaméni (France) right footed shot from outside the box is too high. Assisted by Ousmane Dembélé."
+    },
+    {
+      "minute": "32'",
+      "text": "Goal! Norway 1, France 3. Ousmane Dembélé (France) left footed shot from the centre of the box to the bottom left corner. Assisted by Aurélien Tchouaméni."
+    },
+    {
+      "minute": "28'",
+      "text": "Foul by Kristian Thorstvedt (Norway)."
+    },
+    {
+      "minute": "24'",
+      "text": "Attempt missed. Théo Hernández (France) left footed shot from outside the box is too high. Assisted by Aurélien Tchouaméni."
+    },
+    {
+      "minute": "23'",
+      "text": "Corner, France. Conceded by Fredrik Aursnes."
+    },
+    {
+      "minute": "23'",
+      "text": "Attempt blocked. Michael Olise (France) right footed shot from the centre of the box is blocked. Assisted by Kylian Mbappé."
+    },
+    {
+      "minute": "23'",
+      "text": "Attempt missed. Désiré Doué (France) right footed shot from outside the box misses to the left. Assisted by Jules Koundé following a corner."
+    },
+    {
+      "minute": "22'",
+      "text": "Corner, France. Conceded by Fredrik Bjørkan."
+    },
+    {
+      "minute": "21'",
+      "text": "Goal! Norway 1, France 2. Thelo Aasgaard (Norway) right footed shot from the centre of the box to the bottom left corner. Assisted by Andreas Schjelderup."
+    },
+    {
+      "minute": "20'",
+      "text": "Goal! Norway 0, France 2. Ousmane Dembélé (France) left footed shot from outside the box to the bottom left corner. Assisted by Kylian Mbappé following a fast break."
+    },
+    {
+      "minute": "19'",
+      "text": "Attempt blocked. Thelo Aasgaard (Norway) right footed shot from outside the box is blocked. Assisted by Fredrik Bjørkan."
+    },
+    {
+      "minute": "17'",
+      "text": "Attempt saved. Kylian Mbappé (France) right footed shot from the left side of the box is saved in the bottom left corner by Egil Selvik (Norway). Assisted by Désiré Doué with a through ball."
+    },
+    {
+      "minute": "16'",
+      "text": "Offside, France. Ousmane Dembélé is caught offside."
+    },
+    {
+      "minute": "14'",
+      "text": "Attempt missed. Jørgen Strand Larsen (Norway) right footed shot from the centre of the box is too high. Assisted by Fredrik Aursnes with a cross following a set piece situation."
+    },
+    {
+      "minute": "13'",
+      "text": "Attempt blocked. Michael Olise (France) left footed shot from the centre of the box is blocked. Assisted by Kylian Mbappé."
+    },
+    {
+      "minute": "13'",
+      "text": "Kristian Thorstvedt (Norway) wins a free kick on the right wing."
+    },
+    {
+      "minute": "12'",
+      "text": "Jørgen Strand Larsen (Norway) wins a free kick on the right wing."
+    },
+    {
+      "minute": "11'",
+      "text": "Attempt saved. Kristian Thorstvedt (Norway) left footed shot from outside the box is saved in the bottom right corner by Mike Maignan (France)."
+    },
+    {
+      "minute": "10'",
+      "text": "Foul by Patrick Berg (Norway)."
+    },
+    {
+      "minute": "10'",
+      "text": "Michael Olise (France) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "10'",
+      "text": "Patrick Berg (Norway) is shown the yellow card for a bad foul."
+    },
+    {
+      "minute": "9'",
+      "text": "Oscar Bobb (Norway) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "9'",
+      "text": "Foul by Théo Hernández (France)."
+    },
+    {
+      "minute": "8'",
+      "text": "Attempt saved. Désiré Doué (France) right footed shot from outside the box is saved in the bottom right corner by Egil Selvik (Norway). Assisted by Manu Koné."
+    },
+    {
+      "minute": "7'",
+      "text": "Goal! Norway 0, France 1. Ousmane Dembélé (France) right footed shot from the right side of the box to the bottom left corner. Assisted by Kylian Mbappé."
+    },
+    {
+      "minute": "6'",
+      "text": "Jules Koundé (France) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "5'",
+      "text": "Corner, France. Conceded by Henrik Falchener."
+    },
+    {
+      "minute": "5'",
+      "text": "Attempt saved. Désiré Doué (France) right footed shot from outside the box is saved in the centre of the goal by Egil Selvik (Norway). Assisted by Théo Hernández."
+    },
+    {
+      "minute": "4'",
+      "text": "Attempt saved. Manu Koné (France) right footed shot from the centre of the box is saved in the top right corner by Egil Selvik (Norway)."
+    },
+    {
+      "minute": "2'",
+      "text": "Delay in match (France)."
+    },
+    {
+      "minute": "1'",
+      "text": "Attempt saved. Kylian Mbappé (France) right footed shot from the right side of the box is saved in the top centre of the goal by Egil Selvik (Norway). Assisted by Ousmane Dembélé."
+    },
+    {
+      "minute": "",
+      "text": "First Half begins."
+    },
+    {
+      "minute": "",
+      "text": "Lineups are announced and players are warming up."
+    }
+  ]
+}

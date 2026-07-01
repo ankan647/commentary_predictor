@@ -1,0 +1,444 @@
+{
+  "match_name": "Canada_vs_Qatar",
+  "url": "https://www.livescore.com/en/football/international/world-cup-2026/canada-vs-qatar/1417918/?tab=commentary",
+  "scraped_at": "2026-07-01 14:05:09",
+  "total_entries": 109,
+  "raw_entries": [
+    {
+      "minute": "",
+      "text": "Match ends, Canada 6, Qatar 0."
+    },
+    {
+      "minute": "90+10'",
+      "text": "Attempt missed. Nathan Saliba (Canada) header from the centre of the box misses to the left. Assisted by Alistair Johnston following a corner."
+    },
+    {
+      "minute": "90+10'",
+      "text": "Second Half ends, Canada 6, Qatar 0."
+    },
+    {
+      "minute": "90+9'",
+      "text": "Corner, Canada. Conceded by Sultan Al Brake."
+    },
+    {
+      "minute": "90+8'",
+      "text": "Attempt missed. Cyle Larin (Canada) header from very close range misses to the left. Assisted by Alistair Johnston with a cross."
+    },
+    {
+      "minute": "90+8'",
+      "text": "Al Hashmi Al Hussain (Qatar) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "90+8'",
+      "text": "Foul by Tani Oluwaseyi (Canada)."
+    },
+    {
+      "minute": "90+7'",
+      "text": "Offside, Qatar. Lucas Mendes is caught offside."
+    },
+    {
+      "minute": "90+6'",
+      "text": "Pedro Miguel (Qatar) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "90+6'",
+      "text": "Foul by Cyle Larin (Canada)."
+    },
+    {
+      "minute": "90+5'",
+      "text": "Attempt blocked. Cyle Larin (Canada) header from very close range is blocked. Assisted by Alistair Johnston with a cross."
+    },
+    {
+      "minute": "90+5'",
+      "text": "Corner, Canada. Conceded by Boualem Khoukhi."
+    },
+    {
+      "minute": "90+3'",
+      "text": "Foul by Al Hashmi Al Hussain (Qatar)."
+    },
+    {
+      "minute": "90+3'",
+      "text": "Richie Laryea (Canada) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "90+2'",
+      "text": "Attempt blocked. Nathan Saliba (Canada) right footed shot from outside the box is blocked. Assisted by Jacob Shaffelburg."
+    },
+    {
+      "minute": "90+2'",
+      "text": "Goal! Canada 6, Qatar 0. Jonathan David (Canada) left footed shot from the centre of the box to the top left corner. Assisted by Nathan Saliba."
+    },
+    {
+      "minute": "90'",
+      "text": "Attempt blocked. Niko Sigur (Canada) right footed shot from outside the box is blocked. Assisted by Richie Laryea."
+    },
+    {
+      "minute": "90'",
+      "text": "Boualem Khoukhi (Qatar) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "90'",
+      "text": "Fourth official has announced 9 minutes of added time."
+    },
+    {
+      "minute": "90'",
+      "text": "Issa Laye (Qatar) wins a free kick on the right wing."
+    },
+    {
+      "minute": "89'",
+      "text": "Corner, Canada. Conceded by Pedro Miguel."
+    },
+    {
+      "minute": "87'",
+      "text": "Corner, Canada. Conceded by Ayoub Al Oui."
+    },
+    {
+      "minute": "87'",
+      "text": "Substitution, Qatar. Lucas Mendes replaces Ahmed Fathy."
+    },
+    {
+      "minute": "87'",
+      "text": "Foul by Moïse Bombito (Canada)."
+    },
+    {
+      "minute": "86'",
+      "text": "Attempt blocked. Jonathan David (Canada) left footed shot from outside the box is blocked. Assisted by Stephen Eustaquio."
+    },
+    {
+      "minute": "84'",
+      "text": "Attempt blocked. Jonathan David (Canada) left footed shot from outside the box is blocked."
+    },
+    {
+      "minute": "84'",
+      "text": "Attempt blocked. Tani Oluwaseyi (Canada) left footed shot from the left side of the six yard box is blocked. Assisted by Cyle Larin."
+    },
+    {
+      "minute": "83'",
+      "text": "Substitution, Canada. Niko Sigur replaces Tajon Buchanan."
+    },
+    {
+      "minute": "83'",
+      "text": "Delay over. They are ready to continue."
+    },
+    {
+      "minute": "82'",
+      "text": "Attempt missed. Jacob Shaffelburg (Canada) left footed shot from a difficult angle on the left is high and wide to the left."
+    },
+    {
+      "minute": "82'",
+      "text": "Delay in match because of an injury Mahmoud Abunada (Qatar)."
+    },
+    {
+      "minute": "80'",
+      "text": "Attempt missed. Jacob Shaffelburg (Canada) left footed shot from outside the box misses to the right following a corner."
+    },
+    {
+      "minute": "79'",
+      "text": "Corner, Canada. Conceded by Mahmoud Abunada."
+    },
+    {
+      "minute": "78'",
+      "text": "Attempt blocked. Richie Laryea (Canada) right footed shot from outside the box is blocked. Assisted by Nathan Saliba."
+    },
+    {
+      "minute": "78'",
+      "text": "Corner, Canada. Conceded by Ahmed Fathy."
+    },
+    {
+      "minute": "77'",
+      "text": "Attempt missed. Tajon Buchanan (Canada) right footed shot from outside the box is too high. Assisted by Alistair Johnston."
+    },
+    {
+      "minute": "75'",
+      "text": "Attempt blocked. Tajon Buchanan (Canada) left footed shot from the right side of the box is blocked."
+    },
+    {
+      "minute": "75'",
+      "text": "Attempt missed. Jacob Shaffelburg (Canada) left footed shot from the centre of the box is close, but misses to the right."
+    },
+    {
+      "minute": "75'",
+      "text": "Own Goal by Mohammad Al Manai, Qatar. Canada 5, Qatar 0."
+    },
+    {
+      "minute": "73'",
+      "text": "Corner, Canada. Conceded by Al Hashmi Al Hussain."
+    },
+    {
+      "minute": "72'",
+      "text": "Foul by Mohammad Al Manai (Qatar)."
+    },
+    {
+      "minute": "72'",
+      "text": "Stephen Eustaquio (Canada) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "71'",
+      "text": "Substitution, Canada. Jacob Shaffelburg replaces Luc De Fougerolles."
+    },
+    {
+      "minute": "71'",
+      "text": "Substitution, Canada. Tani Oluwaseyi replaces Ali Ahmed."
+    },
+    {
+      "minute": "68'",
+      "text": "Delay in match for a drinks break."
+    },
+    {
+      "minute": "64'",
+      "text": "Goal! Canada 4, Qatar 0. Nathan Saliba (Canada) from a free kick with a right footed shot to the bottom right corner."
+    },
+    {
+      "minute": "62'",
+      "text": "Foul by Ahmed Fathy (Qatar)."
+    },
+    {
+      "minute": "62'",
+      "text": "Ali Ahmed (Canada) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "62'",
+      "text": "Ahmed Fathy (Qatar) is shown the yellow card for a bad foul."
+    },
+    {
+      "minute": "60'",
+      "text": "Richie Laryea (Canada) wins a free kick on the left wing."
+    },
+    {
+      "minute": "59'",
+      "text": "Substitution, Qatar. Al Hashmi Al Hussain replaces Akram Afif."
+    },
+    {
+      "minute": "58'",
+      "text": "Ahmed Fathy (Qatar) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "58'",
+      "text": "Foul by Tajon Buchanan (Canada)."
+    },
+    {
+      "minute": "57'",
+      "text": "Substitution, Canada. Nathan Saliba replaces Ismaël Koné because of an injury."
+    },
+    {
+      "minute": "53'",
+      "text": "Delay in match (Qatar). VAR checking."
+    },
+    {
+      "minute": "53'",
+      "text": "VAR Decision: Card upgraded Assim Madibo (Qatar)."
+    },
+    {
+      "minute": "53'",
+      "text": "Assim Madibo (Qatar) is shown the red card."
+    },
+    {
+      "minute": "51'",
+      "text": "Foul by Assim Madibo (Qatar)."
+    },
+    {
+      "minute": "51'",
+      "text": "Ismaël Koné (Canada) wins a free kick on the left wing."
+    },
+    {
+      "minute": "51'",
+      "text": "Delay in match because of an injury Ismaël Koné (Canada)."
+    },
+    {
+      "minute": "50'",
+      "text": "Attempt blocked. Cyle Larin (Canada) left footed shot from the centre of the box is blocked. Assisted by Ismaël Koné."
+    },
+    {
+      "minute": "50'",
+      "text": "Corner, Canada. Conceded by Mohammad Al Manai."
+    },
+    {
+      "minute": "48'",
+      "text": "Attempt blocked. Ismaël Koné (Canada) left footed shot from the centre of the box is blocked. Assisted by Richie Laryea."
+    },
+    {
+      "minute": "45'",
+      "text": "Substitution, Qatar. Ahmed Fathy replaces Edmílson Junior."
+    },
+    {
+      "minute": "45'",
+      "text": "Substitution, Qatar. Mohammad Al Manai replaces Jassem Gaber."
+    },
+    {
+      "minute": "45'",
+      "text": "Second Half begins Canada 3, Qatar 0."
+    },
+    {
+      "minute": "45'",
+      "text": "Substitution, Canada. Moïse Bombito replaces Derek Cornelius."
+    },
+    {
+      "minute": "45+6'",
+      "text": "First Half ends, Canada 3, Qatar 0."
+    },
+    {
+      "minute": "45+5'",
+      "text": "Attempt saved. Alistair Johnston (Canada) right footed shot from the right side of the box is saved in the centre of the goal by Mahmoud Abunada (Qatar). Assisted by Tajon Buchanan."
+    },
+    {
+      "minute": "45+3'",
+      "text": "Attempt saved. Cyle Larin (Canada) header from the centre of the box is saved in the top left corner by Mahmoud Abunada (Qatar). Assisted by Alistair Johnston with a cross."
+    },
+    {
+      "minute": "45+3'",
+      "text": "Goal! Canada 3, Qatar 0. Jonathan David (Canada) right footed shot from very close range to the centre of the goal."
+    },
+    {
+      "minute": "45'",
+      "text": "Attempt blocked. Cyle Larin (Canada) right footed shot from the right side of the box is blocked. Assisted by Tajon Buchanan."
+    },
+    {
+      "minute": "45'",
+      "text": "Fourth official has announced 6 minutes of added time."
+    },
+    {
+      "minute": "43'",
+      "text": "Corner, Canada. Conceded by Assim Madibo."
+    },
+    {
+      "minute": "41'",
+      "text": "Offside, Canada. Tajon Buchanan is caught offside."
+    },
+    {
+      "minute": "40'",
+      "text": "Attempt blocked. Jonathan David (Canada) right footed shot from the right side of the box is blocked. Assisted by Luc De Fougerolles."
+    },
+    {
+      "minute": "40'",
+      "text": "Substitution, Qatar. Sultan Al Brake replaces Yusuf Abdurisag."
+    },
+    {
+      "minute": "38'",
+      "text": "Attempt blocked. Tajon Buchanan (Canada) right footed shot from very close range is blocked. Assisted by Richie Laryea."
+    },
+    {
+      "minute": "38'",
+      "text": "Edmílson Junior (Qatar) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "38'",
+      "text": "Foul by Derek Cornelius (Canada)."
+    },
+    {
+      "minute": "35'",
+      "text": "Attempt missed. Ali Ahmed (Canada) right footed shot from outside the box is too high from a direct free kick."
+    },
+    {
+      "minute": "33'",
+      "text": "VAR Decision: No Penalty Canada."
+    },
+    {
+      "minute": "33'",
+      "text": "Homam El Amin (Qatar) is shown the red card."
+    },
+    {
+      "minute": "31'",
+      "text": "Foul by Homam El Amin (Qatar)."
+    },
+    {
+      "minute": "31'",
+      "text": "Tajon Buchanan (Canada) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "29'",
+      "text": "Attempt blocked. Tajon Buchanan (Canada) left footed shot from outside the box is blocked. Assisted by Luc De Fougerolles."
+    },
+    {
+      "minute": "29'",
+      "text": "Goal! Canada 2, Qatar 0. Jonathan David (Canada) right footed shot from the right side of the box to the bottom right corner."
+    },
+    {
+      "minute": "28'",
+      "text": "Foul by Jassem Gaber (Qatar)."
+    },
+    {
+      "minute": "28'",
+      "text": "Richie Laryea (Canada) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "22'",
+      "text": "Delay in match because of an injury Boualem Khoukhi (Qatar)."
+    },
+    {
+      "minute": "21'",
+      "text": "Attempt missed. Derek Cornelius (Canada) header from the centre of the box is high and wide to the left. Assisted by Ali Ahmed with a cross following a set piece situation."
+    },
+    {
+      "minute": "20'",
+      "text": "Foul by Yusuf Abdurisag (Qatar)."
+    },
+    {
+      "minute": "20'",
+      "text": "Alistair Johnston (Canada) wins a free kick on the right wing."
+    },
+    {
+      "minute": "18'",
+      "text": "Corner, Canada. Conceded by Issa Laye."
+    },
+    {
+      "minute": "16'",
+      "text": "Corner, Canada. Conceded by Edmílson Junior."
+    },
+    {
+      "minute": "16'",
+      "text": "Attempt saved. Jonathan David (Canada) right footed shot from the centre of the box is saved in the top centre of the goal by Mahmoud Abunada (Qatar). Assisted by Alistair Johnston with a cross."
+    },
+    {
+      "minute": "16'",
+      "text": "Goal! Canada 1, Qatar 0. Cyle Larin (Canada) left footed shot from very close range to the bottom right corner following a corner."
+    },
+    {
+      "minute": "15'",
+      "text": "Attempt blocked. Stephen Eustaquio (Canada) right footed shot from outside the box is blocked."
+    },
+    {
+      "minute": "14'",
+      "text": "Tajon Buchanan (Canada) wins a free kick on the right wing."
+    },
+    {
+      "minute": "12'",
+      "text": "Tajon Buchanan (Canada) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "10'",
+      "text": "Attempt blocked. Boualem Khoukhi (Qatar) right footed shot from outside the box is blocked."
+    },
+    {
+      "minute": "10'",
+      "text": "Corner, Qatar. Conceded by Jonathan David."
+    },
+    {
+      "minute": "9'",
+      "text": "Akram Afif (Qatar) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "9'",
+      "text": "Derek Cornelius (Canada) is shown the yellow card for a bad foul."
+    },
+    {
+      "minute": "7'",
+      "text": "Attempt saved. Jonathan David (Canada) right footed shot from the left side of the box is saved in the bottom left corner by Mahmoud Abunada (Qatar). Assisted by Ali Ahmed with a cross."
+    },
+    {
+      "minute": "6'",
+      "text": "Corner, Canada. Conceded by Homam El Amin."
+    },
+    {
+      "minute": "1'",
+      "text": "Attempt missed. Edmílson Junior (Qatar) right footed shot from the right side of the box misses to the right. Assisted by Homam El Amin with a cross."
+    },
+    {
+      "minute": "",
+      "text": "First Half begins."
+    },
+    {
+      "minute": "",
+      "text": "Lineups are announced and players are warming up."
+    }
+  ]
+}

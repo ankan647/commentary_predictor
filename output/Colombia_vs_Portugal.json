@@ -1,0 +1,400 @@
+{
+  "match_name": "Colombia_vs_Portugal",
+  "url": "https://www.livescore.com/en/football/international/world-cup-2026/colombia-vs-portugal/1417973/?tab=commentary",
+  "scraped_at": "2026-07-01 14:27:48",
+  "total_entries": 98,
+  "raw_entries": [
+    {
+      "minute": "",
+      "text": "Match ends, Colombia 0, Portugal 0."
+    },
+    {
+      "minute": "90+6'",
+      "text": "Second Half ends, Colombia 0, Portugal 0."
+    },
+    {
+      "minute": "90+5'",
+      "text": "Attempt blocked. Gustavo Puerta (Colombia) right footed shot from the centre of the box is blocked. Assisted by Luis Díaz."
+    },
+    {
+      "minute": "90+5'",
+      "text": "Diogo Costa (Portugal) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "90+5'",
+      "text": "Foul by Daniel Muñoz (Colombia)."
+    },
+    {
+      "minute": "90+3'",
+      "text": "Attempt missed. Rafael Leão (Portugal) right footed shot from the left side of the box misses to the right. Assisted by Renato Veiga."
+    },
+    {
+      "minute": "90+2'",
+      "text": "Substitution, Portugal. Matheus Nunes replaces Nuno Mendes."
+    },
+    {
+      "minute": "90+1'",
+      "text": "Attempt missed. Luis Suárez (Colombia) header from the centre of the box misses to the left. Assisted by Daniel Muñoz with a cross."
+    },
+    {
+      "minute": "90+1'",
+      "text": "Fourth official has announced 5 minutes of added time."
+    },
+    {
+      "minute": "90+1'",
+      "text": "Corner, Colombia. Conceded by Pedro Neto."
+    },
+    {
+      "minute": "90+1'",
+      "text": "Offside, Colombia. Davinson Sánchez is caught offside."
+    },
+    {
+      "minute": "88'",
+      "text": "Attempt missed. Luis Suárez (Colombia) right footed shot from the centre of the box is high and wide to the left."
+    },
+    {
+      "minute": "87'",
+      "text": "Substitution, Colombia. Daniel Muñoz replaces Santiago Arias."
+    },
+    {
+      "minute": "86'",
+      "text": "Gustavo Puerta (Colombia) is shown the yellow card for a bad foul."
+    },
+    {
+      "minute": "83'",
+      "text": "Foul by Rúben Dias (Portugal)."
+    },
+    {
+      "minute": "83'",
+      "text": "Richard Ríos (Colombia) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "82'",
+      "text": "Bruno Fernandes (Portugal) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "82'",
+      "text": "Foul by Richard Ríos (Colombia)."
+    },
+    {
+      "minute": "81'",
+      "text": "Rafael Leão (Portugal) wins a free kick on the left wing."
+    },
+    {
+      "minute": "81'",
+      "text": "Foul by Santiago Arias (Colombia)."
+    },
+    {
+      "minute": "80'",
+      "text": "Corner, Portugal. Conceded by Davinson Sánchez."
+    },
+    {
+      "minute": "79'",
+      "text": "Pedro Neto (Portugal) wins a free kick on the right wing."
+    },
+    {
+      "minute": "79'",
+      "text": "Foul by Gustavo Puerta (Colombia)."
+    },
+    {
+      "minute": "78'",
+      "text": "Attempt missed. Diogo Dalot (Portugal) right footed shot from outside the box is close, but misses to the right. Assisted by Bruno Fernandes following a corner."
+    },
+    {
+      "minute": "77'",
+      "text": "Corner, Portugal. Conceded by Santiago Arias."
+    },
+    {
+      "minute": "76'",
+      "text": "Substitution, Colombia. Kevin Castaño replaces Jhon Arias."
+    },
+    {
+      "minute": "76'",
+      "text": "Substitution, Colombia. Juan Fernando Quintero replaces James Rodríguez."
+    },
+    {
+      "minute": "75'",
+      "text": "Diogo Dalot (Portugal) wins a free kick on the right wing."
+    },
+    {
+      "minute": "75'",
+      "text": "Foul by Deiver Machado (Colombia)."
+    },
+    {
+      "minute": "74'",
+      "text": "Attempt blocked. James Rodríguez (Colombia) left footed shot from outside the box is blocked."
+    },
+    {
+      "minute": "74'",
+      "text": "Corner, Colombia. Conceded by Renato Veiga."
+    },
+    {
+      "minute": "74'",
+      "text": "Nuno Mendes (Portugal) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "73'",
+      "text": "Attempt missed. Luis Suárez (Colombia) left footed shot from the centre of the box is close, but misses to the right. Assisted by Santiago Arias with a cross."
+    },
+    {
+      "minute": "71'",
+      "text": "Delay over. They are ready to continue."
+    },
+    {
+      "minute": "70'",
+      "text": "Substitution, Portugal. Rafael Leão replaces João Félix."
+    },
+    {
+      "minute": "70'",
+      "text": "Substitution, Portugal. Samú Costa replaces Vitinha."
+    },
+    {
+      "minute": "68'",
+      "text": "Delay in match for a drinks break."
+    },
+    {
+      "minute": "67'",
+      "text": "Attempt missed. Gustavo Puerta (Colombia) right footed shot from outside the box is close, but misses to the left. Assisted by Luis Díaz following a corner."
+    },
+    {
+      "minute": "67'",
+      "text": "Delay in match because of an injury Nuno Mendes (Portugal)."
+    },
+    {
+      "minute": "66'",
+      "text": "Attempt saved. Jhon Arias (Colombia) right footed shot from the right side of the box is saved in the top right corner by Diogo Costa (Portugal). Assisted by Santiago Arias."
+    },
+    {
+      "minute": "66'",
+      "text": "Corner, Colombia. Conceded by Diogo Costa."
+    },
+    {
+      "minute": "65'",
+      "text": "Attempt blocked. Luis Suárez (Colombia) right footed shot from the right side of the box is blocked. Assisted by James Rodríguez."
+    },
+    {
+      "minute": "65'",
+      "text": "Attempt missed. Davinson Sánchez (Colombia) header from the centre of the box misses to the right. Assisted by James Rodríguez with a cross following a corner."
+    },
+    {
+      "minute": "63'",
+      "text": "Vitinha (Portugal) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "62'",
+      "text": "Attempt missed. Richard Ríos (Colombia) left footed shot from the centre of the box is close, but misses to the right. Assisted by Santiago Arias."
+    },
+    {
+      "minute": "60'",
+      "text": "Substitution, Colombia. Richard Ríos replaces Jefferson Lerma."
+    },
+    {
+      "minute": "60'",
+      "text": "Substitution, Colombia. Luis Suárez replaces Jhon Córdoba."
+    },
+    {
+      "minute": "59'",
+      "text": "Offside, Portugal. Cristiano Ronaldo is caught offside."
+    },
+    {
+      "minute": "57'",
+      "text": "Attempt blocked. João Félix (Portugal) right footed shot from outside the box is blocked. Assisted by Nuno Mendes."
+    },
+    {
+      "minute": "55'",
+      "text": "Attempt saved. Jefferson Lerma (Colombia) right footed shot from outside the box is saved in the centre of the goal by Diogo Costa (Portugal). Assisted by Deiver Machado."
+    },
+    {
+      "minute": "55'",
+      "text": "Attempt saved. Jhon Arias (Colombia) right footed shot from outside the box is saved in the top right corner by Diogo Costa (Portugal). Assisted by Gustavo Puerta."
+    },
+    {
+      "minute": "51'",
+      "text": "Attempt missed. João Félix (Portugal) header from the centre of the box is high and wide to the left. Assisted by Diogo Dalot with a cross."
+    },
+    {
+      "minute": "49'",
+      "text": "Bruno Fernandes (Portugal) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "48'",
+      "text": "Foul by Cristiano Ronaldo (Portugal)."
+    },
+    {
+      "minute": "48'",
+      "text": "Jhon Arias (Colombia) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "47'",
+      "text": "Vitinha (Portugal) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "47'",
+      "text": "Foul by Jhon Arias (Colombia)."
+    },
+    {
+      "minute": "45'",
+      "text": "Substitution, Portugal. Diogo Dalot replaces João Cancelo."
+    },
+    {
+      "minute": "45'",
+      "text": "Substitution, Portugal. João Neves replaces Rúben Neves."
+    },
+    {
+      "minute": "45'",
+      "text": "Second Half begins Colombia 0, Portugal 0."
+    },
+    {
+      "minute": "45+4'",
+      "text": "First Half ends, Colombia 0, Portugal 0."
+    },
+    {
+      "minute": "45+3'",
+      "text": "Attempt saved. James Rodríguez (Colombia) left footed shot from outside the box is saved in the bottom left corner by Diogo Costa (Portugal). Assisted by Jhon Arias."
+    },
+    {
+      "minute": "45+2'",
+      "text": "Attempt blocked. Cristiano Ronaldo (Portugal) left footed shot from outside the box is blocked. Assisted by Nuno Mendes."
+    },
+    {
+      "minute": "45+1'",
+      "text": "Attempt missed. Luis Díaz (Colombia) right footed shot from outside the box is close, but misses to the left. Assisted by James Rodríguez."
+    },
+    {
+      "minute": "45'",
+      "text": "Cristiano Ronaldo (Portugal) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "45'",
+      "text": "Foul by Jhon Lucumí (Colombia)."
+    },
+    {
+      "minute": "45'",
+      "text": "Attempt saved. Gustavo Puerta (Colombia) right footed shot from outside the box is saved in the bottom left corner by Diogo Costa (Portugal). Assisted by Jhon Arias."
+    },
+    {
+      "minute": "45'",
+      "text": "Fourth official has announced 3 minutes of added time."
+    },
+    {
+      "minute": "44'",
+      "text": "Attempt blocked. James Rodríguez (Colombia) right footed shot from the centre of the box is blocked. Assisted by Santiago Arias."
+    },
+    {
+      "minute": "44'",
+      "text": "Attempt blocked. Jefferson Lerma (Colombia) left footed shot from outside the box is blocked."
+    },
+    {
+      "minute": "44'",
+      "text": "Foul by Pedro Neto (Portugal)."
+    },
+    {
+      "minute": "44'",
+      "text": "Deiver Machado (Colombia) wins a free kick on the left wing."
+    },
+    {
+      "minute": "42'",
+      "text": "Attempt missed. João Félix (Portugal) right footed shot from the centre of the box is just a bit too high. Assisted by Nuno Mendes."
+    },
+    {
+      "minute": "40'",
+      "text": "Attempt missed. Rúben Neves (Portugal) right footed shot from outside the box is close, but misses to the left. Assisted by Vitinha."
+    },
+    {
+      "minute": "39'",
+      "text": "Attempt saved. Bruno Fernandes (Portugal) right footed shot from the centre of the box is saved in the top centre of the goal by Camilo Vargas (Colombia)."
+    },
+    {
+      "minute": "39'",
+      "text": "Attempt blocked. Cristiano Ronaldo (Portugal) right footed shot from the centre of the box is blocked."
+    },
+    {
+      "minute": "38'",
+      "text": "Attempt blocked. Vitinha (Portugal) right footed shot from outside the box is blocked."
+    },
+    {
+      "minute": "36'",
+      "text": "Foul by Renato Veiga (Portugal)."
+    },
+    {
+      "minute": "36'",
+      "text": "Jhon Córdoba (Colombia) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "33'",
+      "text": "James Rodríguez (Colombia) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "31'",
+      "text": "VAR Decision: Other Decision Cancelled."
+    },
+    {
+      "minute": "24'",
+      "text": "Attempt saved. Cristiano Ronaldo (Portugal) right footed shot from outside the box is saved in the centre of the goal by Camilo Vargas (Colombia)."
+    },
+    {
+      "minute": "23'",
+      "text": "Cristiano Ronaldo (Portugal) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "22'",
+      "text": "Attempt missed. Jhon Arias (Colombia) right footed shot from the right side of the box is close, but misses to the left. Assisted by James Rodríguez."
+    },
+    {
+      "minute": "18'",
+      "text": "Offside, Colombia. Luis Díaz is caught offside."
+    },
+    {
+      "minute": "17'",
+      "text": "Attempt saved. Jhon Córdoba (Colombia) right footed shot from the right side of the box is saved in the centre of the goal by Diogo Costa (Portugal). Assisted by Jhon Arias."
+    },
+    {
+      "minute": "17'",
+      "text": "Attempt blocked. Luis Díaz (Colombia) right footed shot from the centre of the box is blocked. Assisted by James Rodríguez."
+    },
+    {
+      "minute": "17'",
+      "text": "Corner, Colombia. Conceded by João Cancelo."
+    },
+    {
+      "minute": "14'",
+      "text": "Attempt missed. Gustavo Puerta (Colombia) left footed shot from outside the box is high and wide to the left. Assisted by Santiago Arias."
+    },
+    {
+      "minute": "12'",
+      "text": "Attempt missed. Bruno Fernandes (Portugal) right footed shot from outside the box misses to the left. Assisted by Pedro Neto."
+    },
+    {
+      "minute": "6'",
+      "text": "Attempt missed. Luis Díaz (Colombia) right footed shot from the centre of the box misses to the right. Assisted by Jhon Arias with a headed pass."
+    },
+    {
+      "minute": "4'",
+      "text": "Nuno Mendes (Portugal) wins a free kick on the left wing."
+    },
+    {
+      "minute": "4'",
+      "text": "Attempt missed. Rúben Neves (Portugal) right footed shot from outside the box misses to the left."
+    },
+    {
+      "minute": "2'",
+      "text": "Attempt missed. Jhon Córdoba (Colombia) header from the centre of the box is just a bit too high."
+    },
+    {
+      "minute": "2'",
+      "text": "Offside, Colombia. Jhon Córdoba is caught offside."
+    },
+    {
+      "minute": "1'",
+      "text": "Attempt blocked. Luis Díaz (Colombia) right footed shot from the left side of the box is blocked. Assisted by Davinson Sánchez."
+    },
+    {
+      "minute": "",
+      "text": "First Half begins."
+    },
+    {
+      "minute": "",
+      "text": "Lineups are announced and players are warming up."
+    }
+  ]
+}

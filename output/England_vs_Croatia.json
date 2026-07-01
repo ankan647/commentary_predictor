@@ -1,0 +1,760 @@
+{
+  "match_name": "England_vs_Croatia",
+  "url": "https://www.livescore.com/en/football/international/world-cup-2026/england-vs-croatia/1417980/?tab=commentary",
+  "scraped_at": "2026-07-01 14:00:40",
+  "total_entries": 188,
+  "raw_entries": [
+    {
+      "minute": "90+7'",
+      "text": "That's it! The referee blows the final whistle"
+    },
+    {
+      "minute": "90+7'",
+      "text": "Ball possession: England: 52%, Croatia: 48%."
+    },
+    {
+      "minute": "90+7'",
+      "text": "Jordan Pickford from England intercepts a cross aimed towards the box."
+    },
+    {
+      "minute": "90+6'",
+      "text": "Goal kick for Croatia."
+    },
+    {
+      "minute": "90+6'",
+      "text": "Harry Kane goes for goal, but his effort was never close to hitting the target."
+    },
+    {
+      "minute": "90+6'",
+      "text": "Morgan Rogers creates a scoring opportunity for his teammate"
+    },
+    {
+      "minute": "90+6'",
+      "text": "England take a throw-in in the opponent's half of the field."
+    },
+    {
+      "minute": "90+6'",
+      "text": "Marco Pasalic relieves the pressure with a clearance"
+    },
+    {
+      "minute": "90+6'",
+      "text": "The referee signals a free kick as Petar Sucic from Croatia trips Morgan Rogers"
+    },
+    {
+      "minute": "90+6'",
+      "text": "Morgan Rogers makes the tackle and wins possession for his team"
+    },
+    {
+      "minute": "90+5'",
+      "text": "Petar Sucic makes the tackle and wins possession for his team"
+    },
+    {
+      "minute": "90+5'",
+      "text": "England start a counter attack."
+    },
+    {
+      "minute": "90+5'",
+      "text": "Harry Kane successfully blocks the shot"
+    },
+    {
+      "minute": "90+5'",
+      "text": "A shot by Josko Gvardiol is blocked."
+    },
+    {
+      "minute": "90+5'",
+      "text": "Josip Sutalo wins an air challenge against Nico O'Reilly"
+    },
+    {
+      "minute": "90+5'",
+      "text": "Ivan Perisic from Croatia swings in the corner from the left."
+    },
+    {
+      "minute": "90+4'",
+      "text": "Djed Spence relieves the pressure with a clearance"
+    },
+    {
+      "minute": "90+4'",
+      "text": "Elliot Anderson from England goes a bit too far there as the pulls down Mateo Kovacic"
+    },
+    {
+      "minute": "90+4'",
+      "text": "Reece James successfully blocks the shot"
+    },
+    {
+      "minute": "90+4'",
+      "text": "A shot by Andrej Kramaric is blocked."
+    },
+    {
+      "minute": "90+4'",
+      "text": "Croatia are in control of the ball."
+    },
+    {
+      "minute": "90+3'",
+      "text": "Safe hands from Jordan Pickford as he comes out and claims the ball"
+    },
+    {
+      "minute": "90+3'",
+      "text": "Reece James from England intercepts a cross aimed towards the box."
+    },
+    {
+      "minute": "90+2'",
+      "text": "Croatia take a throw-in in the opponent's half of the field."
+    },
+    {
+      "minute": "90+2'",
+      "text": "Harry Kane relieves the pressure with a clearance"
+    },
+    {
+      "minute": "90+2'",
+      "text": "Josko Gvardiol makes the tackle and wins possession for his team"
+    },
+    {
+      "minute": "90+2'",
+      "text": "Nico O'Reilly from England intercepts a cross aimed towards the box."
+    },
+    {
+      "minute": "90+1'",
+      "text": "The fourth official shows there are 6 minute(s) of time to be added."
+    },
+    {
+      "minute": "90'",
+      "text": "The referee signals a free kick as Nikola Vlasic from Croatia trips Ezri Konsa"
+    },
+    {
+      "minute": "90'",
+      "text": "Ball possession: England: 53%, Croatia: 47%."
+    },
+    {
+      "minute": "89'",
+      "text": "England are in control of the ball."
+    },
+    {
+      "minute": "89'",
+      "text": "Croatia take a throw-in in their own half of the field."
+    },
+    {
+      "minute": "88'",
+      "text": "Reece James makes the tackle and wins possession for his team"
+    },
+    {
+      "minute": "87'",
+      "text": "John Stones is leaving the field to be replaced by Marc Guehi in a tactical substitution."
+    },
+    {
+      "minute": "85'",
+      "text": "Bukayo Saka provided the assist for the goal."
+    },
+    {
+      "minute": "85'",
+      "text": "G O O O A A A L - Marcus Rashford scores with the right foot!"
+    },
+    {
+      "minute": "85'",
+      "text": "Bukayo Saka creates a scoring opportunity for his teammate"
+    },
+    {
+      "minute": "85'",
+      "text": "England are trying to create something here."
+    },
+    {
+      "minute": "85'",
+      "text": "England take a throw-in in their own half of the field."
+    },
+    {
+      "minute": "84'",
+      "text": "Mateo Kovacic shoots from outside the box, but Jordan Pickford has it under control"
+    },
+    {
+      "minute": "84'",
+      "text": "Bukayo Saka from England intercepts a cross aimed towards the box."
+    },
+    {
+      "minute": "84'",
+      "text": "Croatia are trying to create something here."
+    },
+    {
+      "minute": "84'",
+      "text": "Jordan Pickford relieves the pressure with a clearance"
+    },
+    {
+      "minute": "83'",
+      "text": "Nico O'Reilly relieves the pressure with a clearance"
+    },
+    {
+      "minute": "83'",
+      "text": "Reckless challenge there. Reece James commits a rough foul on Igor Matanovic"
+    },
+    {
+      "minute": "83'",
+      "text": "Marco Pasalic makes the tackle and wins possession for his team"
+    },
+    {
+      "minute": "82'",
+      "text": "Dominik Livakovic makes a crucial save!"
+    },
+    {
+      "minute": "82'",
+      "text": "Good effort by Djed Spence as he directs a shot on target, but the keeper saves it"
+    },
+    {
+      "minute": "81'",
+      "text": "Goal kick for England."
+    },
+    {
+      "minute": "81'",
+      "text": "Petar Sucic fails to find the target with a shot from outside the box"
+    },
+    {
+      "minute": "81'",
+      "text": "Elliot Anderson from England intercepts a cross aimed towards the box."
+    },
+    {
+      "minute": "80'",
+      "text": "Ball possession: England: 54%, Croatia: 46%."
+    },
+    {
+      "minute": "79'",
+      "text": "Jude Bellingham is leaving the field to be replaced by Djed Spence in a tactical substitution."
+    },
+    {
+      "minute": "79'",
+      "text": "Igor Matanovic is penalised for pushing Ezri Konsa."
+    },
+    {
+      "minute": "78'",
+      "text": "Mario Pasalic is leaving the field to be replaced by Andrej Kramaric in a tactical substitution."
+    },
+    {
+      "minute": "78'",
+      "text": "Martin Baturina is leaving the field to be replaced by Nikola Vlasic in a tactical substitution."
+    },
+    {
+      "minute": "78'",
+      "text": "Mario Pasalic from Croatia is ruled offside."
+    },
+    {
+      "minute": "77'",
+      "text": "Igor Matanovic shoots from outside the box, but Jordan Pickford has it under control"
+    },
+    {
+      "minute": "76'",
+      "text": "Good effort by Marco Pasalic as he directs a shot on target, but the keeper saves it"
+    },
+    {
+      "minute": "76'",
+      "text": "John Stones relieves the pressure with a clearance"
+    },
+    {
+      "minute": "75'",
+      "text": "Dominik Livakovic relieves the pressure with a clearance"
+    },
+    {
+      "minute": "75'",
+      "text": "Josip Stanisic could cost his team a goal after a defensive blunder."
+    },
+    {
+      "minute": "75'",
+      "text": "Ball possession: England: 55%, Croatia: 45%."
+    },
+    {
+      "minute": "74'",
+      "text": "Josip Sutalo relieves the pressure with a clearance"
+    },
+    {
+      "minute": "74'",
+      "text": "Today's attendance is 70389."
+    },
+    {
+      "minute": "73'",
+      "text": "The ref blows his whistle. Ivan Perisic charged Bukayo Saka from behind and it's a free-kick"
+    },
+    {
+      "minute": "73'",
+      "text": "The game is restarted."
+    },
+    {
+      "minute": "72'",
+      "text": "Noni Madueke is leaving the field to be replaced by Bukayo Saka in a tactical substitution."
+    },
+    {
+      "minute": "72'",
+      "text": "Anthony Gordon is leaving the field to be replaced by Marcus Rashford in a tactical substitution."
+    },
+    {
+      "minute": "72'",
+      "text": "Declan Rice is leaving the field to be replaced by Morgan Rogers in a tactical substitution."
+    },
+    {
+      "minute": "70'",
+      "text": "Ball possession: England: 56%, Croatia: 44%."
+    },
+    {
+      "minute": "69'",
+      "text": "Water break. It's hot out there today and the game is paused so the players can take some liquids on-board."
+    },
+    {
+      "minute": "69'",
+      "text": "Josip Stanisic successfully blocks the shot"
+    },
+    {
+      "minute": "69'",
+      "text": "A shot by Anthony Gordon is blocked."
+    },
+    {
+      "minute": "69'",
+      "text": "Harry Kane creates a scoring opportunity for his teammate"
+    },
+    {
+      "minute": "69'",
+      "text": "The cross by Noni Madueke from England successfully finds a teammate in the box."
+    },
+    {
+      "minute": "67'",
+      "text": "Igor Matanovic is penalised for pushing Jordan Pickford."
+    },
+    {
+      "minute": "66'",
+      "text": "Petar Musa is leaving the field to be replaced by Igor Matanovic in a tactical substitution."
+    },
+    {
+      "minute": "66'",
+      "text": "Luka Vuskovic is leaving the field to be replaced by Marco Pasalic in a tactical substitution."
+    },
+    {
+      "minute": "65'",
+      "text": "The referee signals a free kick as Mateo Kovacic from Croatia trips Elliot Anderson"
+    },
+    {
+      "minute": "62'",
+      "text": "Harry Kane is penalised for pushing Mateo Kovacic."
+    },
+    {
+      "minute": "62'",
+      "text": "Ivan Perisic is penalised for pushing John Stones."
+    },
+    {
+      "minute": "61'",
+      "text": "Elliot Anderson wins an air challenge against Petar Musa"
+    },
+    {
+      "minute": "60'",
+      "text": "Ball possession: England: 51%, Croatia: 49%."
+    },
+    {
+      "minute": "59'",
+      "text": "Josko Gvardiol wins an air challenge against Noni Madueke"
+    },
+    {
+      "minute": "58'",
+      "text": "Luka Modric is leaving the field to be replaced by Mateo Kovacic in a tactical substitution."
+    },
+    {
+      "minute": "57'",
+      "text": "England are piling the pressure on and look like scoring anytime"
+    },
+    {
+      "minute": "57'",
+      "text": "Josip Stanisic from Croatia intercepts a cross aimed towards the box."
+    },
+    {
+      "minute": "57'",
+      "text": "Harry Kane from England sends an effort wide of target"
+    },
+    {
+      "minute": "57'",
+      "text": "Good effort by Harry Kane as he directs a shot on target, but the keeper saves it"
+    },
+    {
+      "minute": "57'",
+      "text": "The cross by Elliot Anderson from England successfully finds a teammate in the box."
+    },
+    {
+      "minute": "57'",
+      "text": "Declan Rice swings in the ball from a corner on the left, but it is nowhere near a teammate."
+    },
+    {
+      "minute": "56'",
+      "text": "Luka Vuskovic from Croatia intercepts a cross aimed towards the box."
+    },
+    {
+      "minute": "56'",
+      "text": "Good effort by Ezri Konsa as he directs a shot on target, but the keeper saves it"
+    },
+    {
+      "minute": "56'",
+      "text": "Anthony Gordon sends a header towards goal, but Dominik Livakovic is there to comfortably save it"
+    },
+    {
+      "minute": "56'",
+      "text": "Nico O'Reilly sends a header towards goal, but Dominik Livakovic is there to comfortably save it"
+    },
+    {
+      "minute": "56'",
+      "text": "Declan Rice from England swings in the corner from the right."
+    },
+    {
+      "minute": "55'",
+      "text": "Mario Pasalic relieves the pressure with a clearance"
+    },
+    {
+      "minute": "55'",
+      "text": "Ball possession: England: 49%, Croatia: 51%."
+    },
+    {
+      "minute": "53'",
+      "text": "Declan Rice from England takes a short corner kick from the right."
+    },
+    {
+      "minute": "53'",
+      "text": "Ivan Perisic from Croatia intercepts a cross aimed towards the box."
+    },
+    {
+      "minute": "53'",
+      "text": "Ivan Perisic relieves the pressure with a clearance"
+    },
+    {
+      "minute": "53'",
+      "text": "Declan Rice swings in the ball from a corner on the right, but it is nowhere near a teammate."
+    },
+    {
+      "minute": "52'",
+      "text": "Good effort by Declan Rice as he directs a shot on target, but the keeper saves it"
+    },
+    {
+      "minute": "51'",
+      "text": "Harry Kane from England intercepts a cross aimed towards the box."
+    },
+    {
+      "minute": "51'",
+      "text": "John Stones from England goes a bit too far there as the pulls down Martin Baturina"
+    },
+    {
+      "minute": "51'",
+      "text": "Petar Musa wins an air challenge against John Stones"
+    },
+    {
+      "minute": "50'",
+      "text": "Ball possession: England: 50%, Croatia: 50%."
+    },
+    {
+      "minute": "50'",
+      "text": "Nico O'Reilly wins an air challenge against Petar Musa"
+    },
+    {
+      "minute": "49'",
+      "text": "A chance presents itself to Nico O'Reilly from England but his header goes wide"
+    },
+    {
+      "minute": "49'",
+      "text": "Declan Rice from England swings in the corner from the left."
+    },
+    {
+      "minute": "48'",
+      "text": "Good effort by Jude Bellingham as he directs a shot on target, but the keeper saves it"
+    },
+    {
+      "minute": "48'",
+      "text": "Declan Rice makes the tackle and wins possession for his team"
+    },
+    {
+      "minute": "48'",
+      "text": "A fantastic individual effort by Jude Bellingham!"
+    },
+    {
+      "minute": "47'",
+      "text": "Elliot Anderson provided the assist for the goal."
+    },
+    {
+      "minute": "47'",
+      "text": "G O O O A A A L - Jude Bellingham scores with the right foot!"
+    },
+    {
+      "minute": "47'",
+      "text": "Elliot Anderson creates a scoring opportunity for his teammate"
+    },
+    {
+      "minute": "46'",
+      "text": "The second half is underway."
+    },
+    {
+      "minute": "45+7'",
+      "text": "It's over! The referee blows for half time"
+    },
+    {
+      "minute": "45+7'",
+      "text": "Ball possession: England: 48%, Croatia: 52%."
+    },
+    {
+      "minute": "45+5'",
+      "text": "Mario Pasalic made the key pass for the goal!"
+    },
+    {
+      "minute": "45+5'",
+      "text": "Ivan Perisic provided the assist for the goal."
+    },
+    {
+      "minute": "45+5'",
+      "text": "G O O O A A A L - Petar Musa volleys the ball into the back of the net with the right. A great finish!"
+    },
+    {
+      "minute": "45+5'",
+      "text": "Ivan Perisic creates a scoring opportunity for his teammate"
+    },
+    {
+      "minute": "45+5'",
+      "text": "The cross by Mario Pasalic from Croatia successfully finds a teammate in the box."
+    },
+    {
+      "minute": "45+5'",
+      "text": "Harry Kane is penalised for pushing Luka Modric."
+    },
+    {
+      "minute": "45+4'",
+      "text": "Mario Pasalic fails to find the target with a shot from outside the box"
+    },
+    {
+      "minute": "45+2'",
+      "text": "Luka Modric successfully blocks the shot"
+    },
+    {
+      "minute": "45+2'",
+      "text": "Reece James takes the free-kick but it is blocked by the wall"
+    },
+    {
+      "minute": "45+1'",
+      "text": "The fourth official shows there are 5 minute(s) of time to be added."
+    },
+    {
+      "minute": "45'",
+      "text": "The referee signals a free kick as Mario Pasalic from Croatia trips Jude Bellingham"
+    },
+    {
+      "minute": "45'",
+      "text": "Ivan Perisic wins an air challenge against Reece James"
+    },
+    {
+      "minute": "42'",
+      "text": "Declan Rice provided the assist for the goal."
+    },
+    {
+      "minute": "42'",
+      "text": "G O O O A A A L - Harry Kane from England heads the ball home!"
+    },
+    {
+      "minute": "41'",
+      "text": "Luka Vuskovic relieves the pressure with a clearance"
+    },
+    {
+      "minute": "40'",
+      "text": "Ezri Konsa from England goes a bit too far there as the pulls down Petar Musa"
+    },
+    {
+      "minute": "39'",
+      "text": "The referee signals a free kick as Elliot Anderson from England trips Martin Baturina"
+    },
+    {
+      "minute": "39'",
+      "text": "Martin Baturina makes the tackle and wins possession for his team"
+    },
+    {
+      "minute": "38'",
+      "text": "With that goal, Croatia equalised. Game on!"
+    },
+    {
+      "minute": "37'",
+      "text": "A great goal by Martin Baturina"
+    },
+    {
+      "minute": "36'",
+      "text": "Martin Baturina made the key pass for the goal!"
+    },
+    {
+      "minute": "36'",
+      "text": "Petar Sucic provided the assist for the goal."
+    },
+    {
+      "minute": "36'",
+      "text": "G O O O A A A L - Martin Baturina from Croatia beats the keeper from outside the box with the right foot!"
+    },
+    {
+      "minute": "36'",
+      "text": "Petar Sucic creates a scoring opportunity for his teammate"
+    },
+    {
+      "minute": "36'",
+      "text": "Luka Vuskovic makes the tackle and wins possession for his team"
+    },
+    {
+      "minute": "35'",
+      "text": "A chance presents itself to Harry Kane from England but his header goes wide"
+    },
+    {
+      "minute": "34'",
+      "text": "Reece James wins an air challenge against Ivan Perisic"
+    },
+    {
+      "minute": "33'",
+      "text": "Nico O'Reilly from England goes a bit too far there as the pulls down Josip Stanisic"
+    },
+    {
+      "minute": "33'",
+      "text": "The referee signals a free kick as Petar Sucic from Croatia trips Elliot Anderson"
+    },
+    {
+      "minute": "32'",
+      "text": "The referee signals a free kick as Petar Musa from Croatia trips Elliot Anderson"
+    },
+    {
+      "minute": "31'",
+      "text": "Jude Bellingham goes for goal, but his effort was never close to hitting the target."
+    },
+    {
+      "minute": "30'",
+      "text": "John Stones wins an air challenge against Petar Musa"
+    },
+    {
+      "minute": "28'",
+      "text": "The referee signals a free kick as Luka Vuskovic from Croatia trips Harry Kane"
+    },
+    {
+      "minute": "28'",
+      "text": "Elliot Anderson makes the tackle and wins possession for his team"
+    },
+    {
+      "minute": "28'",
+      "text": "Harry Kane could cost his team a goal after a defensive blunder."
+    },
+    {
+      "minute": "25'",
+      "text": "Ball possession: England: 59%, Croatia: 41%."
+    },
+    {
+      "minute": "21'",
+      "text": "Safe hands from Dominik Livakovic as he comes out and claims the ball"
+    },
+    {
+      "minute": "20'",
+      "text": "The referee signals a free kick as Elliot Anderson from England trips Luka Vuskovic"
+    },
+    {
+      "minute": "20'",
+      "text": "Ball possession: England: 61%, Croatia: 39%."
+    },
+    {
+      "minute": "19'",
+      "text": "Dangerous challenge by Declan Rice from England. Petar Sucic on the receiving end of that."
+    },
+    {
+      "minute": "17'",
+      "text": "Ivan Perisic wins an air challenge against Declan Rice"
+    },
+    {
+      "minute": "17'",
+      "text": "Luka Vuskovic successfully blocks the shot"
+    },
+    {
+      "minute": "17'",
+      "text": "A shot by Elliot Anderson is blocked."
+    },
+    {
+      "minute": "16'",
+      "text": "A shot by Noni Madueke is blocked."
+    },
+    {
+      "minute": "15'",
+      "text": "Ball possession: England: 76%, Croatia: 24%."
+    },
+    {
+      "minute": "15'",
+      "text": "Jude Bellingham relieves the pressure with a clearance"
+    },
+    {
+      "minute": "13'",
+      "text": "England managed to score the important first goal. Will they build on that?"
+    },
+    {
+      "minute": "12'",
+      "text": "PEN\nG O O O A A A L - Harry Kane from England puts it away from the penalty spot with the right foot! Dominik Livakovic chose the wrong side."
+    },
+    {
+      "minute": "11'",
+      "text": "VAR - PENALTY RETAKE! - After a VAR check, the penalty for England will be retaken due to an infringement."
+    },
+    {
+      "minute": "10'",
+      "text": "VAR - PENALTY! - The referee has stopped the play. VAR check in progress, a potential penalty for England."
+    },
+    {
+      "minute": "10'",
+      "text": "Josko Gvardiol relieves the pressure with a clearance"
+    },
+    {
+      "minute": "10'",
+      "text": "Harry Kane from England was not successful from the penalty spot."
+    },
+    {
+      "minute": "9'",
+      "text": "PENALTY - Luka Modric from Croatia concedes a penalty for dangerous play against Noni Madueke."
+    },
+    {
+      "minute": "9'",
+      "text": "Ezri Konsa from England heads the ball, but it's a terrible effort nowhere near the goal."
+    },
+    {
+      "minute": "8'",
+      "text": "Josko Gvardiol successfully blocks the shot"
+    },
+    {
+      "minute": "8'",
+      "text": "A shot by Harry Kane is blocked."
+    },
+    {
+      "minute": "8'",
+      "text": "Luka Modric could cost his team a goal after a defensive blunder."
+    },
+    {
+      "minute": "5'",
+      "text": "Ball possession: England: 75%, Croatia: 25%."
+    },
+    {
+      "minute": "5'",
+      "text": "Noni Madueke makes the tackle and wins possession for his team"
+    },
+    {
+      "minute": "4'",
+      "text": "Declan Rice from England intercepts a cross aimed towards the box."
+    },
+    {
+      "minute": "3'",
+      "text": "Josip Sutalo from Croatia fails to connect properly on the volley and sends the ball wide of target"
+    },
+    {
+      "minute": "3'",
+      "text": "Ivan Perisic from Croatia swings in the corner from the right."
+    },
+    {
+      "minute": "2'",
+      "text": "Elliot Anderson could cost his team a goal after a defensive blunder."
+    },
+    {
+      "minute": "1'",
+      "text": "The pitch is in fantastic condition today and the players are enjoying the surface."
+    },
+    {
+      "minute": "1'",
+      "text": "The weather only plays a minor part today, as the stadium roof has been taken into use"
+    },
+    {
+      "minute": "1'",
+      "text": "England kick-off, and the game is underway."
+    },
+    {
+      "minute": "1'",
+      "text": "The referee starts the match."
+    },
+    {
+      "minute": "",
+      "text": "Welcome to AT&T Stadium, the match will start in about 5 minutes."
+    }
+  ]
+}

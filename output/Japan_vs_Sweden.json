@@ -1,0 +1,384 @@
+{
+  "match_name": "Japan_vs_Sweden",
+  "url": "https://www.livescore.com/en/football/international/world-cup-2026/japan-vs-sweden/1417944/?tab=commentary",
+  "scraped_at": "2026-07-01 14:35:27",
+  "total_entries": 94,
+  "raw_entries": [
+    {
+      "minute": "",
+      "text": "Match ends, Japan 1, Sweden 1."
+    },
+    {
+      "minute": "90+7'",
+      "text": "Second Half ends, Japan 1, Sweden 1."
+    },
+    {
+      "minute": "90+4'",
+      "text": "Attempt saved. Alexander Isak (Sweden) header from the left side of the six yard box is saved in the top centre of the goal by Zion Suzuki (Japan). Assisted by Yasin Ayari with a cross."
+    },
+    {
+      "minute": "90+3'",
+      "text": "Attempt saved. Anthony Elanga (Sweden) right footed shot from the right side of the box is saved in the bottom left corner by Zion Suzuki (Japan). Assisted by Benjamin Nygren."
+    },
+    {
+      "minute": "90+3'",
+      "text": "Corner, Sweden. Conceded by Yukinari Sugawara."
+    },
+    {
+      "minute": "90'",
+      "text": "Fourth official has announced 7 minutes of added time."
+    },
+    {
+      "minute": "88'",
+      "text": "Substitution, Sweden. Benjamin Nygren replaces Gabriel Gudmundsson."
+    },
+    {
+      "minute": "88'",
+      "text": "Ken Sema (Sweden) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "88'",
+      "text": "Foul by Yukinari Sugawara (Japan)."
+    },
+    {
+      "minute": "87'",
+      "text": "Delay over. They are ready to continue."
+    },
+    {
+      "minute": "87'",
+      "text": "Substitution, Sweden. Carl Starfelt replaces Victor Lindelöf because of an injury."
+    },
+    {
+      "minute": "86'",
+      "text": "Delay in match because of an injury Victor Lindelöf (Sweden)."
+    },
+    {
+      "minute": "85'",
+      "text": "Viktor Gyökeres (Sweden) is shown the yellow card for a bad foul."
+    },
+    {
+      "minute": "85'",
+      "text": "Gustaf Lagerbielke (Sweden) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "85'",
+      "text": "Foul by Koki Ogawa (Japan)."
+    },
+    {
+      "minute": "84'",
+      "text": "Foul by Viktor Gyökeres (Sweden)."
+    },
+    {
+      "minute": "84'",
+      "text": "Daichi Kamada (Japan) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "83'",
+      "text": "Attempt missed. Koki Ogawa (Japan) left footed shot from the centre of the box is too high. Assisted by Daichi Kamada with a cross."
+    },
+    {
+      "minute": "82'",
+      "text": "Corner, Japan. Conceded by Gabriel Gudmundsson."
+    },
+    {
+      "minute": "81'",
+      "text": "Attempt missed. Gustaf Lagerbielke (Sweden) header from the centre of the box misses to the left. Assisted by Yasin Ayari with a cross following a set piece situation."
+    },
+    {
+      "minute": "80'",
+      "text": "Anthony Elanga (Sweden) wins a free kick on the right wing."
+    },
+    {
+      "minute": "80'",
+      "text": "Foul by Hiroki Ito (Japan)."
+    },
+    {
+      "minute": "79'",
+      "text": "Attempt missed. Victor Lindelöf (Sweden) header from very close range misses to the right. Assisted by Yasin Ayari with a cross following a corner."
+    },
+    {
+      "minute": "79'",
+      "text": "Attempt blocked. Ken Sema (Sweden) left footed shot from the centre of the box is blocked."
+    },
+    {
+      "minute": "78'",
+      "text": "Attempt blocked. Daniel Svensson (Sweden) left footed shot from outside the box is blocked. Assisted by Lucas Bergvall."
+    },
+    {
+      "minute": "78'",
+      "text": "Corner, Sweden. Conceded by Tsuyoshi Watanabe."
+    },
+    {
+      "minute": "77'",
+      "text": "Viktor Gyökeres (Sweden) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "77'",
+      "text": "Foul by Shogo Taniguchi (Japan)."
+    },
+    {
+      "minute": "77'",
+      "text": "Shogo Taniguchi (Japan) is shown the yellow card for a bad foul."
+    },
+    {
+      "minute": "76'",
+      "text": "Gabriel Gudmundsson (Sweden) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "75'",
+      "text": "Substitution, Sweden. Daniel Svensson replaces Alexander Bernhardsson."
+    },
+    {
+      "minute": "75'",
+      "text": "Substitution, Sweden. Ken Sema replaces Elliot Stroud."
+    },
+    {
+      "minute": "75'",
+      "text": "Substitution, Japan. Yuto Nagatomo replaces Keito Nakamura."
+    },
+    {
+      "minute": "75'",
+      "text": "Substitution, Japan. Tsuyoshi Watanabe replaces Ayumu Seko."
+    },
+    {
+      "minute": "74'",
+      "text": "Foul by Alexander Bernhardsson (Sweden)."
+    },
+    {
+      "minute": "72'",
+      "text": "Foul by Elliot Stroud (Sweden)."
+    },
+    {
+      "minute": "72'",
+      "text": "Junya Ito (Japan) wins a free kick on the right wing."
+    },
+    {
+      "minute": "68'",
+      "text": "Offside, Sweden. Anthony Elanga is caught offside."
+    },
+    {
+      "minute": "68'",
+      "text": "Delay in match for a drinks break."
+    },
+    {
+      "minute": "67'",
+      "text": "Substitution, Japan. Junya Ito replaces Ritsu Doan."
+    },
+    {
+      "minute": "67'",
+      "text": "Handball by Daizen Maeda (Japan)."
+    },
+    {
+      "minute": "66'",
+      "text": "Ao Tanaka (Japan) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "66'",
+      "text": "Substitution, Japan. Koki Ogawa replaces Ayase Ueda."
+    },
+    {
+      "minute": "65'",
+      "text": "Attempt saved. Alexander Isak (Sweden) right footed shot from outside the box is saved in the bottom right corner by Zion Suzuki (Japan)."
+    },
+    {
+      "minute": "65'",
+      "text": "Corner, Sweden. Conceded by Zion Suzuki."
+    },
+    {
+      "minute": "64'",
+      "text": "Alexander Bernhardsson (Sweden) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "64'",
+      "text": "Foul by Daizen Maeda (Japan)."
+    },
+    {
+      "minute": "63'",
+      "text": "Anthony Elanga (Sweden) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "63'",
+      "text": "Foul by Daichi Kamada (Japan)."
+    },
+    {
+      "minute": "62'",
+      "text": "Goal! Japan 1, Sweden 1. Anthony Elanga (Sweden) left footed shot from outside the box to the bottom left corner. Assisted by Viktor Gyökeres."
+    },
+    {
+      "minute": "56'",
+      "text": "Goal! Japan 1, Sweden 0. Daizen Maeda (Japan) right footed shot from the centre of the box to the bottom left corner. Assisted by Ritsu Doan with a through ball."
+    },
+    {
+      "minute": "53'",
+      "text": "Offside, Japan. Daichi Kamada is caught offside."
+    },
+    {
+      "minute": "52'",
+      "text": "Attempt blocked. Ayase Ueda (Japan) right footed shot from outside the box is blocked. Assisted by Keito Nakamura."
+    },
+    {
+      "minute": "51'",
+      "text": "Ritsu Doan (Japan) wins a free kick on the right wing."
+    },
+    {
+      "minute": "51'",
+      "text": "Offside, Japan. Daizen Maeda is caught offside."
+    },
+    {
+      "minute": "50'",
+      "text": "Attempt missed. Gustaf Lagerbielke (Sweden) header from the right side of the six yard box misses to the right. Assisted by Elliot Stroud with a cross following a corner."
+    },
+    {
+      "minute": "49'",
+      "text": "Corner, Sweden. Conceded by Ayumu Seko."
+    },
+    {
+      "minute": "49'",
+      "text": "Corner, Sweden. Conceded by Hiroki Ito."
+    },
+    {
+      "minute": "48'",
+      "text": "Attempt missed. Ao Tanaka (Japan) right footed shot from outside the box is too high. Assisted by Daichi Kamada."
+    },
+    {
+      "minute": "45'",
+      "text": "Second Half begins Japan 0, Sweden 0."
+    },
+    {
+      "minute": "45+5'",
+      "text": "First Half ends, Japan 0, Sweden 0."
+    },
+    {
+      "minute": "45+3'",
+      "text": "Lucas Bergvall (Sweden) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "45+3'",
+      "text": "Attempt blocked. Viktor Gyökeres (Sweden) right footed shot from outside the box is blocked."
+    },
+    {
+      "minute": "45+2'",
+      "text": "Offside, Sweden. Alexander Isak is caught offside."
+    },
+    {
+      "minute": "45+1'",
+      "text": "Fourth official has announced 5 minutes of added time."
+    },
+    {
+      "minute": "45+1'",
+      "text": "Foul by Ritsu Doan (Japan)."
+    },
+    {
+      "minute": "45'",
+      "text": "Attempt saved. Keito Nakamura (Japan) right footed shot from the left side of the box is saved in the bottom right corner by Jacob Widell Zetterström (Sweden). Assisted by Daizen Maeda."
+    },
+    {
+      "minute": "45'",
+      "text": "Corner, Japan. Conceded by Jacob Widell Zetterström."
+    },
+    {
+      "minute": "43'",
+      "text": "Foul by Lucas Bergvall (Sweden)."
+    },
+    {
+      "minute": "43'",
+      "text": "Ritsu Doan (Japan) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "42'",
+      "text": "Foul by Ao Tanaka (Japan)."
+    },
+    {
+      "minute": "40'",
+      "text": "Attempt saved. Yukinari Sugawara (Japan) right footed shot from outside the box is saved in the centre of the goal by Jacob Widell Zetterström (Sweden). Assisted by Ao Tanaka."
+    },
+    {
+      "minute": "39'",
+      "text": "Substitution, Japan. Shogo Taniguchi replaces Ko Itakura."
+    },
+    {
+      "minute": "38'",
+      "text": "Lucas Bergvall (Sweden) wins a free kick on the left wing."
+    },
+    {
+      "minute": "38'",
+      "text": "Foul by Ayase Ueda (Japan)."
+    },
+    {
+      "minute": "37'",
+      "text": "Substitution, Sweden. Lucas Bergvall replaces Isak Hien because of an injury."
+    },
+    {
+      "minute": "35'",
+      "text": "Yasin Ayari (Sweden) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "35'",
+      "text": "Delay in match because of an injury Isak Hien (Sweden)."
+    },
+    {
+      "minute": "32'",
+      "text": "Foul by Isak Hien (Sweden)."
+    },
+    {
+      "minute": "32'",
+      "text": "Ayase Ueda (Japan) wins a free kick on the left wing."
+    },
+    {
+      "minute": "32'",
+      "text": "Isak Hien (Sweden) is shown the yellow card for a bad foul."
+    },
+    {
+      "minute": "29'",
+      "text": "Yukinari Sugawara (Japan) wins a free kick on the right wing."
+    },
+    {
+      "minute": "28'",
+      "text": "Isak Hien (Sweden) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "22'",
+      "text": "Attempt missed. Daizen Maeda (Japan) header from the centre of the box is too high. Assisted by Hiroki Ito with a cross."
+    },
+    {
+      "minute": "15'",
+      "text": "Attempt blocked. Ritsu Doan (Japan) left footed shot from outside the box is blocked. Assisted by Keito Nakamura."
+    },
+    {
+      "minute": "10'",
+      "text": "Anthony Elanga (Sweden) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "8'",
+      "text": "Foul by Gabriel Gudmundsson (Sweden)."
+    },
+    {
+      "minute": "8'",
+      "text": "Ayase Ueda (Japan) wins a free kick on the right wing."
+    },
+    {
+      "minute": "7'",
+      "text": "Offside, Japan. Ayase Ueda is caught offside."
+    },
+    {
+      "minute": "6'",
+      "text": "Attempt saved. Alexander Bernhardsson (Sweden) left footed shot from outside the box is saved in the bottom left corner by Zion Suzuki (Japan). Assisted by Alexander Isak."
+    },
+    {
+      "minute": "2'",
+      "text": "Corner, Sweden. Conceded by Ritsu Doan."
+    },
+    {
+      "minute": "1'",
+      "text": "Corner, Sweden. Conceded by Ao Tanaka."
+    },
+    {
+      "minute": "",
+      "text": "First Half begins."
+    },
+    {
+      "minute": "",
+      "text": "Lineups are announced and players are warming up."
+    }
+  ]
+}

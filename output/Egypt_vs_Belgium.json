@@ -1,0 +1,412 @@
+{
+  "match_name": "Egypt_vs_Belgium",
+  "url": "https://www.livescore.com/en/football/international/world-cup-2026/belgium-vs-egypt/1417945/?tab=commentary",
+  "scraped_at": "2026-07-01 13:51:29",
+  "total_entries": 101,
+  "raw_entries": [
+    {
+      "minute": "",
+      "text": "Match ends, Belgium 1, Egypt 1."
+    },
+    {
+      "minute": "90+6'",
+      "text": "Second Half ends, Belgium 1, Egypt 1."
+    },
+    {
+      "minute": "90+4'",
+      "text": "Attempt missed. Brandon Mechele (Belgium) right footed shot from the centre of the box is just a bit too high. Assisted by Youri Tielemans with a cross following a set piece situation."
+    },
+    {
+      "minute": "90+3'",
+      "text": "Foul by Zizo (Egypt)."
+    },
+    {
+      "minute": "90+3'",
+      "text": "Leandro Trossard (Belgium) wins a free kick on the left wing."
+    },
+    {
+      "minute": "90'",
+      "text": "Attempt blocked. Mohamed Hany (Egypt) right footed shot from outside the box is blocked. Assisted by Omar Marmoush."
+    },
+    {
+      "minute": "90'",
+      "text": "Fourth official has announced 5 minutes of added time."
+    },
+    {
+      "minute": "88'",
+      "text": "Substitution, Egypt. Karim Hafez replaces Ahmed Fatouh."
+    },
+    {
+      "minute": "88'",
+      "text": "Substitution, Egypt. Ibrahim Adel replaces Hamdi Fathy."
+    },
+    {
+      "minute": "87'",
+      "text": "Attempt missed. Romelu Lukaku (Belgium) header from the centre of the box is too high. Assisted by Nicolas Raskin with a cross."
+    },
+    {
+      "minute": "86'",
+      "text": "Substitution, Belgium. Matias Fernandez-Pardo replaces Jérémy Doku."
+    },
+    {
+      "minute": "86'",
+      "text": "Substitution, Belgium. Hans Vanaken replaces Kevin De Bruyne."
+    },
+    {
+      "minute": "84'",
+      "text": "Corner, Egypt. Conceded by Thibaut Courtois."
+    },
+    {
+      "minute": "84'",
+      "text": "Attempt blocked. Omar Marmoush (Egypt) right footed shot from the centre of the box is blocked. Assisted by Hamdi Fathy."
+    },
+    {
+      "minute": "83'",
+      "text": "Attempt saved. Brandon Mechele (Belgium) header from the centre of the box is saved in the bottom right corner by Mostafa Shobeir (Egypt). Assisted by Youri Tielemans."
+    },
+    {
+      "minute": "81'",
+      "text": "Foul by Mohamed Hany (Egypt)."
+    },
+    {
+      "minute": "81'",
+      "text": "Jérémy Doku (Belgium) wins a free kick on the left wing."
+    },
+    {
+      "minute": "80'",
+      "text": "Hamdi Fathy (Egypt) wins a free kick on the left wing."
+    },
+    {
+      "minute": "80'",
+      "text": "Foul by Thomas Meunier (Belgium)."
+    },
+    {
+      "minute": "79'",
+      "text": "Attempt blocked. Zizo (Egypt) right footed shot from outside the box is blocked. Assisted by Hamdi Fathy."
+    },
+    {
+      "minute": "78'",
+      "text": "Attempt blocked. Romelu Lukaku (Belgium) right footed shot from the centre of the box is blocked. Assisted by Leandro Trossard."
+    },
+    {
+      "minute": "76'",
+      "text": "Substitution, Egypt. Zizo replaces Mostafa Zico."
+    },
+    {
+      "minute": "76'",
+      "text": "Substitution, Egypt. Hamza Abdelkarim replaces Mohamed Salah."
+    },
+    {
+      "minute": "75'",
+      "text": "Mostafa Zico (Egypt) wins a free kick on the right wing."
+    },
+    {
+      "minute": "75'",
+      "text": "Foul by Maxim De Cuyper (Belgium)."
+    },
+    {
+      "minute": "75'",
+      "text": "Maxim De Cuyper (Belgium) is shown the yellow card for a bad foul."
+    },
+    {
+      "minute": "74'",
+      "text": "Mostafa Zico (Egypt) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "73'",
+      "text": "Attempt saved. Thomas Meunier (Belgium) left footed shot from the right side of the box is saved in the centre of the goal by Mostafa Shobeir (Egypt). Assisted by Leandro Trossard."
+    },
+    {
+      "minute": "72'",
+      "text": "Mohanad Lasheen (Egypt) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "72'",
+      "text": "Foul by Jérémy Doku (Belgium)."
+    },
+    {
+      "minute": "71'",
+      "text": "Substitution, Egypt. Ramy Rabia replaces Emam Ashour."
+    },
+    {
+      "minute": "70'",
+      "text": "Delay over. They are ready to continue."
+    },
+    {
+      "minute": "67'",
+      "text": "Delay in match for a drinks break."
+    },
+    {
+      "minute": "66'",
+      "text": "Foul by Mohanad Lasheen (Egypt)."
+    },
+    {
+      "minute": "66'",
+      "text": "Youri Tielemans (Belgium) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "66'",
+      "text": "Substitution, Belgium. Romelu Lukaku replaces Charles De Ketelaere."
+    },
+    {
+      "minute": "66'",
+      "text": "Own Goal by Mohamed Hany, Egypt. Belgium 1, Egypt 1."
+    },
+    {
+      "minute": "65'",
+      "text": "Attempt blocked. Omar Marmoush (Egypt) right footed shot from the centre of the box is blocked. Assisted by Mohamed Salah."
+    },
+    {
+      "minute": "65'",
+      "text": "Corner, Egypt. Conceded by Nathan Ngoy."
+    },
+    {
+      "minute": "64'",
+      "text": "Mostafa Shobeir (Egypt) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "64'",
+      "text": "Foul by Nathan Ngoy (Belgium)."
+    },
+    {
+      "minute": "63'",
+      "text": "Foul by Mohamed Salah (Egypt)."
+    },
+    {
+      "minute": "63'",
+      "text": "Brandon Mechele (Belgium) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "63'",
+      "text": "Corner, Belgium. Conceded by Ahmed Fatouh."
+    },
+    {
+      "minute": "62'",
+      "text": "Attempt missed. Youri Tielemans (Belgium) left footed shot from outside the box is close, but misses to the left following a corner."
+    },
+    {
+      "minute": "62'",
+      "text": "Attempt saved. Kevin De Bruyne (Belgium) right footed shot from the centre of the box is saved in the centre of the goal by Mostafa Shobeir (Egypt). Assisted by Thomas Meunier."
+    },
+    {
+      "minute": "61'",
+      "text": "Corner, Belgium. Conceded by Marwan Attia."
+    },
+    {
+      "minute": "59'",
+      "text": "Attempt missed. Omar Marmoush (Egypt) right footed shot from the right side of the box is high and wide to the right. Assisted by Mohamed Salah following a fast break."
+    },
+    {
+      "minute": "57'",
+      "text": "Attempt blocked. Marwan Attia (Egypt) left footed shot from the left side of the box is blocked. Assisted by Emam Ashour."
+    },
+    {
+      "minute": "57'",
+      "text": "Foul by Hamdi Fathy (Egypt)."
+    },
+    {
+      "minute": "57'",
+      "text": "Charles De Ketelaere (Belgium) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "56'",
+      "text": "Substitution, Belgium. Nicolas Raskin replaces Timothy Castagne."
+    },
+    {
+      "minute": "56'",
+      "text": "Substitution, Belgium. Maxim De Cuyper replaces Amadou Onana."
+    },
+    {
+      "minute": "55'",
+      "text": "Attempt saved. Mohamed Salah (Egypt) header from the centre of the box is saved in the top right corner by Thibaut Courtois (Belgium). Assisted by Ahmed Fatouh with a cross."
+    },
+    {
+      "minute": "55'",
+      "text": "Attempt missed. Emam Ashour (Egypt) right footed shot from the right side of the box misses to the left."
+    },
+    {
+      "minute": "54'",
+      "text": "Corner, Egypt. Conceded by Timothy Castagne."
+    },
+    {
+      "minute": "53'",
+      "text": "Kevin De Bruyne (Belgium) hits the left post with a right footed shot from outside the box from a direct free kick."
+    },
+    {
+      "minute": "52'",
+      "text": "Foul by Marwan Attia (Egypt)."
+    },
+    {
+      "minute": "52'",
+      "text": "Jérémy Doku (Belgium) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "51'",
+      "text": "Foul by Ahmed Fatouh (Egypt)."
+    },
+    {
+      "minute": "51'",
+      "text": "Youri Tielemans (Belgium) wins a free kick on the right wing."
+    },
+    {
+      "minute": "50'",
+      "text": "Foul by Omar Marmoush (Egypt)."
+    },
+    {
+      "minute": "48'",
+      "text": "Attempt blocked. Mostafa Zico (Egypt) left footed shot from the centre of the box is blocked."
+    },
+    {
+      "minute": "48'",
+      "text": "Attempt blocked. Omar Marmoush (Egypt) right footed shot from the centre of the box is blocked. Assisted by Mostafa Zico."
+    },
+    {
+      "minute": "47'",
+      "text": "Jérémy Doku (Belgium) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "45'",
+      "text": "Second Half begins Belgium 0, Egypt 1."
+    },
+    {
+      "minute": "45+5'",
+      "text": "First Half ends, Belgium 0, Egypt 1."
+    },
+    {
+      "minute": "45+4'",
+      "text": "Attempt missed. Omar Marmoush (Egypt) right footed shot from a difficult angle on the left misses to the right."
+    },
+    {
+      "minute": "45+4'",
+      "text": "Corner, Egypt. Conceded by Thomas Meunier."
+    },
+    {
+      "minute": "45+4'",
+      "text": "Attempt blocked. Mohamed Hany (Egypt) right footed shot from outside the box is blocked."
+    },
+    {
+      "minute": "45+4'",
+      "text": "Corner, Egypt. Conceded by Amadou Onana."
+    },
+    {
+      "minute": "45+3'",
+      "text": "Ahmed Fatouh (Egypt) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "45+1'",
+      "text": "Fourth official has announced 4 minutes of added time."
+    },
+    {
+      "minute": "45+1'",
+      "text": "Attempt missed. Jérémy Doku (Belgium) right footed shot from the centre of the box is high and wide to the right. Assisted by Charles De Ketelaere."
+    },
+    {
+      "minute": "45'",
+      "text": "Amadou Onana (Belgium) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "44'",
+      "text": "Amadou Onana (Belgium) wins a free kick on the right wing."
+    },
+    {
+      "minute": "43'",
+      "text": "Attempt blocked. Kevin De Bruyne (Belgium) right footed shot from outside the box is blocked. Assisted by Leandro Trossard."
+    },
+    {
+      "minute": "40'",
+      "text": "Emam Ashour (Egypt) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "39'",
+      "text": "Attempt blocked. Leandro Trossard (Belgium) left footed shot from outside the box is blocked. Assisted by Kevin De Bruyne."
+    },
+    {
+      "minute": "39'",
+      "text": "Leandro Trossard (Belgium) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "38'",
+      "text": "Attempt blocked. Leandro Trossard (Belgium) right footed shot from the centre of the box is blocked. Assisted by Jérémy Doku."
+    },
+    {
+      "minute": "37'",
+      "text": "Hamdi Fathy (Egypt) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "37'",
+      "text": "Foul by Youri Tielemans (Belgium)."
+    },
+    {
+      "minute": "34'",
+      "text": "Ahmed Fatouh (Egypt) is shown the yellow card for a bad foul."
+    },
+    {
+      "minute": "33'",
+      "text": "Attempt saved. Mostafa Zico (Egypt) right footed shot from the right side of the box is saved in the centre of the goal by Thibaut Courtois (Belgium). Assisted by Marwan Attia."
+    },
+    {
+      "minute": "31'",
+      "text": "Attempt missed. Youri Tielemans (Belgium) header from the centre of the box misses to the right. Assisted by Timothy Castagne with a cross."
+    },
+    {
+      "minute": "22'",
+      "text": "Foul by Brandon Mechele (Belgium)."
+    },
+    {
+      "minute": "22'",
+      "text": "Mohamed Salah (Egypt) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "20'",
+      "text": "Goal! Belgium 0, Egypt 1. Emam Ashour (Egypt) right footed shot from outside the box to the bottom left corner. Assisted by Mohamed Salah."
+    },
+    {
+      "minute": "19'",
+      "text": "Handball by Thomas Meunier (Belgium)."
+    },
+    {
+      "minute": "14'",
+      "text": "Foul by Timothy Castagne (Belgium)."
+    },
+    {
+      "minute": "14'",
+      "text": "Timothy Castagne (Belgium) is shown the yellow card for a bad foul."
+    },
+    {
+      "minute": "13'",
+      "text": "Nathan Ngoy (Belgium) wins a free kick in the attacking half."
+    },
+    {
+      "minute": "13'",
+      "text": "Marwan Attia (Egypt) is shown the yellow card for a bad foul."
+    },
+    {
+      "minute": "12'",
+      "text": "VAR Decision: Other Decision Cancelled."
+    },
+    {
+      "minute": "7'",
+      "text": "Attempt missed. Kevin De Bruyne (Belgium) right footed shot from outside the box is close, but misses to the left. Assisted by Youri Tielemans."
+    },
+    {
+      "minute": "7'",
+      "text": "Omar Marmoush (Egypt) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "5'",
+      "text": "Offside, Egypt. Mostafa Zico is caught offside."
+    },
+    {
+      "minute": "1'",
+      "text": "Foul by Amadou Onana (Belgium)."
+    },
+    {
+      "minute": "",
+      "text": "First Half begins."
+    },
+    {
+      "minute": "",
+      "text": "Lineups are announced and players are warming up."
+    }
+  ]
+}

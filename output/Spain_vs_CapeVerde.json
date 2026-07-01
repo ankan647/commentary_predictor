@@ -1,0 +1,348 @@
+{
+  "match_name": "Spain_vs_CapeVerde",
+  "url": "https://www.livescore.com/en/football/international/world-cup-2026/spain-vs-cape-verde/1417951/?tab=commentary",
+  "scraped_at": "2026-07-01 13:49:13",
+  "total_entries": 85,
+  "raw_entries": [
+    {
+      "minute": "",
+      "text": "Match ends, Spain 0, Cabo Verde 0."
+    },
+    {
+      "minute": "90+6'",
+      "text": "Second Half ends, Spain 0, Cabo Verde 0."
+    },
+    {
+      "minute": "90+5'",
+      "text": "Attempt missed. Lamine Yamal (Spain) left footed shot from the right side of the box misses to the left."
+    },
+    {
+      "minute": "90+5'",
+      "text": "Corner, Spain. Conceded by Kevin Pina."
+    },
+    {
+      "minute": "90+5'",
+      "text": "Attempt missed. Mikel Oyarzabal (Spain) header from the right side of the six yard box misses to the left. Assisted by Lamine Yamal with a cross following a corner."
+    },
+    {
+      "minute": "90+4'",
+      "text": "Attempt missed. Ryan Mendes (Cabo Verde) right footed shot from outside the box misses to the right. Assisted by Telmo Arcanjo."
+    },
+    {
+      "minute": "90+3'",
+      "text": "Nuno da Costa (Cabo Verde) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "90+3'",
+      "text": "Foul by Pedri (Spain)."
+    },
+    {
+      "minute": "90+3'",
+      "text": "Pedri (Spain) is shown the yellow card for a bad foul."
+    },
+    {
+      "minute": "90+2'",
+      "text": "Attempt blocked. Lamine Yamal (Spain) left footed shot from outside the box is blocked. Assisted by Pau Cubarsí."
+    },
+    {
+      "minute": "90+1'",
+      "text": "Attempt saved. Diney Borges (Cabo Verde) header from the centre of the box is saved in the centre of the goal by Unai Simón (Spain). Assisted by Telmo Arcanjo with a cross."
+    },
+    {
+      "minute": "90+1'",
+      "text": "Corner, Spain. Conceded by Diney Borges."
+    },
+    {
+      "minute": "90'",
+      "text": "Attempt blocked. Kevin Pina (Cabo Verde) right footed shot from outside the box is blocked. Assisted by Deroy Duarte."
+    },
+    {
+      "minute": "90'",
+      "text": "Corner, Cabo Verde. Conceded by Dani Olmo."
+    },
+    {
+      "minute": "90'",
+      "text": "Fourth official has announced 5 minutes of added time."
+    },
+    {
+      "minute": "88'",
+      "text": "Attempt blocked. Mikel Oyarzabal (Spain) right footed shot from the centre of the box is blocked. Assisted by Dani Olmo."
+    },
+    {
+      "minute": "88'",
+      "text": "Corner, Spain. Conceded by Pico Lopes."
+    },
+    {
+      "minute": "87'",
+      "text": "Substitution, Spain. Nico Williams replaces Rodri."
+    },
+    {
+      "minute": "85'",
+      "text": "Attempt missed. Rodri (Spain) left footed shot from outside the box misses to the right."
+    },
+    {
+      "minute": "83'",
+      "text": "João Paulo (Cabo Verde) wins a free kick on the left wing."
+    },
+    {
+      "minute": "83'",
+      "text": "Foul by Lamine Yamal (Spain)."
+    },
+    {
+      "minute": "82'",
+      "text": "Attempt saved. Marc Cucurella (Spain) header from the centre of the box is saved in the centre of the goal by Vozinha (Cabo Verde). Assisted by Mikel Merino with a headed pass."
+    },
+    {
+      "minute": "81'",
+      "text": "Substitution, Spain. Dani Olmo replaces Ferran Torres."
+    },
+    {
+      "minute": "81'",
+      "text": "VAR Decision: Other Decision Cancelled."
+    },
+    {
+      "minute": "79'",
+      "text": "Substitution, Cabo Verde. Telmo Arcanjo replaces Jamiro Monteiro."
+    },
+    {
+      "minute": "78'",
+      "text": "Attempt blocked. Pedri (Spain) right footed shot from outside the box is blocked. Assisted by Mikel Merino."
+    },
+    {
+      "minute": "76'",
+      "text": "Substitution, Cabo Verde. João Paulo replaces Sidny Cabral."
+    },
+    {
+      "minute": "75'",
+      "text": "Attempt blocked. Ferran Torres (Spain) right footed shot from outside the box is blocked. Assisted by Rodri."
+    },
+    {
+      "minute": "75'",
+      "text": "Kevin Pina (Cabo Verde) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "75'",
+      "text": "Foul by Mikel Merino (Spain)."
+    },
+    {
+      "minute": "73'",
+      "text": "Attempt saved. Mikel Merino (Spain) right footed shot from the centre of the box is saved in the centre of the goal by Vozinha (Cabo Verde). Assisted by Marcos Llorente."
+    },
+    {
+      "minute": "71'",
+      "text": "Delay over. They are ready to continue."
+    },
+    {
+      "minute": "71'",
+      "text": "Substitution, Spain. Mikel Merino replaces Fabián Ruiz."
+    },
+    {
+      "minute": "71'",
+      "text": "Substitution, Spain. Lamine Yamal replaces Gavi."
+    },
+    {
+      "minute": "68'",
+      "text": "Corner, Spain. Conceded by Sidny Cabral."
+    },
+    {
+      "minute": "68'",
+      "text": "Vozinha (Cabo Verde) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "68'",
+      "text": "Foul by Rodri (Spain)."
+    },
+    {
+      "minute": "68'",
+      "text": "Delay in match for a drinks break."
+    },
+    {
+      "minute": "65'",
+      "text": "Delay in match because of an injury Aymeric Laporte (Spain)."
+    },
+    {
+      "minute": "61'",
+      "text": "Substitution, Cabo Verde. Willy Semedo replaces Jovane Cabral because of an injury."
+    },
+    {
+      "minute": "61'",
+      "text": "Substitution, Cabo Verde. Deroy Duarte replaces Laros Duarte."
+    },
+    {
+      "minute": "61'",
+      "text": "Substitution, Cabo Verde. Nuno da Costa replaces Dailon Livramento."
+    },
+    {
+      "minute": "58'",
+      "text": "Attempt missed. Aymeric Laporte (Spain) left footed shot from outside the box is too high. Assisted by Rodri."
+    },
+    {
+      "minute": "56'",
+      "text": "Attempt saved. Fabián Ruiz (Spain) header from the centre of the box is saved in the centre of the goal by Vozinha (Cabo Verde). Assisted by Pedri with a through ball."
+    },
+    {
+      "minute": "52'",
+      "text": "Ryan Mendes (Cabo Verde) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "52'",
+      "text": "Foul by Gavi (Spain)."
+    },
+    {
+      "minute": "51'",
+      "text": "Attempt missed. Fabián Ruiz (Spain) left footed shot from outside the box is high and wide to the left. Assisted by Pedri."
+    },
+    {
+      "minute": "48'",
+      "text": "Attempt missed. Mikel Oyarzabal (Spain) header from the centre of the box misses to the right. Assisted by Pedri with a cross."
+    },
+    {
+      "minute": "48'",
+      "text": "Attempt missed. Fabián Ruiz (Spain) left footed shot from outside the box is high and wide to the left. Assisted by Marcos Llorente."
+    },
+    {
+      "minute": "45'",
+      "text": "Second Half begins Spain 0, Cabo Verde 0."
+    },
+    {
+      "minute": "45+5'",
+      "text": "First Half ends, Spain 0, Cabo Verde 0."
+    },
+    {
+      "minute": "45+4'",
+      "text": "Attempt missed. Mikel Oyarzabal (Spain) header from very close range misses to the right. Assisted by Marcos Llorente with a cross."
+    },
+    {
+      "minute": "45+3'",
+      "text": "Corner, Spain. Conceded by Vozinha."
+    },
+    {
+      "minute": "45+3'",
+      "text": "Attempt blocked. Rodri (Spain) header from the left side of the six yard box is blocked. Assisted by Pedri with a cross."
+    },
+    {
+      "minute": "45+2'",
+      "text": "Corner, Spain. Conceded by Jovane Cabral."
+    },
+    {
+      "minute": "45+2'",
+      "text": "Attempt saved. Aymeric Laporte (Spain) header from the centre of the box is saved in the bottom left corner by Vozinha (Cabo Verde)."
+    },
+    {
+      "minute": "45'",
+      "text": "Attempt saved. Ferran Torres (Spain) left footed shot from the centre of the box is saved in the centre of the goal by Vozinha (Cabo Verde)."
+    },
+    {
+      "minute": "45'",
+      "text": "Fourth official has announced 4 minutes of added time."
+    },
+    {
+      "minute": "43'",
+      "text": "Offside, Spain. Pedri is caught offside."
+    },
+    {
+      "minute": "41'",
+      "text": "Attempt missed. Fabián Ruiz (Spain) left footed shot from outside the box is high and wide to the left. Assisted by Mikel Oyarzabal following a corner."
+    },
+    {
+      "minute": "40'",
+      "text": "Attempt blocked. Ferran Torres (Spain) header from very close range is blocked. Assisted by Pedri with a cross."
+    },
+    {
+      "minute": "39'",
+      "text": "Ferran Torres (Spain) hits the bar with a right footed shot from very close range. Assisted by Marc Cucurella with a headed pass."
+    },
+    {
+      "minute": "39'",
+      "text": "Attempt saved. Mikel Oyarzabal (Spain) header from the centre of the box is saved in the top centre of the goal by Vozinha (Cabo Verde)."
+    },
+    {
+      "minute": "38'",
+      "text": "Attempt missed. Jovane Cabral (Cabo Verde) right footed shot from long range on the left is too high. Assisted by Sidny Cabral following a set piece situation."
+    },
+    {
+      "minute": "37'",
+      "text": "Dailon Livramento (Cabo Verde) wins a free kick on the left wing."
+    },
+    {
+      "minute": "37'",
+      "text": "Foul by Marcos Llorente (Spain)."
+    },
+    {
+      "minute": "36'",
+      "text": "Offside, Spain. Marc Cucurella is caught offside."
+    },
+    {
+      "minute": "35'",
+      "text": "Sidny Cabral (Cabo Verde) wins a free kick in the defensive half."
+    },
+    {
+      "minute": "35'",
+      "text": "Foul by Ferran Torres (Spain)."
+    },
+    {
+      "minute": "35'",
+      "text": "Attempt missed. Dailon Livramento (Cabo Verde) right footed shot from more than 35 yards misses to the left following a fast break."
+    },
+    {
+      "minute": "33'",
+      "text": "Offside, Cabo Verde. Ryan Mendes is caught offside."
+    },
+    {
+      "minute": "29'",
+      "text": "Attempt blocked. Gavi (Spain) right footed shot from the left side of the box is blocked. Assisted by Marc Cucurella."
+    },
+    {
+      "minute": "29'",
+      "text": "Attempt missed. Marc Cucurella (Spain) right footed shot from the left side of the box is too high."
+    },
+    {
+      "minute": "27'",
+      "text": "Attempt blocked. Steven Moreira (Cabo Verde) right footed shot from the right side of the box is blocked."
+    },
+    {
+      "minute": "20'",
+      "text": "Attempt blocked. Pau Cubarsí (Spain) right footed shot from outside the box is blocked. Assisted by Rodri."
+    },
+    {
+      "minute": "20'",
+      "text": "Offside, Cabo Verde. Dailon Livramento is caught offside."
+    },
+    {
+      "minute": "19'",
+      "text": "Attempt missed. Fabián Ruiz (Spain) left footed shot from outside the box misses to the left."
+    },
+    {
+      "minute": "16'",
+      "text": "Foul by Sidny Cabral (Cabo Verde)."
+    },
+    {
+      "minute": "16'",
+      "text": "Marcos Llorente (Spain) wins a free kick on the right wing."
+    },
+    {
+      "minute": "16'",
+      "text": "Sidny Cabral (Cabo Verde) is shown the yellow card for a bad foul."
+    },
+    {
+      "minute": "15'",
+      "text": "Handball by Gavi (Spain)."
+    },
+    {
+      "minute": "15'",
+      "text": "Attempt saved. Pedri (Spain) right footed shot from outside the box is saved in the centre of the goal by Vozinha (Cabo Verde)."
+    },
+    {
+      "minute": "2'",
+      "text": "Foul by Marc Cucurella (Spain)."
+    },
+    {
+      "minute": "",
+      "text": "First Half begins."
+    },
+    {
+      "minute": "",
+      "text": "Lineups are announced and players are warming up."
+    }
+  ]
+}
