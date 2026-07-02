@@ -599,7 +599,7 @@ England_vs_Croatia,England,Croatia,16,10',10.0,other,England,0,0.725,0.0,Harry K
 England_vs_Croatia,England,Croatia,17,10',10.0,other,neutral,0,0.077,0.0,Josko Gvardiol relieves the pressure with a clearance
 England_vs_Croatia,England,Croatia,18,10',10.0,other,England,0,0.575,0.0,"VAR - PENALTY! - The referee has stopped the play. VAR check in progress, a potential penalty for England."
 England_vs_Croatia,England,Croatia,19,11',11.0,other,England,0,0.879,0.0,"VAR - PENALTY RETAKE! - After a VAR check, the penalty for England will be retaken due to an infringement."
-England_vs_Croatia,England,Croatia,20,12',12.0,other,England,0,0.394,0.0,"PEN
+England_vs_Croatia,England,Croatia,20,12',12.0,goal,England,10,0.394,13.937,"PEN
 G O O O A A A L - Harry Kane from England puts it away from the penalty spot with the right foot! Dominik Livakovic chose the wrong side."
 England_vs_Croatia,England,Croatia,21,13',13.0,other,England,0,0.202,0.0,England managed to score the important first goal. Will they build on that?
 England_vs_Croatia,England,Croatia,22,15',15.0,other,neutral,0,0.077,0.0,Jude Bellingham relieves the pressure with a clearance
@@ -625,7 +625,7 @@ England_vs_Croatia,England,Croatia,41,34',34.0,other,neutral,0,0.612,0.0,Reece J
 England_vs_Croatia,England,Croatia,42,35',35.0,other,England,0,0.128,0.0,A chance presents itself to Harry Kane from England but his header goes wide
 England_vs_Croatia,England,Croatia,43,36',36.0,other,neutral,0,0.572,0.0,Luka Vuskovic makes the tackle and wins possession for his team
 England_vs_Croatia,England,Croatia,44,36',36.0,other,neutral,0,0.599,0.0,Petar Sucic creates a scoring opportunity for his teammate
-England_vs_Croatia,England,Croatia,45,36',36.0,other,Croatia,0,0.616,0.0,G O O O A A A L - Martin Baturina from Croatia beats the keeper from outside the box with the right foot!
+England_vs_Croatia,England,Croatia,45,36',36.0,goal,Croatia,10,0.616,16.155,G O O O A A A L - Martin Baturina from Croatia beats the keeper from outside the box with the right foot!
 England_vs_Croatia,England,Croatia,46,36',36.0,other,neutral,0,0.0,0.0,Petar Sucic provided the assist for the goal.
 England_vs_Croatia,England,Croatia,47,36',36.0,goal,neutral,10,0.0,10.0,Martin Baturina made the key pass for the goal!
 England_vs_Croatia,England,Croatia,48,37',37.0,other,neutral,0,0.625,0.0,A great goal by Martin Baturina
@@ -634,7 +634,7 @@ England_vs_Croatia,England,Croatia,50,39',39.0,other,neutral,0,0.572,0.0,Martin 
 England_vs_Croatia,England,Croatia,51,39',39.0,other,England,0,0.511,0.0,The referee signals a free kick as Elliot Anderson from England trips Martin Baturina
 England_vs_Croatia,England,Croatia,52,40',40.0,other,England,0,0.0,0.0,Ezri Konsa from England goes a bit too far there as the pulls down Petar Musa
 England_vs_Croatia,England,Croatia,53,41',41.0,other,neutral,0,0.077,0.0,Luka Vuskovic relieves the pressure with a clearance
-England_vs_Croatia,England,Croatia,54,42',42.0,other,England,0,0.616,0.0,G O O O A A A L - Harry Kane from England heads the ball home!
+England_vs_Croatia,England,Croatia,54,42',42.0,goal,England,10,0.616,16.155,G O O O A A A L - Harry Kane from England heads the ball home!
 England_vs_Croatia,England,Croatia,55,42',42.0,other,neutral,0,0.0,0.0,Declan Rice provided the assist for the goal.
 England_vs_Croatia,England,Croatia,56,45',45.0,other,neutral,0,0.612,0.0,Ivan Perisic wins an air challenge against Reece James
 England_vs_Croatia,England,Croatia,57,45',45.0,other,Croatia,0,0.511,0.0,The referee signals a free kick as Mario Pasalic from Croatia trips Jude Bellingham
@@ -645,14 +645,14 @@ England_vs_Croatia,England,Croatia,61,45+4',49.0,other,neutral,0,0.421,0.0,Mario
 England_vs_Croatia,England,Croatia,62,45+5',50.0,other,neutral,0,0.0,0.0,Harry Kane is penalised for pushing Luka Modric.
 England_vs_Croatia,England,Croatia,63,45+5',50.0,other,Croatia,0,0.494,0.0,The cross by Mario Pasalic from Croatia successfully finds a teammate in the box.
 England_vs_Croatia,England,Croatia,64,45+5',50.0,other,neutral,0,0.599,0.0,Ivan Perisic creates a scoring opportunity for his teammate
-England_vs_Croatia,England,Croatia,65,45+5',50.0,other,neutral,0,0.845,0.0,G O O O A A A L - Petar Musa volleys the ball into the back of the net with the right. A great finish!
+England_vs_Croatia,England,Croatia,65,45+5',50.0,goal,neutral,10,0.845,18.452,G O O O A A A L - Petar Musa volleys the ball into the back of the net with the right. A great finish!
 England_vs_Croatia,England,Croatia,66,45+5',50.0,other,neutral,0,0.0,0.0,Ivan Perisic provided the assist for the goal.
 England_vs_Croatia,England,Croatia,67,45+5',50.0,goal,neutral,10,0.0,10.0,Mario Pasalic made the key pass for the goal!
 England_vs_Croatia,England,Croatia,68,45+7',52.0,other,neutral,0,0.0,0.0,"Ball possession: England: 48%, Croatia: 52%."
 England_vs_Croatia,England,Croatia,69,45+7',52.0,other,neutral,0,0.0,0.0,It's over! The referee blows for half time
 England_vs_Croatia,England,Croatia,70,46',46.0,other,neutral,0,0.0,0.0,The second half is underway.
 England_vs_Croatia,England,Croatia,71,47',47.0,other,neutral,0,0.599,0.0,Elliot Anderson creates a scoring opportunity for his teammate
-England_vs_Croatia,England,Croatia,72,47',47.0,other,neutral,0,0.616,0.0,G O O O A A A L - Jude Bellingham scores with the right foot!
+England_vs_Croatia,England,Croatia,72,47',47.0,goal,neutral,10,0.616,16.155,G O O O A A A L - Jude Bellingham scores with the right foot!
 England_vs_Croatia,England,Croatia,73,47',47.0,other,neutral,0,0.0,0.0,Elliot Anderson provided the assist for the goal.
 England_vs_Croatia,England,Croatia,74,48',48.0,other,neutral,0,0.598,0.0,A fantastic individual effort by Jude Bellingham!
 England_vs_Croatia,England,Croatia,75,48',48.0,other,neutral,0,0.572,0.0,Declan Rice makes the tackle and wins possession for his team
@@ -732,7 +732,7 @@ England_vs_Croatia,England,Croatia,148,84',84.0,other,neutral,0,0.0,0.0,"Mateo K
 England_vs_Croatia,England,Croatia,149,85',85.0,other,England,0,0.0,0.0,England take a throw-in in their own half of the field.
 England_vs_Croatia,England,Croatia,150,85',85.0,other,England,0,0.273,0.0,England are trying to create something here.
 England_vs_Croatia,England,Croatia,151,85',85.0,other,neutral,0,0.599,0.0,Bukayo Saka creates a scoring opportunity for his teammate
-England_vs_Croatia,England,Croatia,152,85',85.0,other,neutral,0,0.616,0.0,G O O O A A A L - Marcus Rashford scores with the right foot!
+England_vs_Croatia,England,Croatia,152,85',85.0,goal,neutral,10,0.616,16.155,G O O O A A A L - Marcus Rashford scores with the right foot!
 England_vs_Croatia,England,Croatia,153,85',85.0,other,neutral,0,0.0,0.0,Bukayo Saka provided the assist for the goal.
 England_vs_Croatia,England,Croatia,154,87',87.0,other,neutral,0,0.0,0.0,John Stones is leaving the field to be replaced by Marc Guehi in a tactical substitution.
 England_vs_Croatia,England,Croatia,155,88',88.0,other,neutral,0,0.572,0.0,Reece James makes the tackle and wins possession for his team

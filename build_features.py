@@ -25,6 +25,10 @@ OUT_PRESS  = "pressure_index.csv"
 
 EVENT_RULES = [
     # ── GOALS ──────────────────────────────────────────────────────────────
+    # LiveScore alternate format: "PEN\nG O O O A A A L - [Player]..."
+    # (used for some penalty goals, e.g., England vs Croatia)
+    (r"G\s+O\s+O\s+O?\s*A\s+A\s+A?\s*L",                   "goal",             10),
+
     # "Goal! Argentina 2, Austria 0. [Player] left footed shot..."
     (r"(?<!\w)Goal!",                                       "goal",             10),
 

@@ -1,0 +1,235 @@
+match,team,minute,pre5_avg,pre10_avg,match_avg,at_goal,uplift,label,goal_type
+Argentina_vs_Austria,Argentina,38.0,1.4,0.8,5.074,11.0,-3.674,"Argentina
+Argentina vs Austria
+38'",counter_attack
+Argentina_vs_Austria,Argentina,95.0,10.624,9.357,5.074,30.623,5.55,"Argentina
+Argentina vs Austria
+95'",counter_attack
+Brazil_vs_Japan_R32,Japan,29.0,2.355,2.474,2.769,15.888,-0.414,"Japan
+Brazil vs Japan R32
+29'",counter_attack
+Brazil_vs_Japan_R32,Brazil,56.0,12.903,11.299,6.108,28.628,6.795,"Brazil
+Brazil vs Japan R32
+56'",open_play
+Brazil_vs_Japan_R32,Brazil,95.0,9.629,7.537,6.108,15.888,3.52,"Brazil
+Brazil vs Japan R32
+95'",open_play
+Brazil_vs_Morocco,Morocco,21.0,0.2,4.977,4.26,10.0,-4.06,"Morocco
+Brazil vs Morocco
+21'",counter_attack
+Brazil_vs_Morocco,Brazil,32.0,0.0,1.345,5.003,12.714,-5.003,"Brazil
+Brazil vs Morocco
+32'",open_play
+Canada_vs_Qatar,Canada,16.0,7.17,8.2,10.187,27.071,-3.016,"Canada
+Canada vs Qatar
+16'",set_piece
+Canada_vs_Qatar,Canada,29.0,2.236,8.049,10.187,16.094,-7.951,"Canada
+Canada vs Qatar
+29'",open_play
+Canada_vs_Qatar,Canada,48.0,7.082,8.591,10.187,25.966,-3.105,"Canada
+Canada vs Qatar
+48'",open_play
+Canada_vs_Qatar,Canada,64.0,2.878,3.218,10.187,18.965,-7.309,"Canada
+Canada vs Qatar
+64'",set_piece
+Canada_vs_Qatar,Canada,92.0,13.164,14.455,10.187,23.678,2.977,"Canada
+Canada vs Qatar
+92'",open_play
+Egypt_vs_Belgium,Egypt,20.0,2.776,2.673,4.964,10.0,-2.188,"Egypt
+Egypt vs Belgium
+20'",open_play
+England_vs_Croatia,England,12.0,0.0,0.0,1.254,13.937,-1.254,"England
+England vs Croatia
+12'",penalty
+England_vs_Croatia,Croatia,36.0,0.0,0.0,0.673,16.155,-0.673,"Croatia
+England vs Croatia
+36'",open_play
+England_vs_Croatia,neutral,36.0,0.0,0.0,2.948,10.0,-2.948,"neutral
+England vs Croatia
+36'",open_play
+England_vs_Croatia,England,42.0,0.0,0.0,1.254,16.155,-1.254,"England
+England vs Croatia
+42'",open_play
+England_vs_Croatia,neutral,50.0,9.693,5.847,2.948,44.607,6.745,"neutral
+England vs Croatia
+50'",open_play
+England_vs_Croatia,neutral,50.0,9.693,5.847,2.948,44.607,6.745,"neutral
+England vs Croatia
+50'",open_play
+England_vs_Croatia,neutral,47.0,0.0,4.0,2.948,16.155,-2.948,"neutral
+England vs Croatia
+47'",open_play
+England_vs_Croatia,neutral,85.0,0.0,0.0,2.948,16.155,-2.948,"neutral
+England vs Croatia
+85'",open_play
+France_vs_Norway,France,7.0,13.651,12.543,6.463,27.521,7.188,"France
+France vs Norway
+7'",open_play
+France_vs_Norway,France,20.0,7.523,10.152,6.463,17.723,1.06,"France
+France vs Norway
+20'",counter_attack
+France_vs_Norway,Norway,21.0,5.2,10.782,4.057,14.482,1.143,"Norway
+France vs Norway
+21'",open_play
+France_vs_Norway,France,32.0,3.738,11.4,6.463,10.0,-2.726,"France
+France vs Norway
+32'",open_play
+France_vs_Norway,France,94.0,1.555,1.478,6.463,13.888,-4.908,"France
+France vs Norway
+94'",open_play
+Germany_vs_Ecuador,Germany,2.0,0.0,0.0,4.191,10.0,-4.191,"Germany
+Germany vs Ecuador
+2'",open_play
+Germany_vs_Ecuador,Ecuador,9.0,2.237,1.398,3.801,14.592,-1.564,"Ecuador
+Germany vs Ecuador
+9'",open_play
+Germany_vs_Ecuador,Ecuador,77.0,3.11,2.092,3.801,23.084,-0.691,"Ecuador
+Germany vs Ecuador
+77'",set_piece
+Germany_vs_IvoryCoast,Germany,30.0,1.096,4.07,5.544,10.0,-4.448,"Germany
+Germany vs IvoryCoast
+30'",open_play
+Germany_vs_IvoryCoast,Germany,68.0,10.082,9.431,5.544,13.0,4.538,"Germany
+Germany vs IvoryCoast
+68'",open_play
+Germany_vs_IvoryCoast,Germany,94.0,14.993,10.256,5.544,18.514,9.449,"Germany
+Germany vs IvoryCoast
+94'",open_play
+Germany_vs_Paraguay_R32,Paraguay,42.0,1.078,0.898,3.516,10.0,-2.438,"Paraguay
+Germany vs Paraguay R32
+42'",set_piece
+Germany_vs_Paraguay_R32,Germany,54.0,7.15,6.502,6.735,10.0,0.415,"Germany
+Germany vs Paraguay R32
+54'",open_play
+Germany_vs_Paraguay_R32,neutral,124.0,0.0,0.0,0.216,0.0,-0.216,"neutral
+Germany vs Paraguay R32
+124'",penalty
+Germany_vs_Paraguay_R32,neutral,125.0,0.0,0.0,0.216,0.0,-0.216,"neutral
+Germany vs Paraguay R32
+125'",penalty
+Germany_vs_Paraguay_R32,neutral,125.0,0.0,0.0,0.216,0.0,-0.216,"neutral
+Germany vs Paraguay R32
+125'",penalty
+Germany_vs_Paraguay_R32,neutral,126.0,0.0,0.0,0.216,0.0,-0.216,"neutral
+Germany vs Paraguay R32
+126'",penalty
+Germany_vs_Paraguay_R32,neutral,127.0,0.0,0.0,0.216,0.0,-0.216,"neutral
+Germany vs Paraguay R32
+127'",penalty
+Germany_vs_Paraguay_R32,neutral,130.0,0.0,0.0,0.216,0.0,-0.216,"neutral
+Germany vs Paraguay R32
+130'",penalty
+Germany_vs_Paraguay_R32,neutral,132.0,0.0,0.0,0.216,0.0,-0.216,"neutral
+Germany vs Paraguay R32
+132'",penalty
+Iran_vs_NewZealand,Iran,7.0,2.777,2.314,7.361,18.514,-4.584,"Iran
+Iran vs NewZealand
+7'",open_play
+Iran_vs_NewZealand,Iran,32.0,8.198,5.444,7.361,29.442,0.837,"Iran
+Iran vs NewZealand
+32'",open_play
+Iran_vs_NewZealand,Iran,54.0,16.372,14.121,7.361,15.888,9.011,"Iran
+Iran vs NewZealand
+54'",counter_attack
+Iran_vs_NewZealand,Iran,64.0,7.03,10.093,7.361,17.723,-0.331,"Iran
+Iran vs NewZealand
+64'",open_play
+Japan_vs_Sweden,Japan,56.0,8.532,9.844,3.369,15.482,5.163,"Japan
+Japan vs Sweden
+56'",open_play
+Japan_vs_Sweden,Sweden,62.0,0.0,2.757,4.845,10.0,-4.845,"Sweden
+Japan vs Sweden
+62'",open_play
+Mexico_vs_Czechia,Mexico,55.0,7.892,5.583,4.295,10.0,3.597,"Mexico
+Mexico vs Czechia
+55'",open_play
+Mexico_vs_Czechia,Mexico,61.0,10.033,8.946,4.295,12.791,5.737,"Mexico
+Mexico vs Czechia
+61'",counter_attack
+Mexico_vs_Czechia,Mexico,94.0,0.4,0.859,4.295,20.437,-3.895,"Mexico
+Mexico vs Czechia
+94'",open_play
+Mexico_vs_SouthKorea,Mexico,50.0,2.47,1.535,3.467,19.831,-0.997,"Mexico
+Mexico vs SouthKorea
+50'",open_play
+Netherlands_vs_Japan,Netherlands,51.0,4.17,2.285,4.241,13.791,-0.071,"Netherlands
+Netherlands vs Japan
+51'",set_piece
+Netherlands_vs_Japan,Japan,57.0,0.6,2.962,3.458,10.0,-2.858,"Japan
+Netherlands vs Japan
+57'",open_play
+Netherlands_vs_Japan,Netherlands,64.0,5.695,5.026,4.241,19.423,1.454,"Netherlands
+Netherlands vs Japan
+64'",open_play
+Netherlands_vs_Japan,Japan,89.0,6.861,8.553,3.458,22.987,3.403,"Japan
+Netherlands vs Japan
+89'",set_piece
+Netherlands_vs_Morocco_R32,Netherlands,72.0,1.078,1.994,3.401,10.0,-2.323,"Netherlands
+Netherlands vs Morocco R32
+72'",open_play
+Netherlands_vs_Morocco_R32,Morocco,91.0,0.0,1.275,4.369,12.714,-4.369,"Morocco
+Netherlands vs Morocco R32
+91'",open_play
+Netherlands_vs_Morocco_R32,neutral,121.0,0.0,0.0,0.0,0.0,0.0,"neutral
+Netherlands vs Morocco R32
+121'",penalty
+Netherlands_vs_Morocco_R32,neutral,124.0,0.0,0.0,0.0,0.0,0.0,"neutral
+Netherlands vs Morocco R32
+124'",penalty
+Netherlands_vs_Morocco_R32,neutral,125.0,0.0,0.0,0.0,0.0,0.0,"neutral
+Netherlands vs Morocco R32
+125'",penalty
+Netherlands_vs_Morocco_R32,neutral,126.0,0.0,0.0,0.0,0.0,0.0,"neutral
+Netherlands vs Morocco R32
+126'",penalty
+Netherlands_vs_Morocco_R32,neutral,130.0,0.0,0.0,0.0,0.0,0.0,"neutral
+Netherlands vs Morocco R32
+130'",penalty
+Portugal_vs_DRCongo,Portugal,6.0,0.0,0.0,4.202,10.0,-4.202,"Portugal
+Portugal vs DRCongo
+6'",open_play
+Portugal_vs_DRCongo,Portugal,50.0,3.126,4.114,4.202,17.122,-1.076,"Portugal
+Portugal vs DRCongo
+50'",set_piece
+SaudiArabia_vs_Uruguay,Uruguay,41.0,7.146,5.93,8.851,23.725,-1.705,"Uruguay
+SaudiArabia vs Uruguay
+41'",set_piece
+SaudiArabia_vs_Uruguay,Uruguay,80.0,6.252,6.92,8.851,23.001,-2.599,"Uruguay
+SaudiArabia vs Uruguay
+80'",open_play
+Scotland_vs_Morocco,Morocco,2.0,0.0,0.0,4.022,10.0,-4.022,"Morocco
+Scotland vs Morocco
+2'",open_play
+SouthAfrica_vs_Canada_R32,Canada,92.0,2.878,2.579,4.787,11.796,-1.91,"Canada
+SouthAfrica vs Canada R32
+92'",open_play
+Spain_vs_Uruguay,Spain,42.0,1.0,0.5,2.888,10.0,-1.888,"Spain
+Spain vs Uruguay
+42'",open_play
+Switzerland_vs_Bosnia,Switzerland,74.0,1.485,5.776,6.093,14.51,-4.608,"Switzerland
+Switzerland vs Bosnia
+74'",open_play
+Switzerland_vs_Bosnia,Switzerland,84.0,6.691,10.721,6.093,20.614,0.598,"Switzerland
+Switzerland vs Bosnia
+84'",open_play
+Switzerland_vs_Bosnia,Switzerland,90.0,10.2,10.407,6.093,10.0,4.108,"Switzerland
+Switzerland vs Bosnia
+90'",open_play
+Switzerland_vs_Bosnia,Bosnia,93.0,0.4,2.0,3.533,12.0,-3.133,"Bosnia
+Switzerland vs Bosnia
+93'",set_piece
+Switzerland_vs_Bosnia,Switzerland,97.0,8.437,8.218,6.093,25.481,2.344,"Switzerland
+Switzerland vs Bosnia
+97'",penalty
+USA_vs_Paraguay,USA,31.0,0.6,1.018,5.95,11.0,-5.35,"USA
+USA vs Paraguay
+31'",open_play
+USA_vs_Paraguay,USA,50.0,8.439,9.465,5.95,19.987,2.489,"USA
+USA vs Paraguay
+50'",open_play
+USA_vs_Paraguay,Paraguay,73.0,5.541,5.82,4.03,17.278,1.511,"Paraguay
+USA vs Paraguay
+73'",set_piece
+USA_vs_Paraguay,USA,98.0,7.806,8.844,5.95,20.668,1.856,"USA
+USA vs Paraguay
+98'",open_play
