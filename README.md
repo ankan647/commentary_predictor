@@ -45,11 +45,10 @@ After scraping and analyzing 25 matches (2,397 events, 78 goals), the data revea
    This will output new plots to the `visuals/` folder and log statistical summaries in the console.
 
 3. **View the 3D Dashboard:**
-   Start a local HTTP server to avoid CORS issues with the 3D canvas and Plotly scripts:
-   ```bash
-   python -m http.server 8888
-   ```
-   Then open `http://localhost:8888/dashboard.html` in your web browser.
+   The interactive 3D dashboard is deployed live on Netlify:
+    **[https://wc2026-pressure-index.netlify.app](https://wc2026-pressure-index.netlify.app)**
+
+   *(If deploying local changes, run `npx netlify deploy --prod --dir=dist` to update).*
 
 ##  Dashboard Preview
 

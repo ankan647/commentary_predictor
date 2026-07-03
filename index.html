@@ -1,0 +1,1083 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Pressure Index — WC 2026 Football Analytics</title>
+<meta name="description" content="Can football commentary predict when a goal is about to happen? An NLP-powered pressure index analysis of 25 FIFA World Cup 2026 matches."/>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --pitch:      #1a6b35;
+  --pitch-deep: #0f4422;
+  --pitch-dark: #0a2e16;
+  --turf:       #145a2b;
+  --chalk:      #f0ece4;
+  --gold:       #d4a843;
+  --gold-glow:  rgba(212,168,67,0.4);
+  --amber:      #f5a623;
+  --red:        #e63946;
+  --blue:       #58a6ff;
+  --white:      #ffffff;
+  --mono:       #7a8a7e;
+  --text:       #d4ddd6;
+  --text-bright:#eef3ef;
+  --bg:         #071a0e;
+  --bg-deep:    #040f08;
+  --glass:      rgba(10,46,22,0.55);
+  --glass-b:    rgba(255,255,255,0.08);
+  --glass-hover:rgba(255,255,255,0.1);
+}
+
+html{scroll-behavior:smooth}
+body{
+  background:var(--bg-deep);color:var(--chalk);
+  font-family:'Inter',sans-serif;overflow-x:hidden;
+  -webkit-font-smoothing:antialiased;
+}
+
+/* PERSISTENT 3D CANVAS */
+#stadium-canvas{
+  position:fixed;inset:0;z-index:0;
+  pointer-events:none;
+}
+
+/* SCROLL PROGRESS — pitch sideline */
+#sideline{
+  position:fixed;top:0;left:0;width:100%;height:5px;z-index:999;
+  background:rgba(255,255,255,0.06);
+}
+#sideline-fill{
+  height:100%;width:0%;
+  background:linear-gradient(90deg,var(--pitch),var(--gold),var(--white));
+  transition:width 80ms linear;
+}
+#sideline-ball{
+  position:fixed;top:-6px;width:16px;height:16px;z-index:1000;
+  background:radial-gradient(circle at 38% 35%,#fff 0%,#e8e8e0 40%,#1a1a2e 100%);
+  border:2px solid #fff;border-radius:50%;
+  transform:translateX(-50%);left:0%;
+  box-shadow:0 0 10px rgba(255,255,255,0.5),0 0 25px var(--gold-glow);
+  transition:left 80ms linear;
+}
+
+/* CONTENT LAYER */
+#content-layer{
+  position:relative;z-index:1;
+}
+
+section{
+  min-height:100vh;display:flex;flex-direction:column;
+  justify-content:center;align-items:center;
+  padding:100px 24px;position:relative;overflow:hidden;
+}
+.container{max-width:1000px;width:100%;margin:0 auto;position:relative;z-index:2}
+
+/* Scroll-reveal */
+.reveal{
+  opacity:0;transform:translateY(60px) rotateX(4deg);
+  transition:opacity 0.9s cubic-bezier(.22,1,.36,1),transform 0.9s cubic-bezier(.22,1,.36,1);
+  transform-origin:bottom center;
+}
+.reveal.visible{opacity:1;transform:translateY(0) rotateX(0)}
+.rd1{transition-delay:0.08s}.rd2{transition-delay:0.16s}
+.rd3{transition-delay:0.24s}.rd4{transition-delay:0.32s}
+
+/* PITCH STRIPE OVERLAY */
+.pitch-stripes{
+  position:absolute;inset:0;pointer-events:none;z-index:0;
+  background:repeating-linear-gradient(
+    90deg,
+    rgba(255,255,255,0.012) 0px,rgba(255,255,255,0.012) 80px,
+    transparent 80px,transparent 160px
+  );
+}
+
+/* FLOODLIGHT CONES */
+.floodbeam{
+  position:absolute;pointer-events:none;
+  width:300px;height:700px;
+  background:linear-gradient(180deg,rgba(255,240,200,0.06) 0%,transparent 100%);
+  clip-path:polygon(40% 0%,60% 0%,100% 100%,0% 100%);
+}
+.fb-tl{top:-100px;left:0;transform:rotate(15deg)}
+.fb-tr{top:-100px;right:0;transform:rotate(-15deg)}
+.fb-bl{bottom:-100px;left:10%;transform:rotate(-10deg)}
+.fb-br{bottom:-100px;right:10%;transform:rotate(10deg)}
+
+/* SECTION 1 — HERO / KICKOFF */
+#hero{
+  background:radial-gradient(ellipse at 50% 110%,var(--pitch-dark) 0%,var(--bg-deep) 65%);
+}
+/* Pitch centre circle */
+#hero::before{
+  content:'';position:absolute;
+  width:500px;height:500px;border-radius:50%;
+  border:1.5px solid rgba(255,255,255,0.05);
+  top:50%;left:50%;transform:translate(-50%,-50%);
+  pointer-events:none;
+}
+/* Centre spot */
+#hero::after{
+  content:'';position:absolute;
+  width:8px;height:8px;border-radius:50%;
+  background:rgba(255,255,255,0.08);
+  top:50%;left:50%;transform:translate(-50%,-50%);
+  pointer-events:none;
+}
+
+.hero-inner{position:relative;z-index:3;text-align:center}
+.hero-pretitle{
+  font-family:'JetBrains Mono',monospace;font-size:0.68rem;
+  letter-spacing:0.25em;color:var(--gold);text-transform:uppercase;
+  margin-bottom:20px;
+  text-shadow:0 0 30px var(--gold-glow);
+}
+.hero-title{
+  font-family:'Bebas Neue',sans-serif;
+  font-size:clamp(4.5rem,14vw,10rem);
+  line-height:0.85;letter-spacing:0.04em;
+  color:var(--white);
+  text-shadow:0 0 80px rgba(26,107,53,0.5),0 4px 40px rgba(0,0,0,0.6);
+}
+.hero-title .accent{
+  color:var(--gold);
+  text-shadow:0 0 60px var(--gold-glow),0 4px 40px rgba(0,0,0,0.6);
+}
+.hero-sub{
+  font-size:1rem;font-weight:300;color:var(--text);
+  max-width:480px;margin:28px auto 0;line-height:1.8;
+}
+.badge-strip{
+  display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-top:40px;
+}
+.badge-strip span{
+  font-family:'JetBrains Mono',monospace;font-size:0.65rem;
+  letter-spacing:0.14em;padding:8px 18px;
+  border:1px solid rgba(212,168,67,0.35);border-radius:3px;
+  color:var(--gold);background:rgba(212,168,67,0.06);
+  backdrop-filter:blur(12px);transition:all 0.3s;
+}
+.badge-strip span:hover{
+  border-color:rgba(212,168,67,0.7);background:rgba(212,168,67,0.12);
+  transform:translateY(-3px) scale(1.03);
+  box-shadow:0 8px 30px rgba(212,168,67,0.12);
+}
+.scroll-prompt{
+  position:absolute;bottom:36px;left:50%;transform:translateX(-50%);
+  z-index:3;text-align:center;
+}
+.scroll-prompt p{
+  font-family:'JetBrains Mono',monospace;font-size:0.6rem;
+  letter-spacing:0.22em;color:var(--mono);text-transform:uppercase;
+  margin-bottom:10px;
+}
+.scroll-prompt .arrow{
+  width:18px;height:18px;margin:0 auto;
+  border-right:2px solid var(--gold);border-bottom:2px solid var(--gold);
+  transform:rotate(45deg);animation:arrowBob 2s ease-in-out infinite;
+}
+@keyframes arrowBob{
+  0%,100%{opacity:0.3;transform:rotate(45deg) translate(0,0)}
+  50%{opacity:1;transform:rotate(45deg) translate(5px,5px)}
+}
+
+/* SECTION 2 — METHODOLOGY / TACTICAL BOARD */
+#method{
+  background:linear-gradient(180deg,var(--bg-deep) 0%,rgba(10,46,22,0.3) 50%,var(--bg-deep) 100%);
+}
+.stag{
+  font-family:'JetBrains Mono',monospace;font-size:0.62rem;
+  letter-spacing:0.28em;color:var(--gold);text-transform:uppercase;
+  margin-bottom:14px;display:inline-flex;align-items:center;gap:10px;
+}
+.stag::before{content:'';width:28px;height:1px;background:var(--gold)}
+.sheading{
+  font-family:'Bebas Neue',sans-serif;
+  font-size:clamp(2.8rem,7vw,4.5rem);
+  letter-spacing:0.04em;margin-bottom:20px;line-height:0.95;
+  color:var(--white);
+  text-shadow:0 2px 30px rgba(26,107,53,0.3);
+}
+.sdesc{
+  font-size:0.92rem;line-height:1.85;color:var(--text);
+  max-width:620px;margin-bottom:48px;
+}
+
+/* Tactical board cards — 3D perspective */
+.tactic-grid{
+  display:grid;grid-template-columns:repeat(4,1fr);
+  gap:14px;perspective:900px;
+}
+.tactic-card{
+  background:var(--glass);
+  border:1px solid var(--glass-b);
+  border-radius:10px;padding:28px 20px;
+  position:relative;overflow:hidden;
+  transform-style:preserve-3d;
+  transition:transform 0.5s cubic-bezier(.22,1,.36,1),
+             border-color 0.3s,box-shadow 0.4s;
+  cursor:default;
+}
+.tactic-card:nth-child(1):hover{transform:rotateY(8deg) rotateX(-4deg) translateZ(20px)}
+.tactic-card:nth-child(2):hover{transform:rotateY(3deg) rotateX(-5deg) translateZ(25px)}
+.tactic-card:nth-child(3):hover{transform:rotateY(-3deg) rotateX(-5deg) translateZ(25px)}
+.tactic-card:nth-child(4):hover{transform:rotateY(-8deg) rotateX(-4deg) translateZ(20px)}
+.tactic-card:hover{
+  border-color:rgba(26,107,53,0.5);
+  box-shadow:0 25px 60px rgba(0,0,0,0.5),0 0 40px rgba(26,107,53,0.08);
+}
+/* Top green line */
+.tactic-card::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:3px;
+  background:linear-gradient(90deg,transparent,var(--pitch),transparent);
+  opacity:0;transition:opacity 0.3s;
+}
+.tactic-card:hover::before{opacity:1}
+/* Corner flag dot */
+.tactic-card::after{
+  content:'';position:absolute;top:12px;right:12px;
+  width:6px;height:6px;border-radius:50%;
+  background:var(--gold);opacity:0.3;
+}
+.tc-num{
+  font-family:'Bebas Neue',sans-serif;font-size:3.2rem;
+  color:rgba(26,107,53,0.3);line-height:1;margin-bottom:4px;
+}
+.tc-label{
+  font-family:'JetBrains Mono',monospace;font-size:0.68rem;
+  letter-spacing:0.16em;color:var(--pitch);text-transform:uppercase;
+  margin-bottom:10px;
+}
+.tactic-card p{font-size:0.8rem;color:var(--mono);line-height:1.65}
+
+/* Formula — chalkboard style */
+.chalk-box{
+  margin-top:44px;padding:28px 30px;
+  background:rgba(26,107,53,0.08);
+  border:1px solid rgba(26,107,53,0.2);
+  border-radius:10px;position:relative;overflow:hidden;
+  font-family:'JetBrains Mono',monospace;font-size:0.82rem;
+  color:var(--pitch);letter-spacing:0.04em;line-height:2.1;
+}
+.chalk-box::before{
+  content:'';position:absolute;top:0;left:0;bottom:0;width:3px;
+  background:linear-gradient(180deg,var(--pitch),transparent);
+}
+.chalk-box .dim{color:var(--mono);font-size:0.7rem}
+
+/* SECTION 3 — FINDINGS / SCOREBOARD */
+#findings{
+  background:radial-gradient(ellipse at 50% 30%,rgba(10,46,22,0.4) 0%,var(--bg-deep) 65%);
+}
+
+/* LED scoreboard cards */
+.scoreboard{
+  display:grid;grid-template-columns:repeat(4,1fr);
+  gap:14px;margin-bottom:52px;perspective:800px;
+}
+.led-card{
+  background:var(--glass);
+  border:1px solid var(--glass-b);
+  border-radius:10px;padding:30px 18px;text-align:center;
+  position:relative;overflow:hidden;
+  transform-style:preserve-3d;
+  transition:transform 0.4s,border-color 0.3s,box-shadow 0.4s;
+}
+.led-card:hover{
+  transform:translateY(-6px) rotateX(3deg);
+  border-color:rgba(212,168,67,0.3);
+  box-shadow:0 20px 50px rgba(0,0,0,0.4),0 0 30px rgba(212,168,67,0.05);
+}
+/* Underline glow */
+.led-card::after{
+  content:'';position:absolute;bottom:0;left:15%;right:15%;height:2px;
+  background:linear-gradient(90deg,transparent,var(--gold),transparent);
+  opacity:0;transition:opacity 0.3s;
+}
+.led-card:hover::after{opacity:0.7}
+.led-num{
+  font-family:'Bebas Neue',sans-serif;font-size:3.5rem;
+  line-height:1;color:var(--gold);
+  text-shadow:0 0 25px var(--gold-glow);
+}
+.led-unit{
+  font-family:'JetBrains Mono',monospace;font-size:0.58rem;
+  letter-spacing:0.2em;color:var(--mono);margin-top:8px;
+  text-transform:uppercase;
+}
+.led-sub{font-size:0.78rem;color:var(--text);margin-top:10px;line-height:1.4}
+
+/* Chart panel */
+.chart-panel{
+  background:var(--glass);
+  border:1px solid var(--glass-b);
+  border-radius:10px;padding:14px;
+  backdrop-filter:blur(12px);
+  position:relative;overflow:hidden;
+}
+.chart-panel::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:1px;
+  background:linear-gradient(90deg,transparent,rgba(26,107,53,0.4),transparent);
+}
+
+/* Breakdown */
+.breakdown{
+  display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:36px;
+  align-items:center;
+}
+#donut-chart{height:290px}
+.legend{display:flex;flex-direction:column;gap:12px}
+.legend-item{
+  display:flex;align-items:center;gap:12px;
+  padding:12px 18px;
+  background:var(--glass);border:1px solid var(--glass-b);
+  border-radius:8px;transition:all 0.3s;
+  transform-style:preserve-3d;
+}
+.legend-item:hover{
+  transform:translateX(6px) rotateY(-2deg);
+  border-color:rgba(255,255,255,0.15);
+  background:var(--glass-hover);
+}
+.ldot{width:10px;height:10px;border-radius:50%;flex-shrink:0}
+.lname{font-size:0.82rem;color:var(--text-bright);flex:1}
+.lcount{
+  font-family:'JetBrains Mono',monospace;font-size:0.88rem;
+  color:var(--gold);font-weight:600;
+}
+
+/* Callout */
+.insight-box{
+  margin-top:40px;padding:26px 30px;
+  background:rgba(26,107,53,0.06);
+  border:1px solid rgba(26,107,53,0.15);
+  border-left:3px solid var(--pitch);
+  border-radius:0 10px 10px 0;
+  font-size:0.88rem;color:var(--text);line-height:1.85;
+}
+.insight-box strong{color:var(--pitch)}
+.insight-box em{color:var(--gold);font-style:normal}
+
+/* SECTION 4 — CONCLUSION / GOAL */
+#conclusion{
+  background:radial-gradient(ellipse at 50% 80%,rgba(40,10,10,0.4) 0%,var(--bg-deep) 60%);
+  text-align:center;
+}
+/* 3D goal net */
+.goal-net{
+  position:absolute;inset:0;pointer-events:none;z-index:0;
+  background:
+    repeating-linear-gradient(0deg,rgba(255,255,255,0.02) 0,rgba(255,255,255,0.02) 1px,transparent 1px,transparent 28px),
+    repeating-linear-gradient(90deg,rgba(255,255,255,0.02) 0,rgba(255,255,255,0.02) 1px,transparent 1px,transparent 28px),
+    repeating-linear-gradient(45deg,rgba(255,255,255,0.008) 0,rgba(255,255,255,0.008) 1px,transparent 1px,transparent 40px);
+  transform:perspective(600px) rotateX(20deg) scale(1.2);
+  transform-origin:bottom center;
+  mask-image:linear-gradient(180deg,transparent 0%,black 30%,black 100%);
+  -webkit-mask-image:linear-gradient(180deg,transparent 0%,black 30%,black 100%);
+}
+#confetti-canvas{
+  position:absolute;inset:0;z-index:1;pointer-events:none;
+}
+/* Goal posts (CSS) */
+.goalpost-left,.goalpost-right,.crossbar{
+  position:absolute;background:rgba(255,255,255,0.08);z-index:1;
+  border-radius:3px;
+}
+.goalpost-left{width:4px;height:55%;bottom:0;left:15%}
+.goalpost-right{width:4px;height:55%;bottom:0;right:15%}
+.crossbar{height:4px;top:45%;left:15%;right:15%}
+
+.goal-title{
+  font-family:'Bebas Neue',sans-serif;
+  font-size:clamp(6rem,18vw,14rem);
+  line-height:0.8;letter-spacing:0.06em;
+  color:var(--white);
+  text-shadow:
+    0 0 100px rgba(230,57,70,0.5),
+    0 0 200px rgba(230,57,70,0.2),
+    0 4px 40px rgba(0,0,0,0.8);
+  animation:goalFlash 3s ease-in-out infinite;
+}
+@keyframes goalFlash{
+  0%,100%{text-shadow:0 0 80px rgba(230,57,70,0.3),0 4px 40px rgba(0,0,0,0.8)}
+  50%{text-shadow:0 0 140px rgba(230,57,70,0.6),0 0 250px rgba(230,57,70,0.2),0 4px 40px rgba(0,0,0,0.8)}
+}
+.verdict{
+  display:inline-block;margin:18px 0 44px;
+  font-family:'JetBrains Mono',monospace;font-size:0.7rem;
+  letter-spacing:0.16em;padding:10px 26px;
+  border:1px solid rgba(212,168,67,0.4);border-radius:3px;
+  color:var(--gold);background:rgba(212,168,67,0.06);
+  backdrop-filter:blur(10px);
+}
+.takeaways{
+  text-align:left;max-width:640px;margin:24px auto 0;list-style:none;
+}
+.takeaways li{
+  padding:16px 0;border-bottom:1px solid rgba(255,255,255,0.04);
+  font-size:0.86rem;color:var(--text);line-height:1.75;
+  display:flex;gap:16px;transition:transform 0.25s;
+}
+.takeaways li:hover{transform:translateX(8px)}
+.takeaways li::before{
+  content:'\26BD';flex-shrink:0;font-size:0.85rem;margin-top:1px;
+}
+.tech-strip{
+  display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin-top:56px;
+}
+.tech-strip span{
+  font-family:'JetBrains Mono',monospace;font-size:0.62rem;
+  letter-spacing:0.1em;padding:5px 14px;
+  border:1px solid rgba(255,255,255,0.07);border-radius:3px;
+  color:var(--mono);background:rgba(255,255,255,0.02);
+  transition:all 0.3s;
+}
+.tech-strip span:hover{
+  border-color:rgba(255,255,255,0.2);color:var(--text-bright);
+  transform:translateY(-2px);
+}
+.cta{
+  display:inline-block;margin-top:48px;
+  font-family:'JetBrains Mono',monospace;font-size:0.8rem;
+  letter-spacing:0.14em;padding:16px 44px;
+  background:linear-gradient(135deg,var(--pitch),var(--pitch-deep));
+  color:var(--white);border-radius:4px;
+  text-decoration:none;font-weight:600;
+  border:1px solid rgba(255,255,255,0.1);
+  transition:all 0.3s;
+  box-shadow:0 4px 20px rgba(26,107,53,0.25);
+}
+.cta:hover{
+  transform:translateY(-3px);
+  box-shadow:0 8px 40px rgba(26,107,53,0.35);
+  background:linear-gradient(135deg,var(--pitch),#1a8040);
+}
+
+/* PITCH DIVIDER */
+.pitch-divider{
+  width:100%;height:2px;position:relative;
+  background:linear-gradient(90deg,transparent 5%,rgba(255,255,255,0.06) 30%,rgba(255,255,255,0.06) 70%,transparent 95%);
+}
+.pitch-divider::before{
+  content:'';position:absolute;top:-4px;left:50%;
+  width:10px;height:10px;border-radius:50%;
+  background:rgba(255,255,255,0.08);transform:translateX(-50%);
+}
+
+/* RESPONSIVE */
+@media(max-width:800px){
+  .tactic-grid,.scoreboard{grid-template-columns:1fr 1fr}
+  .breakdown{grid-template-columns:1fr}
+  #donut-chart{height:240px}
+}
+@media(max-width:500px){
+  .tactic-grid,.scoreboard{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<!-- PERSISTENT 3D STADIUM SCENE -->
+<canvas id="stadium-canvas"></canvas>
+
+<!-- SIDELINE PROGRESS -->
+<div id="sideline"><div id="sideline-fill"></div></div>
+<div id="sideline-ball"></div>
+
+<!-- ALL CONTENT -->
+<div id="content-layer">
+
+<!-- SECTION 1 — HERO / KICKOFF -->
+<section id="hero">
+  <div class="pitch-stripes"></div>
+  <div class="floodbeam fb-tl"></div>
+  <div class="floodbeam fb-tr"></div>
+
+  <div class="hero-inner container reveal">
+    <p class="hero-pretitle">FIFA World Cup 2026 &middot; NLP + Time-Series Analytics</p>
+    <h1 class="hero-title">PRESSURE<br/><span class="accent">INDEX</span></h1>
+    <p class="hero-sub">
+      Can the language of football commentary predict when a goal is about to happen?
+      25 World Cup matches. 78 goals. One NLP pipeline built from pure text.
+    </p>
+    <div class="badge-strip">
+      <span>25 MATCHES</span>
+      <span>78 GOALS</span>
+      <span>2,397 ENTRIES</span>
+      <span>PYTHON &middot; NLP &middot; PLOTLY</span>
+    </div>
+  </div>
+  <div class="scroll-prompt">
+    <p>Kick off</p>
+    <div class="arrow"></div>
+  </div>
+</section>
+
+<div class="pitch-divider"></div>
+
+<!-- SECTION 2 — METHODOLOGY -->
+<section id="method">
+  <div class="pitch-stripes"></div>
+  <div class="floodbeam fb-bl"></div>
+  <div class="floodbeam fb-br"></div>
+  <div class="container">
+    <p class="stag reveal">Tactical Setup</p>
+    <h2 class="sheading reveal">How the Index<br/>Is Built</h2>
+    <p class="sdesc reveal">
+      Every minute of a match, LiveScore publishes text commentary.
+      Instead of traditional xG or event data, this project treats those
+      sentences as a <em>sensor stream</em> &mdash; extracting pressure signals
+      from language patterns and sentiment intensity.
+    </p>
+
+    <div class="tactic-grid">
+      <div class="tactic-card reveal rd1">
+        <div class="tc-num">01</div>
+        <div class="tc-label">Scrape</div>
+        <p>Selenium scraped minute-by-minute text for 25 WC 2026 matches from LiveScore, handling JS-rendered content.</p>
+      </div>
+      <div class="tactic-card reveal rd2">
+        <div class="tc-num">02</div>
+        <div class="tc-label">Classify</div>
+        <p>Each entry classified into 14+ event types (goal, attempt, corner, card&hellip;) via layered regex pattern matching.</p>
+      </div>
+      <div class="tactic-card reveal rd3">
+        <div class="tc-num">03</div>
+        <div class="tc-label">Weight</div>
+        <p>Events receive base weights (goal=10, red card=8, attempt=3&ndash;4) amplified by VADER NLP sentiment urgency.</p>
+      </div>
+      <div class="tactic-card reveal rd4">
+        <div class="tc-num">04</div>
+        <div class="tc-label">Roll</div>
+        <p>A 5-minute rolling window sums weighted events per team, producing a continuous Pressure Index time series.</p>
+      </div>
+    </div>
+
+    <div class="chalk-box reveal">
+      <span class="dim">// Pressure Index at minute t, for team T</span><br/>
+      PI(T, t) = &Sigma; weight(e) &times; (1 + |VADER(e)|) &nbsp;&nbsp;&forall; e &isin; window[t-5 : t]<br/>
+      <span class="dim">// weight(e) = base_weight assigned by event type classification</span>
+    </div>
+  </div>
+</section>
+
+<div class="pitch-divider"></div>
+
+<!-- SECTION 3 — FINDINGS -->
+<section id="findings">
+  <div class="pitch-stripes"></div>
+  <div class="floodbeam fb-tl"></div>
+  <div class="floodbeam fb-tr"></div>
+  <div class="container">
+    <p class="stag reveal">Match Analysis</p>
+    <h2 class="sheading reveal">What the<br/>Data Revealed</h2>
+
+    <div class="scoreboard">
+      <div class="led-card reveal rd1">
+        <div class="led-num" data-count="78">0</div>
+        <div class="led-unit">Goals Analysed</div>
+        <div class="led-sub">Across 25 WC 2026 matches</div>
+      </div>
+      <div class="led-card reveal rd2">
+        <div class="led-num" data-count="-0.36" data-decimals="2">0</div>
+        <div class="led-unit">Mean Uplift</div>
+        <div class="led-sub">Pre-goal pressure vs match avg</div>
+      </div>
+      <div class="led-card reveal rd3">
+        <div class="led-num" data-count="0.40" data-decimals="2">0</div>
+        <div class="led-unit">P-Value</div>
+        <div class="led-sub">Overall &mdash; not significant</div>
+      </div>
+      <div class="led-card reveal rd4">
+        <div class="led-num" data-count="1.89" data-prefix="+" data-decimals="2">0</div>
+        <div class="led-unit">Counter Uplift</div>
+        <div class="led-sub">Pre-goal spike for counter goals</div>
+      </div>
+    </div>
+
+    <div class="chart-panel reveal">
+      <div id="uplift-chart" style="height:400px"></div>
+    </div>
+
+    <div class="breakdown reveal">
+      <div id="donut-chart"></div>
+      <div class="legend">
+        <div class="legend-item">
+          <div class="ldot" style="background:#3fb950"></div>
+          <div class="lname">Open Play</div>
+          <div class="lcount">47</div>
+        </div>
+        <div class="legend-item">
+          <div class="ldot" style="background:#bc8cff"></div>
+          <div class="lname">Penalty / Shootout</div>
+          <div class="lcount">14</div>
+        </div>
+        <div class="legend-item">
+          <div class="ldot" style="background:#d4a843"></div>
+          <div class="lname">Set Piece</div>
+          <div class="lcount">10</div>
+        </div>
+        <div class="legend-item">
+          <div class="ldot" style="background:#f78166"></div>
+          <div class="lname">Counter Attack</div>
+          <div class="lcount">7</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="insight-box reveal">
+      <strong>The counter-attack signal:</strong> Before counter-attack goals, the
+      <em>opposing</em> team was generating high pressure &mdash; fouls, corners, attempts.
+      The index captured this buildup, then the goal came on the transition.
+      A spike in your opponent's pressure may be a stronger warning than your own.
+    </div>
+  </div>
+</section>
+
+<div class="pitch-divider"></div>
+
+<!-- SECTION 4 — CONCLUSION -->
+<section id="conclusion">
+  <div class="goal-net"></div>
+  <div class="goalpost-left"></div>
+  <div class="goalpost-right"></div>
+  <div class="crossbar"></div>
+  <canvas id="confetti-canvas"></canvas>
+
+  <div class="container reveal" style="z-index:3">
+    <div class="goal-title">GOAL!</div>
+    <div class="verdict">COUNTER +1.89 &middot; SET PIECE p=0.15 &middot; OVERALL p=0.40</div>
+
+    <p class="sdesc" style="text-align:center;max-width:560px;margin:0 auto">
+      Commentary-derived pressure alone doesn't reliably predict goals &mdash;
+      but split by goal type, distinct patterns emerge that align with football theory.
+    </p>
+
+    <ul class="takeaways">
+      <li>Sustained pressure doesn't precede most WC 2026 goals &mdash; disruption and transition do.</li>
+      <li>Counter-attack goals show <strong style="color:var(--blue)">+1.89</strong> pre-goal uplift &mdash; the index captures tactical imbalance.</li>
+      <li>Set piece goals trend toward lower pre-goal pressure (p=0.15), consistent with dead-ball restarts.</li>
+      <li>Open play goals (60%) show near-zero uplift &mdash; goals emerge from chance, not accumulated pressure.</li>
+      <li>Commentary text as a sensor stream is viable &mdash; it needs goal-type segmentation to reveal structure.</li>
+    </ul>
+
+    <div class="tech-strip">
+      <span>Python</span><span>Selenium</span><span>VADER NLP</span>
+      <span>Pandas</span><span>Three.js</span><span>Plotly</span>
+      <span>SciPy</span><span>Matplotlib</span><span>Seaborn</span>
+    </div>
+
+    <a href="https://github.com/ankan647" class="cta" target="_blank">
+      View on GitHub &rarr;
+    </a>
+  </div>
+</section>
+
+</div><!-- /content-layer -->
+
+<!-- SCRIPTS -->
+<script>
+/* 1. Scroll progress */
+window.addEventListener('scroll', function() {
+  var pct = Math.min(window.scrollY / (document.documentElement.scrollHeight - window.innerHeight) * 100, 100);
+  document.getElementById('sideline-fill').style.width = pct + '%';
+  document.getElementById('sideline-ball').style.left  = pct + '%';
+});
+
+/* 2. Scroll reveal */
+var obs = new IntersectionObserver(function(entries) {
+  entries.forEach(function(e) { if (e.isIntersecting) e.target.classList.add('visible'); });
+}, { threshold: 0.1 });
+document.querySelectorAll('.reveal').forEach(function(el) { obs.observe(el); });
+
+/* 3. Animated counters */
+function animateCounters() {
+  document.querySelectorAll('.led-num[data-count]').forEach(function(el) {
+    var target = parseFloat(el.dataset.count);
+    var dec = parseInt(el.dataset.decimals || '0');
+    var pre = el.dataset.prefix || '';
+    var dur = 2000, start = performance.now();
+    (function tick(now) {
+      var t = Math.min((now - start) / dur, 1);
+      var ease = 1 - Math.pow(1 - t, 4);
+      el.textContent = pre + (target * ease).toFixed(dec);
+      if (t < 1) requestAnimationFrame(tick);
+    })(start);
+  });
+}
+var cObs = new IntersectionObserver(function(entries) {
+  entries.forEach(function(e) { if (e.isIntersecting) { animateCounters(); cObs.disconnect(); } });
+}, { threshold: 0.25 });
+var sb = document.querySelector('.scoreboard');
+if (sb) cObs.observe(sb);
+
+/* 4. THREE.JS — 3D STADIUM SCENE */
+(function() {
+  var canvas = document.getElementById('stadium-canvas');
+  var renderer = new THREE.WebGLRenderer({ canvas: canvas, alpha: true, antialias: true });
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+  renderer.setSize(window.innerWidth, window.innerHeight);
+  renderer.shadowMap.enabled = true;
+  renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+
+  var scene  = new THREE.Scene();
+  scene.fog  = new THREE.FogExp2(0x040f08, 0.035);
+  var camera = new THREE.PerspectiveCamera(55, window.innerWidth / window.innerHeight, 0.1, 200);
+  camera.position.set(0, 6, 14);
+  camera.lookAt(0, 0, 0);
+
+  /* --- Lighting: Stadium floodlights --- */
+  scene.add(new THREE.AmbientLight(0x1a3a20, 0.4));
+
+  // Main floodlights (4 corners)
+  var spotPositions = [[-12,15,-8],[12,15,-8],[-12,15,8],[12,15,8]];
+  spotPositions.forEach(function(pos) {
+    var spot = new THREE.SpotLight(0xfff5e0, 0.8, 50, Math.PI / 5, 0.6, 1.5);
+    spot.position.set(pos[0], pos[1], pos[2]);
+    spot.target.position.set(0, 0, 0);
+    spot.castShadow = true;
+    scene.add(spot);
+    scene.add(spot.target);
+    // Light pole
+    var poleGeo = new THREE.CylinderGeometry(0.06, 0.08, 15, 6);
+    var poleMat = new THREE.MeshPhongMaterial({ color: 0x333333 });
+    var pole = new THREE.Mesh(poleGeo, poleMat);
+    pole.position.set(pos[0], 7.5, pos[2]);
+    scene.add(pole);
+    // Light fixture
+    var fixGeo = new THREE.BoxGeometry(0.6, 0.15, 0.4);
+    var fixMat = new THREE.MeshBasicMaterial({ color: 0xfff8e0 });
+    var fix = new THREE.Mesh(fixGeo, fixMat);
+    fix.position.set(pos[0], 15, pos[2]);
+    scene.add(fix);
+  });
+
+  /* --- Pitch (green ground plane) --- */
+  var pitchGeo = new THREE.PlaneGeometry(24, 16, 1, 1);
+  var pitchMat = new THREE.MeshPhongMaterial({
+    color: 0x1a6b35, shininess: 10, side: THREE.DoubleSide
+  });
+  var pitch = new THREE.Mesh(pitchGeo, pitchMat);
+  pitch.rotation.x = -Math.PI / 2;
+  pitch.position.y = -1;
+  pitch.receiveShadow = true;
+  scene.add(pitch);
+
+  // Pitch stripe pattern (alternating lighter strips)
+  for (var s = -5; s <= 5; s += 2) {
+    var stripeGeo = new THREE.PlaneGeometry(24, 1.5);
+    var stripeMat = new THREE.MeshPhongMaterial({
+      color: 0x1e7a3c, shininess: 10, side: THREE.DoubleSide,
+      transparent: true, opacity: 0.4
+    });
+    var stripe = new THREE.Mesh(stripeGeo, stripeMat);
+    stripe.rotation.x = -Math.PI / 2;
+    stripe.position.set(0, -0.99, s);
+    scene.add(stripe);
+  }
+
+  /* --- Pitch markings (centre circle, lines) --- */
+  var lineMat = new THREE.MeshBasicMaterial({ color: 0xffffff, transparent: true, opacity: 0.15 });
+  // Centre line
+  var clGeo = new THREE.PlaneGeometry(0.08, 16);
+  var cl = new THREE.Mesh(clGeo, lineMat);
+  cl.rotation.x = -Math.PI / 2;
+  cl.position.set(0, -0.98, 0);
+  scene.add(cl);
+  // Centre circle
+  var ccGeo = new THREE.RingGeometry(2.8, 2.88, 48);
+  var cc = new THREE.Mesh(ccGeo, lineMat);
+  cc.rotation.x = -Math.PI / 2;
+  cc.position.y = -0.98;
+  scene.add(cc);
+  // Centre spot
+  var csGeo = new THREE.CircleGeometry(0.12, 16);
+  var cs = new THREE.Mesh(csGeo, lineMat);
+  cs.rotation.x = -Math.PI / 2;
+  cs.position.y = -0.98;
+  scene.add(cs);
+  // Boundary lines
+  var bMat = new THREE.MeshBasicMaterial({ color: 0xffffff, transparent: true, opacity: 0.12 });
+  [[-12,-0.98,0,0.06,16],  [12,-0.98,0,0.06,16],   // side lines
+   [0,-0.98,-8,24,0.06],   [0,-0.98,8,24,0.06]].forEach(function(b) {   // end lines
+    var bg = new THREE.PlaneGeometry(b[3], b[4]);
+    var bm = new THREE.Mesh(bg, bMat);
+    bm.rotation.x = -Math.PI / 2;
+    bm.position.set(b[0], b[1], b[2]);
+    scene.add(bm);
+  });
+
+  /* --- Goal posts (both ends) --- */
+  var postMat = new THREE.MeshPhongMaterial({ color: 0xffffff, shininess: 80 });
+  function makeGoal(zPos, rotY) {
+    var g = new THREE.Group();
+    // Posts
+    var pGeo = new THREE.CylinderGeometry(0.06, 0.06, 2.2, 8);
+    var p1 = new THREE.Mesh(pGeo, postMat);
+    p1.position.set(-1.8, 0.1, 0);
+    p1.castShadow = true;
+    g.add(p1);
+    var p2 = new THREE.Mesh(pGeo, postMat);
+    p2.position.set(1.8, 0.1, 0);
+    p2.castShadow = true;
+    g.add(p2);
+    // Crossbar
+    var cbGeo = new THREE.CylinderGeometry(0.05, 0.05, 3.7, 8);
+    var cb = new THREE.Mesh(cbGeo, postMat);
+    cb.rotation.z = Math.PI / 2;
+    cb.position.set(0, 1.2, 0);
+    cb.castShadow = true;
+    g.add(cb);
+    // Net (simple planes)
+    var netMat = new THREE.MeshBasicMaterial({
+      color: 0xffffff, transparent: true, opacity: 0.04,
+      wireframe: true, side: THREE.DoubleSide
+    });
+    // Back net
+    var bnGeo = new THREE.PlaneGeometry(3.6, 2.2, 12, 8);
+    var bn = new THREE.Mesh(bnGeo, netMat);
+    bn.position.set(0, 0.1, -0.8);
+    g.add(bn);
+    // Side nets
+    var snGeo = new THREE.PlaneGeometry(0.8, 2.2, 3, 8);
+    var sn1 = new THREE.Mesh(snGeo, netMat);
+    sn1.rotation.y = Math.PI / 2;
+    sn1.position.set(-1.8, 0.1, -0.4);
+    g.add(sn1);
+    var sn2 = new THREE.Mesh(snGeo, netMat);
+    sn2.rotation.y = Math.PI / 2;
+    sn2.position.set(1.8, 0.1, -0.4);
+    g.add(sn2);
+    // Top net
+    var tnGeo = new THREE.PlaneGeometry(3.6, 0.8, 12, 3);
+    var tn = new THREE.Mesh(tnGeo, netMat);
+    tn.rotation.x = Math.PI / 2;
+    tn.position.set(0, 1.2, -0.4);
+    g.add(tn);
+
+    g.position.z = zPos;
+    g.rotation.y = rotY;
+    scene.add(g);
+  }
+  makeGoal(-8, 0);
+  makeGoal(8, Math.PI);
+
+  /* --- Football --- */
+  var ballGroup = new THREE.Group();
+  var ballGeo = new THREE.IcosahedronGeometry(0.45, 1);
+  var ballMat = new THREE.MeshPhongMaterial({
+    color: 0xf5f5f0, shininess: 100, flatShading: true
+  });
+  var ball = new THREE.Mesh(ballGeo, ballMat);
+  ball.castShadow = true;
+  ballGroup.add(ball);
+  // Dark panels
+  var darkGeo = new THREE.IcosahedronGeometry(0.452, 1);
+  var darkMat = new THREE.MeshPhongMaterial({
+    color: 0x1a1a2e, shininess: 50, flatShading: true,
+    transparent: true, opacity: 0.7
+  });
+  var darkBall = new THREE.Mesh(darkGeo, darkMat);
+  var dIdx = [];
+  for (var di = 0; di < darkGeo.attributes.position.count; di += 3) {
+    if (di % 6 < 3) dIdx.push(di, di + 1, di + 2);
+  }
+  darkGeo.setIndex(dIdx);
+  ballGroup.add(darkBall);
+  // Seams
+  var wireMat = new THREE.MeshBasicMaterial({ color: 0x222222, wireframe: true, transparent: true, opacity: 0.3 });
+  ballGroup.add(new THREE.Mesh(ballGeo, wireMat));
+  ballGroup.position.set(0, -0.53, 0);
+  scene.add(ballGroup);
+
+  /* --- Floating particles (stadium atmosphere) --- */
+  var partCount = 200;
+  var partGeo = new THREE.BufferGeometry();
+  var partPos = new Float32Array(partCount * 3);
+  for (var pi = 0; pi < partCount * 3; pi += 3) {
+    partPos[pi]     = (Math.random() - 0.5) * 30;
+    partPos[pi + 1] = Math.random() * 15;
+    partPos[pi + 2] = (Math.random() - 0.5) * 20;
+  }
+  partGeo.setAttribute('position', new THREE.BufferAttribute(partPos, 3));
+  var partMat = new THREE.PointsMaterial({ color: 0xfff8e0, size: 0.04, transparent: true, opacity: 0.4 });
+  var particles = new THREE.Points(partGeo, partMat);
+  scene.add(particles);
+
+  /* --- Mouse + Scroll tracking --- */
+  var mx = 0, my = 0, scrollPct = 0;
+  document.addEventListener('mousemove', function(e) {
+    mx = (e.clientX / window.innerWidth - 0.5) * 2;
+    my = (e.clientY / window.innerHeight - 0.5) * 2;
+  });
+  window.addEventListener('scroll', function() {
+    scrollPct = window.scrollY / (document.documentElement.scrollHeight - window.innerHeight);
+  });
+
+  /* --- Animation loop --- */
+  function animate() {
+    requestAnimationFrame(animate);
+    var t = performance.now() * 0.001;
+
+    // Camera orbits based on scroll — moves from above-behind to side view
+    var angle = scrollPct * Math.PI * 0.6 - 0.3;
+    var dist = 14 - scrollPct * 4;
+    var height = 6 - scrollPct * 3;
+    camera.position.x = Math.sin(angle) * dist + mx * 1.5;
+    camera.position.z = Math.cos(angle) * dist;
+    camera.position.y = Math.max(height + my * 0.5, 1.5);
+    camera.lookAt(0, 0, 0);
+
+    // Ball floats and rotates
+    ballGroup.rotation.y = t * 0.5;
+    ballGroup.rotation.x = Math.sin(t * 0.3) * 0.1;
+    ballGroup.position.y = -0.53 + Math.sin(t * 0.8) * 0.08;
+
+    // Particles drift
+    particles.rotation.y = t * 0.008;
+    var pArr = particles.geometry.attributes.position.array;
+    for (var i = 1; i < pArr.length; i += 3) {
+      pArr[i] -= 0.003;
+      if (pArr[i] < -1) pArr[i] = 15;
+    }
+    particles.geometry.attributes.position.needsUpdate = true;
+
+    renderer.render(scene, camera);
+  }
+  animate();
+
+  window.addEventListener('resize', function() {
+    camera.aspect = window.innerWidth / window.innerHeight;
+    camera.updateProjectionMatrix();
+    renderer.setSize(window.innerWidth, window.innerHeight);
+  });
+})();
+
+/* 5. Plotly — Uplift chart */
+(function() {
+  var types  = ['Open Play (n=47)', 'Counter (n=7)', 'Set Piece (n=10)', 'Penalty (n=14)'];
+  var uplift = [-0.55, 1.89, -1.45, -0.03];
+  var pvals  = [0.358, 0.358, 0.147, 0.883];
+  var cols = uplift.map(function(v) { return v > 0 ? 'rgba(63,185,80,0.85)' : 'rgba(230,57,70,0.75)'; });
+
+  Plotly.newPlot('uplift-chart', [{
+    x: types, y: uplift, type: 'bar',
+    marker: { color: cols, line: { color: 'rgba(255,255,255,0.1)', width: 1 } },
+    text: uplift.map(function(v, i) {
+      return (v > 0 ? '+' : '') + v.toFixed(2) + '<br><span style="font-size:10px">p=' + pvals[i].toFixed(3) + '</span>';
+    }),
+    textposition: 'outside',
+    textfont: { family: 'JetBrains Mono', size: 12, color: '#eef3ef' },
+    hovertemplate: '<b>%{x}</b><br>Uplift: %{y:.2f}<br>p=%{customdata:.3f}<extra></extra>',
+    customdata: pvals,
+  }], {
+    paper_bgcolor: 'transparent', plot_bgcolor: 'transparent',
+    font: { family: 'Inter', color: '#7a8a7e', size: 12 },
+    title: { text: 'Mean Pressure Uplift by Goal Type', font: { family: 'Bebas Neue', size: 18, color: '#eef3ef' }, x: 0.5 },
+    xaxis: { gridcolor: 'rgba(255,255,255,0.04)', tickfont: { size: 11, color: '#d4ddd6' }, zeroline: false },
+    yaxis: {
+      title: { text: 'Pressure Uplift', font: { size: 11, color: '#7a8a7e' } },
+      gridcolor: 'rgba(255,255,255,0.04)',
+      zeroline: true, zerolinecolor: 'rgba(212,168,67,0.5)', zerolinewidth: 1.5,
+      range: [-2.5, 3],
+    },
+    margin: { t: 60, b: 50, l: 60, r: 20 },
+    shapes: [{ type: 'line', x0: -0.5, x1: 3.5, y0: 0, y1: 0, line: { color: 'rgba(212,168,67,0.3)', width: 1.5, dash: 'dot' } }],
+    annotations: [{
+      x: 1, y: 2.5, text: '<- Counter-attacks show<br>positive pressure uplift',
+      showarrow: true, arrowhead: 2, arrowcolor: '#3fb950',
+      font: { size: 10, color: '#3fb950', family: 'JetBrains Mono' },
+      bgcolor: 'rgba(4,15,8,0.9)', bordercolor: '#1a5c2e', borderwidth: 1,
+      ax: 90, ay: -30,
+    }],
+    showlegend: false,
+  }, { responsive: true, displayModeBar: false });
+})();
+
+/* 6. Plotly — Donut */
+(function() {
+  Plotly.newPlot('donut-chart', [{
+    values: [47, 14, 10, 7],
+    labels: ['Open Play', 'Penalty', 'Set Piece', 'Counter Attack'],
+    type: 'pie', hole: 0.6,
+    marker: {
+      colors: ['#3fb950', '#bc8cff', '#d4a843', '#f78166'],
+      line: { color: '#040f08', width: 2 },
+    },
+    textinfo: 'percent',
+    textfont: { family: 'JetBrains Mono', size: 11, color: '#eef3ef' },
+    hoverinfo: 'label+value+percent',
+    hoverlabel: { bgcolor: '#0a2e16', bordercolor: '#1a5c2e', font: { family: 'Inter', size: 12, color: '#eef3ef' } },
+    pull: [0.02, 0.02, 0.02, 0.06],
+    rotation: -40,
+  }], {
+    paper_bgcolor: 'transparent',
+    font: { family: 'Inter', color: '#7a8a7e' },
+    margin: { t: 10, b: 10, l: 10, r: 10 },
+    showlegend: false,
+    annotations: [{ text: '<b>78</b><br>GOALS', font: { family: 'Bebas Neue', size: 24, color: '#d4a843' }, showarrow: false, x: 0.5, y: 0.5 }],
+  }, { responsive: true, displayModeBar: false });
+})();
+
+/* 7. Confetti particles in conclusion */
+(function() {
+  var c = document.getElementById('confetti-canvas');
+  var ctx = c.getContext('2d');
+  var W, H;
+  function resize() {
+    var s = document.getElementById('conclusion');
+    W = c.width = s.offsetWidth; H = c.height = s.offsetHeight;
+  }
+  resize();
+  window.addEventListener('resize', resize);
+
+  var pool = ['#d4a843','#e63946','#3fb950','#ffffff','#58a6ff','#bc8cff'];
+  var dots = [];
+  for (var i = 0; i < 80; i++) {
+    dots.push({
+      x: Math.random() * 2000, y: Math.random() * 2000,
+      r: Math.random() * 2.5 + 0.5,
+      vx: (Math.random() - 0.5) * 0.6,
+      vy: -Math.random() * 0.5 - 0.15,
+      rot: Math.random() * 360,
+      vr: (Math.random() - 0.5) * 3,
+      alpha: Math.random() * 0.5 + 0.15,
+      color: pool[Math.floor(Math.random() * pool.length)],
+      shape: Math.random() > 0.5 ? 'circle' : 'rect',
+    });
+  }
+
+  var vis = false;
+  var pO = new IntersectionObserver(function(e) { vis = e[0].isIntersecting; }, { threshold: 0.1 });
+  pO.observe(document.getElementById('conclusion'));
+
+  function draw() {
+    requestAnimationFrame(draw);
+    if (!vis) return;
+    ctx.clearRect(0, 0, W, H);
+    dots.forEach(function(d) {
+      d.x += d.vx; d.y += d.vy; d.rot += d.vr;
+      if (d.y < -10) { d.y = H + 10; d.x = Math.random() * W; }
+      if (d.x < -10 || d.x > W + 10) d.x = Math.random() * W;
+      ctx.save();
+      ctx.translate(d.x, d.y);
+      ctx.rotate(d.rot * Math.PI / 180);
+      ctx.globalAlpha = d.alpha;
+      ctx.fillStyle = d.color;
+      if (d.shape === 'circle') {
+        ctx.beginPath(); ctx.arc(0, 0, d.r, 0, Math.PI * 2); ctx.fill();
+      } else {
+        ctx.fillRect(-d.r, -d.r * 0.5, d.r * 2, d.r);
+      }
+      ctx.restore();
+    });
+  }
+  draw();
+})();
+</script>
+</body>
+</html>
