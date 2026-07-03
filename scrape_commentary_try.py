@@ -1,11 +1,3 @@
-"""
-World Cup 2026 Commentary Scraper - v3
-Fixes:
-  - Scrolls UP to load older commentary entries (LiveScore is newest-first)
-  - Clicks "Load more" if present to get full match
-  - Fresh driver per match to avoid session timeout crashes
-"""
-
 import time
 import json
 import csv
@@ -92,8 +84,7 @@ def load_all_commentary(driver):
     driver.execute_script("window.scrollTo(0, 0);")
     time.sleep(2)
 
-    # Click "More commentary" repeatedly until it disappears
-    # Each click loads one older batch — a full 90-min match may need 5-15 clicks
+  
     for attempt in range(50):  # up to 50 batches, safety cap
         clicked_any = False
         for btn_text in ["More commentary", "Load more", "Show more", "More", "Earlier"]:
@@ -105,17 +96,17 @@ def load_all_commentary(driver):
                     "arguments[0].scrollIntoView({block:'center'}); arguments[0].click();",
                     btn
                 )
-                time.sleep(2)  # wait for new batch to render
+                time.sleep(2)  
                 clicked_any = True
                 print(f"  [load] clicked '{btn_text}' (batch {attempt+1})")
-                break  # restart outer loop to re-find button after DOM update
+                break  
             except NoSuchElementException:
                 pass
         if not clicked_any:
             print(f"  [load] no more 'load' buttons found after {attempt} batches")
             break
 
-    # Now scroll down fully to trigger any remaining lazy loads
+    
     last_height = driver.execute_script("return document.body.scrollHeight")
     for _ in range(40):
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
@@ -125,7 +116,7 @@ def load_all_commentary(driver):
             break
         last_height = new_height
 
-    # Scroll back to top one more time and check again
+    
     driver.execute_script("window.scrollTo(0, 0);")
     time.sleep(1)
 

@@ -18,13 +18,13 @@ INPUT_DIR  = "output"
 OUT_MASTER = "master_commentary.csv"
 OUT_PRESS  = "pressure_index.csv"
 
-# ── 1. EVENT TYPE CLASSIFICATION ─────────────────────────────────────────────
+# 1. EVENT TYPE CLASSIFICATION
 # Rules are checked in ORDER — first match wins.
 # Patterns are written against LiveScore's exact sentence structures.
 # Weight = base pressure contribution of that event (0 = admin/neutral).
 
 EVENT_RULES = [
-    # ── GOALS ──────────────────────────────────────────────────────────────
+    # GOALS
     # LiveScore alternate format: "PEN\nG O O O A A A L - [Player]..."
     # (used for some penalty goals, e.g., England vs Croatia)
     (r"G\s+O\s+O\s+O?\s*A\s+A\s+A?\s*L",                   "goal",             10),
@@ -35,7 +35,7 @@ EVENT_RULES = [
     # Own goal: "Own Goal by [Player] ([Team]),"
     (r"\bOwn Goal\b",                                       "own_goal",         10),
 
-    # ── PENALTIES ──────────────────────────────────────────────────────────
+    # PENALTIES
     # Missed: "Penalty missed. [Player]..." or "PEN\nPenalty missed..."
     (r"\bPenalty missed\b",                                 "penalty_miss",      7),
 
@@ -50,14 +50,14 @@ EVENT_RULES = [
     # VAR review leading to penalty or overturning: "VAR Decision: Penalty..."
     (r"\bVAR Decision\b",                                   "VAR",               4),
 
-    # ── CARDS ──────────────────────────────────────────────────────────────
+    # CARDS
     # "is shown the red card" / "is shown the red card for a bad foul"
     (r"\bshown the red card\b",                             "red_card",          8),
 
     # "is shown the yellow card" / "is shown the yellow card for a bad foul"
     (r"\bshown the yellow card\b",                          "yellow_card",       3),
 
-    # ── SHOT ATTEMPTS ──────────────────────────────────────────────────────
+    # SHOT ATTEMPTS
     # "Attempt saved. [Player] right footed shot / header from [position]
     #  is saved in [location] by [GK]."
     (r"\bAttempt saved\b",                                  "attempt_saved",     4),
@@ -69,7 +69,7 @@ EVENT_RULES = [
     # "Attempt blocked. [Player] right footed shot from [position] is blocked."
     (r"\bAttempt blocked\b",                                "attempt_blocked",   3),
 
-    # ── SET PIECES ─────────────────────────────────────────────────────────
+    # SET PIECES
     # "Corner, [Team]. Conceded by [Player]."
     (r"^Corner,\s+\w",                                      "corner",            2),
 
@@ -84,12 +84,12 @@ EVENT_RULES = [
     # Offside: "Offside, [Team]. [Player] is caught offside."
     (r"^Offside,\s+\w",                                     "offside",           1),
 
-    # ── SUBSTITUTIONS ──────────────────────────────────────────────────────
+    # SUBSTITUTIONS
     # "Substitution, [Team]. [Player A] replaces [Player B]."
     # "Substitution, [Team]. [Player A] replaces [Player B] because of an injury."
     (r"^Substitution,\s+\w",                                "substitution",      0),
 
-    # ── DELAYS & INJURIES ──────────────────────────────────────────────────
+    # DELAYS & INJURIES
     # "Delay in match because of an injury [Player] ([Team])."
     (r"\bDelay in match because of an injury\b",            "injury_delay",      0),
 
@@ -102,7 +102,7 @@ EVENT_RULES = [
     # "Delay over. They are ready to continue."
     (r"\bDelay over\b",                                     "delay_over",        0),
 
-    # ── MATCH STRUCTURE ────────────────────────────────────────────────────
+    # MATCH STRUCTURE
     # "First Half begins." / "Second Half begins Argentina 1, Austria 0."
     (r"\bFirst Half begins\b|\bSecond Half begins\b",       "kickoff",           0),
 
@@ -123,7 +123,7 @@ def classify_event(text):
     return "other", 0
 
 
-# ── 2. MINUTE PARSING ─────────────────────────────────────────────────────────
+# 2. MINUTE PARSING
 def parse_minute(minute_str):
     """
     Convert minute strings to float:
@@ -144,7 +144,7 @@ def parse_minute(minute_str):
         return np.nan
 
 
-# ── 3. TEAM EXTRACTION ────────────────────────────────────────────────────────
+# 3. TEAM EXTRACTION
 def extract_team(text, team_a, team_b):
     """
     Determine which team is the 'acting' team from the text.
@@ -174,7 +174,7 @@ def extract_team(text, team_a, team_b):
     return "neutral"
 
 
-# ── 4. LOAD + CLEAN ALL MATCHES ───────────────────────────────────────────────
+# 4. LOAD + CLEAN ALL MATCHES
 def load_all_matches(input_dir):
     files = glob.glob(os.path.join(input_dir, "*.json"))
     if not files:
@@ -236,7 +236,7 @@ def load_all_matches(input_dir):
     return pd.DataFrame(all_rows)
 
 
-# ── 5. PRESSURE INDEX CALCULATION ─────────────────────────────────────────────
+# 5. PRESSURE INDEX CALCULATION
 def build_pressure_index(df, window=5):
     """
     For each match × team, compute rolling pressure index over a
@@ -280,7 +280,7 @@ def build_pressure_index(df, window=5):
     return pd.DataFrame(results)
 
 
-# ── 6. MAIN ───────────────────────────────────────────────────────────────────
+# 6. MAIN
 def main():
     print("Loading and cleaning matches...")
     df = load_all_matches(INPUT_DIR)

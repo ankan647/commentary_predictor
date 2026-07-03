@@ -1,17 +1,3 @@
-"""
-World Cup 2026 — Pressure Index Validation
-===========================================
-Tests whether pressure spikes precede goals across all 25 matches.
-
-Outputs (saved to visuals/):
-  1. pre_goal_pressure_bar.png     — avg pressure in windows before each goal
-  2. pressure_vs_match_avg.png     — pre-goal vs full-match average (scatter)
-  3. goal_window_heatmap.png       — pressure heatmap around all goal minutes
-  4. top_matches_timeline.png      — pressure timeline for 4 high-drama matches
-  5. ttest_summary.png             — statistical test result card
-  6. event_weight_distribution.png — weight distribution by event type
-"""
-
 import os
 import pandas as pd
 import numpy as np
@@ -20,7 +6,7 @@ import matplotlib.patches as mpatches
 import seaborn as sns
 from scipy import stats
 
-# ── Setup ─────────────────────────────────────────────────────────────────────
+# Setup
 MASTER_CSV = "master_commentary.csv"
 PRESS_CSV  = "pressure_index.csv"
 VISUALS    = "visuals"
@@ -41,10 +27,10 @@ plt.rcParams.update({
     "font.family":      "DejaVu Sans",
 })
 
-GOAL_COLOR    = "#f78166"   # red-orange for goals
-PRESS_COLOR   = "#58a6ff"   # blue for pressure
-NEUTRAL_COLOR = "#8b949e"   # grey
-ACCENT_COLOR  = "#3fb950"   # green for positive results
+GOAL_COLOR    = "#f78166"   
+PRESS_COLOR   = "#58a6ff" 
+NEUTRAL_COLOR = "#8b949e"  
+ACCENT_COLOR  = "#3fb950"  
 
 def save(fig, name):
     path = os.path.join(VISUALS, name)
@@ -53,7 +39,7 @@ def save(fig, name):
     print(f"  Saved: {path}")
 
 
-# ── Load Data ─────────────────────────────────────────────────────────────────
+# Load Data
 print("Loading data...")
 master = pd.read_csv(MASTER_CSV)
 press  = pd.read_csv(PRESS_CSV)
@@ -65,7 +51,7 @@ print(f"  Total goals found: {len(goals)}")
 print(f"  Matches: {master['match_name'].nunique()}")
 
 
-# ── Helper: get pressure for a team in a match at a minute ───────────────────
+# Helper: get pressure for a team in a match at a minute
 def get_pressure(match_name, team, minute):
     row = press[
         (press["match_name"] == match_name) &
@@ -89,7 +75,7 @@ def get_match_avg(match_name, team):
     return rows["pressure_index"].mean() if len(rows) else 0.0
 
 
-# ── Build per-goal stats ───────────────────────────────────────────────────────
+# Build per-goal stats
 print("Computing per-goal pressure stats...")
 records = []
 for _, row in goals.iterrows():
@@ -114,13 +100,6 @@ for _, row in goals.iterrows():
     })
 
 goal_df = pd.DataFrame(records)
-
-# ── Classify each goal by type using the text ─────────────────────────────────
-# Primary signal: the goal's own commentary text (LiveScore embeds assist type).
-# Pre-window (narrow) only used for penalty detection (penalty_awarded events).
-#
-# NOTE: bare "corner" was removed — it matched "bottom right corner" etc. in
-# nearly every goal description, wrongly inflating set_piece count.
 
 SET_PIECE_KEYWORDS   = ["following a corner", "following a set piece", "set piece situation",
                         "free kick", "direct free kick"]
@@ -148,8 +127,7 @@ def classify_goal_type(goal_row, master_df):
         (master_df["minute"] < minute)
     ]
 
-    # Penalty: goal text mentions penalty keywords, OR a penalty_awarded /
-    # penalty_conceded event or a penalty-related VAR decision preceded the goal
+    
     penalty_events = pre_window[
         pre_window["event_type"].isin(["penalty_awarded", "penalty_conceded"])
     ]
@@ -178,10 +156,8 @@ goal_df.to_csv("goal_pressure_stats.csv", index=False)
 print(f"  Saved goal_pressure_stats.csv ({len(goal_df)} goals)")
 print(f"  Goal type breakdown:\n{goal_df['goal_type'].value_counts().to_string()}")
 
-
-# ══════════════════════════════════════════════════════════════════════════════
 # VISUAL 1 — Pre-goal pressure vs match average (bar chart per goal)
-# ══════════════════════════════════════════════════════════════════════════════
+
 print("\n[1] Pre-goal pressure bar chart...")
 fig, ax = plt.subplots(figsize=(16, 6))
 
@@ -212,10 +188,8 @@ for i, (_, row) in enumerate(goal_df.iterrows()):
 fig.tight_layout()
 save(fig, "pre_goal_pressure_bar.png")
 
-
-# ══════════════════════════════════════════════════════════════════════════════
 # VISUAL 2 — Scatter: pre-goal pressure vs match average
-# ══════════════════════════════════════════════════════════════════════════════
+
 print("[2] Scatter: pre-goal vs match average...")
 fig, ax = plt.subplots(figsize=(8, 8))
 
@@ -252,9 +226,8 @@ fig.tight_layout()
 save(fig, "pressure_vs_match_avg.png")
 
 
-# ══════════════════════════════════════════════════════════════════════════════
 # VISUAL 3 — Heatmap: pressure around all goal minutes (-10 to +5)
-# ══════════════════════════════════════════════════════════════════════════════
+
 print("[3] Heatmap: pressure window around goals...")
 BEFORE, AFTER = 10, 5
 heat_rows = []
@@ -293,10 +266,8 @@ ax.set_yticklabels(ax.get_yticklabels(), fontsize=7)
 fig.tight_layout()
 save(fig, "goal_window_heatmap.png")
 
-
-# ══════════════════════════════════════════════════════════════════════════════
 # VISUAL 4 — Pressure timeline for 4 high-drama matches
-# ══════════════════════════════════════════════════════════════════════════════
+
 print("[4] Pressure timelines for high-drama matches...")
 
 # Pick 4 matches with most goals (most dramatic)
@@ -348,10 +319,8 @@ fig.suptitle("Pressure Index Timeline — Top 4 High-Drama Matches  |  WC 2026",
 fig.tight_layout()
 save(fig, "top_matches_timeline.png")
 
-
-# ══════════════════════════════════════════════════════════════════════════════
 # VISUAL 5 — Statistical test summary card
-# ══════════════════════════════════════════════════════════════════════════════
+
 print("[5] T-test summary card...")
 
 pre_goal_vals = goal_df["pre5_avg"].values
@@ -409,10 +378,8 @@ ax.add_patch(mpatches.FancyBboxPatch(
 fig.tight_layout()
 save(fig, "ttest_summary.png")
 
-
-# ══════════════════════════════════════════════════════════════════════════════
 # VISUAL 6 — Event weight distribution by type (boxplot)
-# ══════════════════════════════════════════════════════════════════════════════
+
 print("[6] Event weight distribution...")
 
 plot_df = master[master["weight"] > 0].copy()
@@ -434,9 +401,8 @@ fig.tight_layout()
 save(fig, "event_weight_distribution.png")
 
 
-# ══════════════════════════════════════════════════════════════════════════════
 # VISUAL 7 — Pressure uplift by goal type (the key new finding)
-# ══════════════════════════════════════════════════════════════════════════════
+
 print("[7] Pressure uplift by goal type...")
 
 TYPE_COLORS = {
@@ -448,7 +414,7 @@ TYPE_COLORS = {
 
 fig, axes = plt.subplots(1, 2, figsize=(15, 6))
 
-# ── Left: Boxplot of uplift by goal type ──────────────────────────────────
+# Left: Boxplot of uplift by goal type
 ax = axes[0]
 goal_types  = goal_df["goal_type"].unique()
 type_order  = ["open_play", "counter_attack", "set_piece", "penalty"]
@@ -483,7 +449,7 @@ for i, t in enumerate(type_order):
     ax.text(i+1, ax.get_ylim()[0] * 0.92, f"n={n}",
             ha="center", fontsize=8, color=NEUTRAL_COLOR)
 
-# ── Right: Mean uplift bar + per-type t-test p-values ─────────────────────
+# Right: Mean uplift bar + per-type t-test p-values
 ax = axes[1]
 type_stats = []
 for t in type_order:
@@ -532,7 +498,7 @@ print("\n  Goal type t-test results:")
 print(ts_df[["type","n","mean_uplift","p_value"]].to_string(index=False))
 
 
-# ── Summary ───────────────────────────────────────────────────────────────────
+# Summary
 print(f"""
 {'='*50}
 VALIDATION SUMMARY
